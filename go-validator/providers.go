@@ -204,21 +204,21 @@ func InitializeProviders(names []string) []Provider {
 	}{
 		"openrouter": {
 			url:       "https://openrouter.ai/api/v1/chat/completions",
-			key:       os.Getenv("OPENROUTER_API_KEY"),
+			key:       "",
 			model:     "arcee-ai/trinity-large-preview:free",
 			timeout:   180 * time.Second,
 			rateDelay: 500 * time.Millisecond,
 		},
 		"groq": {
 			url:       "https://api.groq.com/openai/v1/chat/completions",
-			key:       os.Getenv("GROQ_API_KEY"),
+			key:       "",
 			model:     "llama-3.3-70b-versatile",
 			timeout:   90 * time.Second,
 			rateDelay: 3 * time.Second,
 		},
 		"cerebras": {
 			url:       "https://api.cerebras.ai/v1/chat/completions",
-			key:       os.Getenv("CEREBRAS_API_KEY"),
+			key:       "",
 			model:     "llama3.1-8b",
 			timeout:   90 * time.Second,
 			rateDelay: 3 * time.Second,
@@ -232,10 +232,10 @@ func InitializeProviders(names []string) []Provider {
 		},
 		"github": {
 			url:       "https://models.inference.ai.azure.com/chat/completions",
-			key:       os.Getenv("GITHUB_TOKEN"),
+			key:       "",
 			model:     "gpt-4o-mini",
 			timeout:   90 * time.Second,
-			rateDelay: 1 * time.Second, // GitHub Models has rate limits
+			rateDelay: 1 * time.Second,
 		},
 	}
 

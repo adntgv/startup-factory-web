@@ -1,0 +1,314 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+	"path/filepath"
+	"time"
+)
+
+// Event types for UI streaming
+type EventType string
+
+const (
+	EventProgress         EventType = "progress"
+	EventPhase            EventType = "phase"
+	EventLandingPage      EventType = "landing_page"
+	EventPersona          EventType = "persona"
+	EventPersonaValidated EventType = "persona_validation"
+	EventResults          EventType = "results"
+)
+
+// Event is a generic UI event
+type Event struct {
+	Type    EventType              `json:"type"`
+	Payload map[string]interface{} `json:"payload,omitempty"`
+}
+
+// EventEmitter sends events to stdout and saves artifacts
+type EventEmitter struct {
+	runID        string
+	outputDir    string
+	artifactsDir string
+}
+
+// NewEventEmitter creates an event emitter
+func NewEventEmitter(outputDir string) *EventEmitter {
+	runID := fmt.Sprintf("run_%d", time.Now().Unix())
+	artifactsDir := filepath.Join(outputDir, runID)
+	os.MkdirAll(artifactsDir, 0755)
+
+	return &EventEmitter{
+		runID:        runID,
+		outputDir:    outputDir,
+		artifactsDir: artifactsDir,
+	}
+}
+
+// Emit sends an event to stdout as JSON
+func (e *EventEmitter) Emit(eventType EventType, payload map[string]interface{}) {
+	event := Event{
+		Type:    eventType,
+		Payload: payload,
+	}
+
+	data, err := json.Marshal(event)
+	if err != nil {
+		return
+	}
+
+	fmt.Printf("EVENT: %s\n", string(data))
+}
+
+// EmitProgress sends a progress event
+func (e *EventEmitter) EmitProgress(percent int, message string) {
+	e.Emit(EventProgress, map[string]interface{}{
+		"percent": percent,
+		"message": message,
+	})
+}
+
+// EmitPhase sends a phase transition event
+func (e *EventEmitter) EmitPhase(phase string, state string, message string) {
+	e.Emit(EventPhase, map[string]interface{}{
+		"phase":   phase,
+		"state":   state,
+		"message": message,
+	})
+}
+
+// SaveLandingPage generates and saves landing page HTML
+func (e *EventEmitter) SaveLandingPage(idea StartupIdea) error {
+	html := generateLandingPageHTML(idea)
+
+	filename := filepath.Join(e.artifactsDir, "landing.html")
+	if err := os.WriteFile(filename, []byte(html), 0644); err != nil {
+		return err
+	}
+
+	// Emit event with file path
+	e.Emit(EventLandingPage, map[string]interface{}{
+		"path": filename,
+		"html": html,
+	})
+
+	return nil
+}
+
+// SavePersona saves persona data and emits event
+func (e *EventEmitter) SavePersona(persona PersonaProfile, index int) error {
+	filename := filepath.Join(e.artifactsDir, fmt.Sprintf("persona_%03d.json", index))
+
+	data, err := json.MarshalIndent(persona, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := os.WriteFile(filename, data, 0644); err != nil {
+		return err
+	}
+
+	// Emit event with persona data
+	e.Emit(EventPersona, map[string]interface{}{
+		"id":         index,
+		"name":       persona.Name,
+		"role":       persona.JobRole,
+		"background": persona.Background,
+		"hope":       persona.InitialHope,
+		"avatar":     getPersonaAvatar(index),
+		"path":       filename,
+	})
+
+	return nil
+}
+
+// SavePersonaValidation saves validation result and emits event
+func (e *EventEmitter) SavePersonaValidation(personaID int, result SimulationResult) error {
+	filename := filepath.Join(e.artifactsDir, fmt.Sprintf("validation_%03d.json", personaID))
+
+	data, err := json.MarshalIndent(result, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := os.WriteFile(filename, data, 0644); err != nil {
+		return err
+	}
+
+	decision := "pass"
+	if result.Converted {
+		decision = "convert"
+	}
+
+	// Emit event with validation data
+	e.Emit(EventPersonaValidated, map[string]interface{}{
+		"personaId": personaID,
+		"validation": map[string]interface{}{
+			"decision":  decision,
+			"score":     float64(result.IntentStrength) / 10.0,
+			"reasoning": result.Skepticism,
+			"hope_met":  result.HopeMet,
+			"path":      filename,
+		},
+	})
+
+	return nil
+}
+
+// SaveResults saves final results and emits event
+func (e *EventEmitter) SaveResults(result PipelineResult) error {
+	filename := filepath.Join(e.artifactsDir, "results.json")
+
+	data, err := json.MarshalIndent(result, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := os.WriteFile(filename, data, 0644); err != nil {
+		return err
+	}
+
+	// Calculate summary metrics
+	var topIdea *ScoredIdea
+	if len(result.ScoredIdeas) > 0 {
+		topIdea = &result.ScoredIdeas[0]
+	}
+
+	payload := map[string]interface{}{
+		"path":  filename,
+		"runId": e.runID,
+	}
+
+	if topIdea != nil {
+		// Calculate hope_met percentage
+		hopeMet := 0.0
+		if len(topIdea.Sims) > 0 {
+			hopeMetCount := 0
+			for _, sim := range topIdea.Sims {
+				if sim.HopeMet {
+					hopeMetCount++
+				}
+			}
+			hopeMet = float64(hopeMetCount) / float64(len(topIdea.Sims))
+		}
+
+		payload["data"] = map[string]interface{}{
+			"score":           topIdea.Metrics.CompositeScore,
+			"conversion_rate": topIdea.Metrics.ConversionRate,
+			"hope_met":        hopeMet,
+			"summary":         fmt.Sprintf("Validated with %d personas. %.1f%% conversion rate.", len(topIdea.Sims), topIdea.Metrics.ConversionRate*100),
+		}
+	}
+
+	e.Emit(EventResults, payload)
+
+	return nil
+}
+
+// Helper: Generate landing page HTML
+func generateLandingPageHTML(idea StartupIdea) string {
+	// Extract fields from idea description (it's a text description, not structured)
+	name := "Your Solution"
+	problem := idea.Description
+	solution := "We solve this problem efficiently"
+
+	return fmt.Sprintf(`<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%s</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .hero { 
+            background: linear-gradient(135deg, #667eea 0%%, #764ba2 100%%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; font-weight: 700; }
+        .hero p { font-size: 20px; margin-bottom: 30px; opacity: 0.9; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .cta { 
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .cta:hover { transform: scale(1.05); }
+        .features {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        .feature {
+            text-align: center;
+            padding: 30px;
+        }
+        .feature-icon { font-size: 48px; margin-bottom: 20px; }
+        .feature h3 { font-size: 24px; margin-bottom: 15px; color: #667eea; }
+        .feature p { color: #666; font-size: 16px; }
+        .pricing {
+            background: #f7f7f7;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .pricing h2 { font-size: 36px; margin-bottom: 20px; color: #333; }
+        .price { font-size: 48px; font-weight: 700; color: #667eea; margin: 20px 0; }
+        .price span { font-size: 24px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>%s</h1>
+        <p>%s</p>
+        <a href="#" class="cta">Get Started</a>
+    </div>
+    
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon">⚡</div>
+            <h3>Fast & Easy</h3>
+            <p>Get started in minutes, not hours</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🎯</div>
+            <h3>Powerful Solution</h3>
+            <p>%s</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">💪</div>
+            <h3>Proven Results</h3>
+            <p>Join thousands of satisfied users</p>
+        </div>
+    </div>
+    
+    <div class="pricing">
+        <h2>Simple, Transparent Pricing</h2>
+        <div class="price">$29<span>/month</span></div>
+        <a href="#" class="cta">Start Free Trial</a>
+    </div>
+</body>
+</html>`, name, name, problem, solution)
+}
+
+// Helper: Get persona avatar emoji
+func getPersonaAvatar(index int) string {
+	avatars := []string{"👨💼", "👩💼", "🧑💻", "👨🔬", "👩🎨", "👨🏫", "👩⚕️", "🧑🍳", "👨🎨", "👩💻"}
+	return avatars[index%len(avatars)]
+}
