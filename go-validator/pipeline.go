@@ -228,12 +228,21 @@ func (p *Pipeline) Run() (*PipelineResult, error) {
 		_ = idea
 	}
 	fmt.Printf("Phase 4: Running %d simulations in parallel...\n", totalSims)
+	if p.events != nil {
+		p.events.EmitProgress(55, "Running validations...")
+		p.events.EmitPhase("validation", "active", "Validating...")
+	}
 
 	allResults := p.parallelSimulate(ideas, landings, allPersonas, allCommittees, pricePoints)
 
 	p.stats.PhaseTimes["simulation"] = time.Since(phase4Start).Seconds()
 	fmt.Printf("  Completed %d simulations in %.1fs\n\n",
 		p.stats.Successful+p.stats.Failed, p.stats.PhaseTimes["simulation"])
+	
+	if p.events != nil {
+		p.events.EmitProgress(85, "Validation complete")
+		p.events.EmitPhase("validation", "complete", "Complete")
+	}
 
 	// ── Phase 5a: Score results (local, instant) ──
 	phase5aStart := time.Now()
@@ -370,11 +379,17 @@ func (p *Pipeline) parallelGenerateLandings(ideas []StartupIdea) []*LandingPage 
 func (p *Pipeline) parallelGeneratePersonas(ideas []StartupIdea, personasPerIdea int) [][]Persona {
 	allPersonas := make([][]Persona, len(ideas))
 	var wg sync.WaitGroup
+	var personaCounter int32
 	maxConc := p.config.MaxConcurrent
 	if p.config.EnrichmentMode == "llm-lfm" && maxConc > 5 {
 		maxConc = 5
 	}
 	sem := make(chan struct{}, maxConc)
+
+	if p.events != nil {
+		p.events.EmitProgress(25, "Generating personas...")
+		p.events.EmitPhase("personas", "active", "Generating personas...")
+	}
 
 	for i, idea := range ideas {
 		wg.Add(1)
@@ -387,12 +402,36 @@ func (p *Pipeline) parallelGeneratePersonas(ideas []StartupIdea, personasPerIdea
 			p.trackCall(len(personas) > 0)
 			allPersonas[idx] = personas
 
+			// Emit each persona
+			if p.events != nil {
+				for _, persona := range personas {
+					personaIdx := int(atomic.AddInt32(&personaCounter, 1))
+					profile := PersonaProfile{
+						Name:        persona.Name,
+						JobRole:     persona.Role,
+						Background:  persona.CurrentWorkflow,
+						InitialHope: "",
+					}
+					p.events.SavePersona(profile, personaIdx)
+					
+					// Update progress
+					totalPersonas := len(ideas) * personasPerIdea
+					percent := 25 + int(float64(personaIdx)/float64(totalPersonas)*25)
+					p.events.EmitProgress(percent, fmt.Sprintf("Generated %d/%d personas", personaIdx, totalPersonas))
+				}
+			}
+
 			if p.config.Verbose {
 				fmt.Printf("  [%d/%d] Generated %d personas\n", idx+1, len(ideas), len(personas))
 			}
 		}(i, idea)
 	}
 	wg.Wait()
+
+	if p.events != nil {
+		p.events.EmitProgress(50, fmt.Sprintf("%d personas ready", int(personaCounter)))
+		p.events.EmitPhase("personas", "complete", fmt.Sprintf("%d generated", int(personaCounter)))
+	}
 
 	return allPersonas
 }
@@ -488,23 +527,33 @@ func (p *Pipeline) parallelSimulate(ideas []StartupIdea, landings []*LandingPage
 		}(job)
 	}
 
-	for _, job := range individualJobs {
+	for personaIdx, job := range individualJobs {
 		wg.Add(1)
 		sem <- struct{}{}
-		go func(j individualJob) {
+		go func(pIdx int, j individualJob) {
 			defer wg.Done()
 			defer func() { <-sem }()
 
 			result := p.simulatePersonaViaLLM(j.persona, j.landing, j.idea, j.price)
 			resultsCh <- indexedResult{j.ideaIdx, result}
 
+			// Emit persona validation event
+			if p.events != nil {
+				p.events.SavePersonaValidation(pIdx+1, result)
+			}
+
 			p.trackCall(result.Status != "error")
 
 			done := int(atomic.AddInt64(&simDone, 1))
+			if p.events != nil && totalJobs > 0 {
+				percent := 55 + int(float64(done)/float64(totalJobs)*30)
+				p.events.EmitProgress(percent, fmt.Sprintf("Validated %d/%d personas", done, totalJobs))
+			}
+			
 			if done%100 == 0 || done == totalJobs {
 				fmt.Printf("  [%d/%d] simulations complete\n", done, totalJobs)
 			}
-		}(job)
+		}(personaIdx, job)
 	}
 
 	go func() {
