@@ -74,6 +74,12 @@ func NewPipeline(config PipelineConfig) (*Pipeline, error) {
 func (p *Pipeline) Run() (*PipelineResult, error) {
 	start := time.Now()
 
+	// Emit initial progress
+	if p.events != nil {
+		p.events.EmitProgress(0, "Starting validation...")
+		p.events.EmitPhase("idea", "active", "Analyzing idea...")
+	}
+
 	fmt.Printf("\n%s\n", strings.Repeat("=", 70))
 	fmt.Printf("STARTUP FACTORY PIPELINE: %d ideas × %d personas\n",
 		p.config.NumIdeas, p.config.NumPersonas)
@@ -102,12 +108,22 @@ func (p *Pipeline) Run() (*PipelineResult, error) {
 	fmt.Printf("  %d ideas ready in %.1fs\n\n",
 		len(ideas), p.stats.PhaseTimes["idea_generation"])
 
+	if p.events != nil {
+		p.events.EmitProgress(10, "Idea analyzed")
+		p.events.EmitPhase("idea", "complete", "Complete")
+	}
+
 	if len(ideas) == 0 {
 		return nil, fmt.Errorf("no viable ideas generated")
 	}
 
 	// ── Phase 2: Generate landing pages ──
 	phase2Start := time.Now()
+	if p.events != nil {
+		p.events.EmitProgress(15, "Generating landing page...")
+		p.events.EmitPhase("landing", "active", "Generating...")
+	}
+	
 	var landings []*LandingPage
 
 	if p.config.ReusePersonasFrom != "" {
@@ -121,6 +137,12 @@ func (p *Pipeline) Run() (*PipelineResult, error) {
 	p.stats.PhaseTimes["landing_generation"] = time.Since(phase2Start).Seconds()
 	fmt.Printf("  Generated %d landing pages in %.1fs\n\n",
 		len(landings), p.stats.PhaseTimes["landing_generation"])
+	
+	if p.events != nil && len(ideas) > 0 {
+		p.events.SaveLandingPage(ideas[0])
+		p.events.EmitProgress(20, "Landing page ready")
+		p.events.EmitPhase("landing", "complete", "Complete")
+	}
 
 	// ── Phase 3: Generate or reuse personas ──
 	// Skipped if pure committee mode (no personas needed)
@@ -289,6 +311,12 @@ func (p *Pipeline) Run() (*PipelineResult, error) {
 		ProviderStats: map[string]ProviderStat{"maxclaw": {Calls: p.stats.TotalCalls, Successes: p.stats.Successful, Failures: p.stats.Failed}},
 		Timestamp:     time.Now().Format(time.RFC3339),
 		Config:        p.config,
+	}
+
+	// Emit final results
+	if p.events != nil {
+		p.events.EmitProgress(100, "Validation complete!")
+		p.events.SaveResults(*result)
 	}
 
 	return result, nil
