@@ -1,0 +1,43 @@
+{
+  "provider": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "max_workers": 4,
+  "total_time_minutes": 29.575081817309062,
+  "products": [
+    {
+      "product": "AsyncVideo Pro",
+      "actual_outcome": "success",
+      "simulated_score": 5.49,
+      "simulated_conversion": "5.0%",
+      "time_seconds": 264.7590084075928
+    },
+    {
+      "product": "ProseCheck AI",
+      "actual_outcome": "success",
+      "simulated_score": 6.59,
+      "simulated_conversion": "10.5%",
+      "time_seconds": 245.8594446182251
+    },
+    {
+      "product": "CreatorMail",
+      "actual_outcome": "success",
+      "simulated_score": 5.96,
+      "simulated_conversion": "0.0%",
+      "time_seconds": 240.18394947052002
+    },
+    {
+      "product": "CollabWave",
+      "actual_outcome": "failure",
+      "simulated_score": 6.36,
+      "simulated_conversion": "5.3%",
+      "time_seconds": 239.26516008377075
+    },
+    {
+      "product": "QuickWatch Premium",
+      "actual_outcome": "failure",
+      "simulated_score": 3.43,
+      "simulated_conversion": "0.0%",
+      "time_seconds": 784.4373061656952
+    }
+  ]
+}

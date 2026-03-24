@@ -1,0 +1,78 @@
+   Learner: loaded epoch 9 with 1 learned dimensions
+
+======================================================================
+STARTUP FACTORY PIPELINE: 10 ideas × 20 personas
+Max concurrent: 500 | Min score: 0.50
+======================================================================
+
+Phase 1: Generating ideas (local)...
+   Found 10/10 viable ideas (attempt 462)...
+   Generated 10 ideas from 462 attempts (2.2% acceptance)
+  Generated 10 ideas in 0.0s
+
+Phase 2: Generating 10 landing pages in parallel...
+  Generated 10 landing pages in 19.7s
+
+Phase 3: Generating personas for 10 ideas in parallel...
+2026/03/15 07:01:29 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:01:37 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:01:41 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:01:41 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:01:44 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:01:50 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:01:55 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:02:00 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:02:02 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+2026/03/15 07:02:04 helpers.go:124: Warning: partial persona generation: got 1, expected 20
+  Generated 10 total personas in 121.8s
+
+Phase 4: Running 50 simulations in parallel...
+  [50/50] simulations complete
+  Completed 70 simulations in 633.0s
+
+Phase 5a: Scoring results...
+Phase 5a.2: Deep-evaluating top ideas...
+2026/03/15 07:13:00 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:13:18 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:13:52 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:14:22 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:24:22 pipeline.go:729: MaxClaw persona generation attempt 3 failed: HTTP: Post "http://100.107.233.111:9999/v1/messages": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026/03/15 07:24:22 pipeline.go:643: Warning: batch 1 returned no personas, retrying once
+2026/03/15 07:24:32 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:24:45 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:25:03 pipeline.go:738: MaxClaw persona parse attempt 3 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:25:24 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:25:56 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:26:15 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:26:24 pipeline.go:738: MaxClaw persona parse attempt 3 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:26:24 pipeline.go:643: Warning: batch 5 returned no personas, retrying once
+2026/03/15 07:27:05 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:27:40 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:27:50 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:28:08 pipeline.go:738: MaxClaw persona parse attempt 3 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:28:08 pipeline.go:643: Warning: batch 9 returned no personas, retrying once
+2026/03/15 07:28:23 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:29:09 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:29:38 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:29:59 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:30:43 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:30:53 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:31:12 pipeline.go:738: MaxClaw persona parse attempt 3 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:31:12 pipeline.go:643: Warning: batch 15 returned no personas, retrying once
+2026/03/15 07:31:30 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:31:40 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:32:21 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:32:39 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:32:55 pipeline.go:738: MaxClaw persona parse attempt 3 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:32:55 pipeline.go:643: Warning: batch 16 returned no personas, retrying once
+2026/03/15 07:33:09 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:34:29 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:34:46 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:35:00 pipeline.go:738: MaxClaw persona parse attempt 3 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:35:00 pipeline.go:643: Warning: batch 19 returned no personas, retrying once
+2026/03/15 07:35:14 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:35:36 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:35:50 pipeline.go:738: MaxClaw persona parse attempt 3 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:36:06 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:36:46 pipeline.go:738: MaxClaw persona parse attempt 1 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)
+2026/03/15 07:37:00 pipeline.go:738: MaxClaw persona parse attempt 2 failed: failed to parse personas: json: cannot unmarshal object into Go value of type []map[string]interface {} (got 0 personas)

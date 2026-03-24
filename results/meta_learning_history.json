@@ -1,0 +1,396 @@
+{
+  "experiments": [
+    {
+      "idea_coordinates": {
+        "category": "education",
+        "audience": "athletes",
+        "value_proposition": "find_relationships",
+        "interaction_model": "livestream",
+        "content_format": "livestream",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "reputation",
+        "network_structure": "one_to_one",
+        "distribution": "web_platform",
+        "geography": "middle_east",
+        "data_source": "financial_data"
+      },
+      "simulation_score": 6.3,
+      "conversion_rate": 0.3,
+      "cpl": 11.59,
+      "timestamp": "2026-03-11T00:24:32.469628"
+    },
+    {
+      "idea_coordinates": {
+        "category": "education",
+        "audience": "students",
+        "value_proposition": "improve_health",
+        "interaction_model": "ai_assistant",
+        "content_format": "images",
+        "technology": "voice_interface",
+        "monetization": "saas_license",
+        "engagement_mechanics": "levels",
+        "network_structure": "one_to_many",
+        "distribution": "messaging_bot",
+        "geography": "global",
+        "data_source": "sensors_wearables"
+      },
+      "simulation_score": 0.54,
+      "conversion_rate": 0.053,
+      "cpl": 16.18,
+      "timestamp": "2026-03-11T00:27:38.153355"
+    },
+    {
+      "idea_coordinates": {
+        "category": "ecommerce",
+        "audience": "developers",
+        "value_proposition": "improve_health",
+        "interaction_model": "chat",
+        "content_format": "images",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "badges",
+        "network_structure": "peer_to_peer",
+        "distribution": "messaging_bot",
+        "geography": "global",
+        "data_source": "user_generated"
+      },
+      "simulation_score": 1.82,
+      "conversion_rate": 0.053,
+      "cpl": 13.84,
+      "timestamp": "2026-03-11T00:33:50.327752"
+    },
+    {
+      "idea_coordinates": {
+        "category": "social",
+        "audience": "kids",
+        "value_proposition": "find_relationships",
+        "interaction_model": "marketplace",
+        "content_format": "interactive_simulation",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "leaderboards",
+        "network_structure": "peer_to_peer",
+        "distribution": "messaging_bot",
+        "geography": "global",
+        "data_source": "camera_input"
+      },
+      "simulation_score": 0.65,
+      "conversion_rate": 0.053,
+      "cpl": 16.12,
+      "timestamp": "2026-03-11T00:40:34.868602"
+    },
+    {
+      "idea_coordinates": {
+        "category": "ai_productivity",
+        "audience": "students",
+        "value_proposition": "entertainment",
+        "interaction_model": "ai_assistant",
+        "content_format": "audio",
+        "technology": "robotics",
+        "monetization": "subscription",
+        "engagement_mechanics": "badges",
+        "network_structure": "creator_fan",
+        "distribution": "browser_extension",
+        "geography": "us",
+        "data_source": "ai_generated"
+      },
+      "simulation_score": 6.28,
+      "conversion_rate": 0.0,
+      "cpl": 3.43,
+      "timestamp": "2026-03-11T02:27:05.630034"
+    },
+    {
+      "idea_coordinates": {
+        "category": "ai_productivity",
+        "audience": "developers",
+        "value_proposition": "make_money",
+        "interaction_model": "community_forum",
+        "content_format": "short_video",
+        "technology": "ai_llms",
+        "monetization": "in_app_purchases",
+        "engagement_mechanics": "rewards",
+        "network_structure": "peer_to_peer",
+        "distribution": "messaging_bot",
+        "geography": "middle_east",
+        "data_source": "camera_input"
+      },
+      "simulation_score": 1.57,
+      "conversion_rate": 0.0,
+      "cpl": 12.85,
+      "timestamp": "2026-03-11T02:29:59.224285"
+    }
+  ],
+  "patterns": {
+    "dimension_value_performance": {
+      "category": {
+        "education": {
+          "avg_score": 3.42,
+          "count": 2,
+          "std": 2.88
+        },
+        "ecommerce": {
+          "avg_score": 1.82,
+          "count": 1,
+          "std": 0.0
+        },
+        "social": {
+          "avg_score": 0.65,
+          "count": 1,
+          "std": 0.0
+        },
+        "ai_productivity": {
+          "avg_score": 3.9250000000000003,
+          "count": 2,
+          "std": 2.3550000000000004
+        }
+      },
+      "audience": {
+        "athletes": {
+          "avg_score": 6.3,
+          "count": 1,
+          "std": 0.0
+        },
+        "students": {
+          "avg_score": 3.41,
+          "count": 2,
+          "std": 2.87
+        },
+        "developers": {
+          "avg_score": 1.695,
+          "count": 2,
+          "std": 0.125
+        },
+        "kids": {
+          "avg_score": 0.65,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "value_proposition": {
+        "find_relationships": {
+          "avg_score": 3.475,
+          "count": 2,
+          "std": 2.825
+        },
+        "improve_health": {
+          "avg_score": 1.1800000000000002,
+          "count": 2,
+          "std": 0.64
+        },
+        "entertainment": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        },
+        "make_money": {
+          "avg_score": 1.57,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "interaction_model": {
+        "livestream": {
+          "avg_score": 6.3,
+          "count": 1,
+          "std": 0.0
+        },
+        "ai_assistant": {
+          "avg_score": 3.41,
+          "count": 2,
+          "std": 2.87
+        },
+        "chat": {
+          "avg_score": 1.82,
+          "count": 1,
+          "std": 0.0
+        },
+        "marketplace": {
+          "avg_score": 0.65,
+          "count": 1,
+          "std": 0.0
+        },
+        "community_forum": {
+          "avg_score": 1.57,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "content_format": {
+        "livestream": {
+          "avg_score": 6.3,
+          "count": 1,
+          "std": 0.0
+        },
+        "images": {
+          "avg_score": 1.1800000000000002,
+          "count": 2,
+          "std": 0.64
+        },
+        "interactive_simulation": {
+          "avg_score": 0.65,
+          "count": 1,
+          "std": 0.0
+        },
+        "audio": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        },
+        "short_video": {
+          "avg_score": 1.57,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "technology": {
+        "ai_llms": {
+          "avg_score": 2.585,
+          "count": 4,
+          "std": 2.18865826478233
+        },
+        "voice_interface": {
+          "avg_score": 0.54,
+          "count": 1,
+          "std": 0.0
+        },
+        "robotics": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "monetization": {
+        "saas_license": {
+          "avg_score": 2.3275,
+          "count": 4,
+          "std": 2.3477369422488543
+        },
+        "subscription": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        },
+        "in_app_purchases": {
+          "avg_score": 1.57,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "engagement_mechanics": {
+        "reputation": {
+          "avg_score": 6.3,
+          "count": 1,
+          "std": 0.0
+        },
+        "levels": {
+          "avg_score": 0.54,
+          "count": 1,
+          "std": 0.0
+        },
+        "badges": {
+          "avg_score": 4.05,
+          "count": 2,
+          "std": 2.23
+        },
+        "leaderboards": {
+          "avg_score": 0.65,
+          "count": 1,
+          "std": 0.0
+        },
+        "rewards": {
+          "avg_score": 1.57,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "network_structure": {
+        "one_to_one": {
+          "avg_score": 6.3,
+          "count": 1,
+          "std": 0.0
+        },
+        "one_to_many": {
+          "avg_score": 0.54,
+          "count": 1,
+          "std": 0.0
+        },
+        "peer_to_peer": {
+          "avg_score": 1.3466666666666667,
+          "count": 3,
+          "std": 0.5030794061466727
+        },
+        "creator_fan": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "distribution": {
+        "web_platform": {
+          "avg_score": 6.3,
+          "count": 1,
+          "std": 0.0
+        },
+        "messaging_bot": {
+          "avg_score": 1.145,
+          "count": 4,
+          "std": 0.5584129296497351
+        },
+        "browser_extension": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "geography": {
+        "middle_east": {
+          "avg_score": 3.935,
+          "count": 2,
+          "std": 2.365
+        },
+        "global": {
+          "avg_score": 1.0033333333333334,
+          "count": 3,
+          "std": 0.5792140268405876
+        },
+        "us": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        }
+      },
+      "data_source": {
+        "financial_data": {
+          "avg_score": 6.3,
+          "count": 1,
+          "std": 0.0
+        },
+        "sensors_wearables": {
+          "avg_score": 0.54,
+          "count": 1,
+          "std": 0.0
+        },
+        "user_generated": {
+          "avg_score": 1.82,
+          "count": 1,
+          "std": 0.0
+        },
+        "camera_input": {
+          "avg_score": 1.11,
+          "count": 2,
+          "std": 0.46
+        },
+        "ai_generated": {
+          "avg_score": 6.28,
+          "count": 1,
+          "std": 0.0
+        }
+      }
+    },
+    "successful_threshold": 5.165,
+    "total_experiments": 6,
+    "success_count": 2
+  },
+  "dimension_priors": {}
+}

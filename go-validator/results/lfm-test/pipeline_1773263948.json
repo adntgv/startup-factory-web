@@ -1,0 +1,153 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "entrepreneurs",
+          "category": "dating",
+          "content_format": "images",
+          "data_source": "voice_input",
+          "distribution": "web_platform",
+          "engagement_mechanics": "levels",
+          "geography": "europe",
+          "interaction_model": "multiplayer",
+          "monetization": "subscription",
+          "network_structure": "peer_to_peer",
+          "technology": "ai_llms",
+          "value_proposition": "increase_productivity"
+        },
+        "fit_score": 0.545,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.3,
+          "market_size": 0.6,
+          "monetization_potential": 0.5,
+          "unique_advantage": 0.3
+        },
+        "reasoning": "Balanced fit across factors",
+        "description": "Dating for entrepreneurs | Increase Productivity | Multiplayer via web_platform | Subscription | Europe market"
+      },
+      "landing_page": {
+        "headline": "Date Like a Founder - Meet Ambitious Entrepreneurs Who Match Your Vision",
+        "subheadline": "The curated dating platform where productivity meets passion. Connect with like-minded European entrepreneurs who understand the hustle and share your drive for success.",
+        "price": "19",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered matchmaking based on business goals and productivity styles",
+          "Multiplayer virtual dates where you can network while you date",
+          "Exclusive European entrepreneur events and mastermind sessions",
+          "Smart scheduling that aligns with your workflow and time zones",
+          "Verified profiles ensuring authentic connections with serious entrepreneurs"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "total_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 2,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "education",
+          "content_format": "short_video",
+          "data_source": "sensors_wearables",
+          "distribution": "messaging_bot",
+          "engagement_mechanics": "streaks",
+          "geography": "middle_east",
+          "interaction_model": "collaboration",
+          "monetization": "saas_license",
+          "network_structure": "peer_to_peer",
+          "technology": "iot",
+          "value_proposition": "express_creativity"
+        },
+        "fit_score": 0.5349999999999999,
+        "fit_breakdown": {
+          "buildability": 0.2,
+          "competition_level": 0.7,
+          "market_size": 0.8,
+          "monetization_potential": 0.7,
+          "unique_advantage": 0.3
+        },
+        "reasoning": "Strong market: professionals in middle_east | Good monetization: saas_license | Lower competition in education",
+        "description": "Education for professionals | Express Creativity | Collaboration via messaging_bot | Saas License | Middle East market"
+      },
+      "landing_page": {
+        "headline": "Empower Your Creative Potential in the Middle East",
+        "subheadline": "Professional education platform with AI-powered messaging collaboration. Express your creativity and connect with professionals across the region.",
+        "price": "49",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Creative Journey",
+        "features": [
+          "AI Messaging Bot for real-time collaboration and creative brainstorming",
+          "Express Creativity tools designed for busy professionals",
+          "Middle East-focused content with local insights and cultural relevance",
+          "Cloud-based SaaS license accessible from any device",
+          "Team workspaces for seamless professional collaboration"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "total_personas": 0
+      },
+      "simulations": []
+    }
+  ],
+  "stats": {
+    "total_calls": 4,
+    "successful": 2,
+    "failed": 2,
+    "total_time_seconds": 19.209499621,
+    "throughput_calls_per_sec": 0.10411515341157465,
+    "phase_times": {
+      "analysis": 0.000001141,
+      "idea_generation": 0.000316139,
+      "landing_generation": 7.719389492,
+      "persona_generation": 11.489525572,
+      "scoring": 0.000002967,
+      "simulation": 0.00000665
+    }
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 4,
+      "successes": 2,
+      "failures": 2,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-12T02:19:08+05:00",
+  "config": {
+    "num_ideas": 2,
+    "num_personas": 10,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/lfm-test",
+    "providers": null,
+    "max_concurrent": 100,
+    "resume": false,
+    "verbose": false,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "llm-lfm"
+  }
+}

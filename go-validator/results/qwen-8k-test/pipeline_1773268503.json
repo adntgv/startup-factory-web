@@ -1,0 +1,333 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "ai_productivity",
+          "content_format": "livestream",
+          "data_source": "voice_input",
+          "distribution": "web_platform",
+          "engagement_mechanics": "social_challenges",
+          "geography": "india",
+          "interaction_model": "feed",
+          "monetization": "subscription",
+          "network_structure": "peer_to_peer",
+          "technology": "ai_llms",
+          "value_proposition": "build_community"
+        },
+        "fit_score": 0.56,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0,
+          "market_size": 0.6,
+          "monetization_potential": 0.8,
+          "unique_advantage": 0
+        },
+        "reasoning": "Good monetization: subscription",
+        "description": "Ai Productivity for professionals | Build Community | Feed via web_platform | Subscription | India market"
+      },
+      "landing_page": {
+        "headline": "Supercharge Your Productivity with AI-Powered Workflows",
+        "subheadline": "Join India's fastest-growing community of professionals leveraging AI LLMs to 10x their output. Work smarter, not harder.",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered task automation that saves 5+ hours every week",
+          "Exclusive community of 10,000+ Indian professionals sharing prompts \u0026 templates",
+          "Real-time collaboration workspace with intelligent suggestions",
+          "Priority support and weekly live sessions with AI experts",
+          "Regular updates with cutting-edge LLM capabilities"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 2,
+      "idea": {
+        "coordinates": {
+          "audience": "entrepreneurs",
+          "category": "social",
+          "content_format": "short_video",
+          "data_source": "voice_input",
+          "distribution": "mobile_app",
+          "engagement_mechanics": "levels",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "creator_fan",
+          "technology": "ai_llms",
+          "value_proposition": "express_creativity"
+        },
+        "fit_score": 0.54,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.3,
+          "market_size": 0.7,
+          "monetization_potential": 0.5,
+          "unique_advantage": 0
+        },
+        "reasoning": "Strong market: entrepreneurs in global",
+        "description": "Social for entrepreneurs | Express Creativity | Ai Assistant via mobile_app | Subscription | Global market"
+      },
+      "landing_page": {
+        "headline": "Build. Share. Grow. Your Entrepreneurial Journey",
+        "subheadline": "The mobile-first social platform where founders express their vision, leverage AI to amplify creativity, and connect with a global community of innovators.",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Free Trial",
+        "features": [
+          "AI-powered assistant that helps ideate, refine, and express your business concepts",
+          "Mobile-first social feed to showcase your entrepreneurial journey and get feedback",
+          "Global network of entrepreneurs, investors, and mentors for collaboration",
+          "Real-time creative tools for brainstorming and content creation",
+          "Premium insights and analytics to track your startup's visibility and impact"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 3,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "ai_productivity",
+          "content_format": "audio",
+          "data_source": "voice_input",
+          "distribution": "web_platform",
+          "engagement_mechanics": "rewards",
+          "geography": "europe",
+          "interaction_model": "livestream",
+          "monetization": "in_app_purchases",
+          "network_structure": "one_to_many",
+          "technology": "ai_llms",
+          "value_proposition": "learn_skills"
+        },
+        "fit_score": 0.5099999999999999,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0,
+          "market_size": 0.8999999999999999,
+          "monetization_potential": 0.3,
+          "unique_advantage": 0
+        },
+        "reasoning": "Strong market: professionals in europe",
+        "description": "Ai Productivity for professionals | Learn Skills | Livestream via web_platform | In App Purchases | Europe market"
+      },
+      "landing_page": {
+        "headline": "Master AI Skills in Real-Time with Europe's Premier Productivity Platform",
+        "subheadline": "Leverage advanced AI LLMs to accelerate your professional growth. Learn cutting-edge skills through live streams, interactive sessions, and personalized AI coaching—all designed for busy European professionals.",
+        "price": "29",
+        "trial_type": "7-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-Powered Skill Learning: Adaptive courses powered by large language models tailored to your professional goals",
+          "Live Stream Sessions: Join expert-led livestreams directly through our web platform for interactive learning",
+          "Smart Progress Tracking: AI analyzes your learning patterns and suggests personalized improvements",
+          "European-Optimized: Designed for professionals across Europe with multi-language support and local payment options",
+          "Premium AI Assistant: Get 24/7 AI-powered productivity coaching and automation suggestions"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 4,
+      "idea": {
+        "coordinates": {
+          "audience": "creators",
+          "category": "education",
+          "content_format": "short_video",
+          "data_source": "user_generated",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "social_challenges",
+          "geography": "us",
+          "interaction_model": "marketplace",
+          "monetization": "transaction_fees",
+          "network_structure": "peer_to_peer",
+          "technology": "ai_llms",
+          "value_proposition": "entertainment"
+        },
+        "fit_score": 0.505,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.3,
+          "market_size": 0.8999999999999999,
+          "monetization_potential": 0,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Strong market: creators in us",
+        "description": "Education for creators | Entertainment | Marketplace via browser_extension | Transaction Fees | Us market"
+      },
+      "landing_page": {
+        "headline": "Master Creative Skills with AI-Powered Learning \u0026 Entertainment",
+        "subheadline": "Your all-in-one browser extension for creators to learn from industry experts, access exclusive entertainment content, and monetize your skills in the world's largest creator marketplace.",
+        "price": "29",
+        "trial_type": "free_tier",
+        "cta": "Start Creating for Free",
+        "features": [
+          "AI-powered personalized courses taught by top creators in entertainment, design, and content production",
+          "Built-in marketplace to buy, sell, and trade creative assets directly through your browser",
+          "Real-time collaboration tools and live entertainment streams for creative inspiration",
+          "Zero subscription fees - only pay small transaction fees on marketplace purchases",
+          "Exclusive access to creator workshops, behind-the-scenes content, and networking events"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 5,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "health_fitness",
+          "content_format": "interactive_simulation",
+          "data_source": "external_apis",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "chat",
+          "monetization": "saas_license",
+          "network_structure": "many_to_many",
+          "technology": "robotics",
+          "value_proposition": "make_money"
+        },
+        "fit_score": 0.505,
+        "fit_breakdown": {
+          "buildability": 0.3,
+          "competition_level": 0,
+          "market_size": 0.8,
+          "monetization_potential": 0.7,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Strong market: businesses in global | Good monetization: saas_license",
+        "description": "Health Fitness for businesses | Make Money | Chat via browser_extension | Saas License | Global market"
+      },
+      "landing_page": {
+        "headline": "ROBOFIT PRO - AI-Powered Corporate Fitness Platform",
+        "subheadline": "Revolutionize workplace wellness with intelligent robotics and real-time chat. Boost employee health while generating recurring revenue through our global SaaS license model.",
+        "price": "49",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered fitness coaching via browser extension chat - no app downloads required",
+          "Automated health tracking and personalized workout generation with robotics technology",
+          "Enterprise dashboard to manage employee wellness programs and monitor ROI",
+          "White-label SaaS license with unlimited global scaling potential",
+          "Seamless integration with existing HR and productivity tools"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    }
+  ],
+  "stats": {
+    "total_calls": 10,
+    "successful": 5,
+    "failed": 5,
+    "total_time_seconds": 248.941600832,
+    "throughput_calls_per_sec": 0.02008503192431178,
+    "phase_times": {
+      "analysis": 0.000001544,
+      "idea_generation": 0.001913712,
+      "landing_generation": 12.76340219,
+      "persona_generation": 236.175996088,
+      "scoring": 0.00000913,
+      "simulation": 0.000003628
+    }
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 10,
+      "successes": 5,
+      "failures": 5,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-12T03:35:03+05:00",
+  "config": {
+    "num_ideas": 5,
+    "num_personas": 10,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/qwen-8k-test",
+    "providers": null,
+    "max_concurrent": 50,
+    "resume": false,
+    "verbose": true,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "llm-lfm"
+  }
+}

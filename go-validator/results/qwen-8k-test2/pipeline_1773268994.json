@@ -1,0 +1,333 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "developers",
+          "category": "education",
+          "content_format": "images",
+          "data_source": "voice_input",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "streaks",
+          "geography": "global",
+          "interaction_model": "feed",
+          "monetization": "ads",
+          "network_structure": "two_sided_marketplace",
+          "technology": "ai_llms",
+          "value_proposition": "increase_productivity"
+        },
+        "fit_score": 0.59,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.3,
+          "market_size": 1,
+          "monetization_potential": 0,
+          "unique_advantage": 1
+        },
+        "reasoning": "Strong market: developers in global | Unique advantage: ai_llms + education",
+        "description": "Education for developers | Increase Productivity | Feed via browser_extension | Ads | Global market"
+      },
+      "landing_page": {
+        "headline": "Learn Smarter, Code Faster | AI-Powered Developer Education",
+        "subheadline": "The intelligent browser extension that feeds you personalized learning content while you work. Master new technologies, best practices, and productivity techniques without leaving your workflow.",
+        "price": "29",
+        "trial_type": "7-day",
+        "cta": "Start Free Trial",
+        "features": [
+          "AI-curated learning feed tailored to your tech stack and projects",
+          "Context-aware tutorials that appear when you need them most",
+          "Daily micro-lessons delivered directly to your browser",
+          "Progress tracking and skill gap analysis",
+          "Works seamlessly with VS Code, GitHub, and documentation sites"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 2,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "ecommerce",
+          "content_format": "long_video",
+          "data_source": "sensors_wearables",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "reputation",
+          "geography": "southeast_asia",
+          "interaction_model": "livestream",
+          "monetization": "saas_license",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "increase_productivity"
+        },
+        "fit_score": 0.5599999999999999,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.3,
+          "market_size": 0.3,
+          "monetization_potential": 0.7,
+          "unique_advantage": 0.7
+        },
+        "reasoning": "Good monetization: saas_license | Unique advantage: ai_llms + ecommerce",
+        "description": "Ecommerce for professionals | Increase Productivity | Livestream via browser_extension | Saas License | Southeast Asia market"
+      },
+      "landing_page": {
+        "headline": "StreamPro AI - AI-Powered Livestreaming for Southeast Asian Professionals",
+        "subheadline": "Boost your ecommerce productivity with intelligent livestreaming directly from your browser. AI-driven insights, seamless broadcasts, and automated engagement tools built for the modern Southeast Asian professional.",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered livestream optimization tailored for Southeast Asian ecommerce audiences",
+          "Browser extension for instant one-click broadcasting from any webpage",
+          "Smart audience engagement with real-time AI chat analysis and response suggestions",
+          "Automated product showcase sequencing with AI-curated recommendations",
+          "Multi-platform streaming to Shopee, Lazada, TikTok Shop, and more"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 3,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "lifestyle",
+          "content_format": "audio",
+          "data_source": "financial_data",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "social_challenges",
+          "geography": "global",
+          "interaction_model": "livestream",
+          "monetization": "subscription",
+          "network_structure": "creator_fan",
+          "technology": "iot",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.5349999999999999,
+        "fit_breakdown": {
+          "buildability": 0.3,
+          "competition_level": 0,
+          "market_size": 0.7,
+          "monetization_potential": 0.8,
+          "unique_advantage": 0.7
+        },
+        "reasoning": "Strong market: professionals in global | Good monetization: subscription | Unique advantage: iot + lifestyle",
+        "description": "Lifestyle for professionals | Save Time | Livestream via browser_extension | Subscription | Global market"
+      },
+      "landing_page": {
+        "headline": "Stream Your Lifestyle. Save Your Time.",
+        "subheadline": "Professional livestream directly from your browser to a global audience. No equipment, no complex setup—just broadcast and grow.",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Streaming Free",
+        "features": [
+          "One-click browser-based livestreaming to reach audiences worldwide",
+          "Automated scheduling and multi-platform streaming to save you time",
+          "Professional-grade video quality with built-in camera filters",
+          "Real-time audience analytics and engagement tools",
+          "Seamless subscription model with exclusive content monetization"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 4,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "ai_productivity",
+          "content_format": "audio",
+          "data_source": "external_apis",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "rewards",
+          "geography": "middle_east",
+          "interaction_model": "collaboration",
+          "monetization": "subscription",
+          "network_structure": "many_to_many",
+          "technology": "robotics",
+          "value_proposition": "learn_skills"
+        },
+        "fit_score": 0.53,
+        "fit_breakdown": {
+          "buildability": 0.3,
+          "competition_level": 0,
+          "market_size": 0.8,
+          "monetization_potential": 0.8,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Strong market: professionals in middle_east | Good monetization: subscription",
+        "description": "Ai Productivity for professionals | Learn Skills | Collaboration via browser_extension | Subscription | Middle East market"
+      },
+      "landing_page": {
+        "headline": "Boost Your Productivity with AI in the Middle East",
+        "subheadline": "Master new skills, collaborate seamlessly, and automate workflows with our AI-powered browser extension designed for busy professionals across the Gulf region.",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered skill learning platform tailored for Middle East professionals",
+          "Real-time collaboration via browser extension for team productivity",
+          "Smart automation tools to streamline repetitive tasks",
+          "Secure, localized support for Arabic and English speakers",
+          "Exclusive networking hub for Gulf region professionals"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 5,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "finance",
+          "content_format": "images",
+          "data_source": "sensors_wearables",
+          "distribution": "mobile_app",
+          "engagement_mechanics": "leaderboards",
+          "geography": "southeast_asia",
+          "interaction_model": "chat",
+          "monetization": "saas_license",
+          "network_structure": "peer_to_peer",
+          "technology": "ai_llms",
+          "value_proposition": "learn_skills"
+        },
+        "fit_score": 0.5,
+        "fit_breakdown": {
+          "buildability": 0.4,
+          "competition_level": 0.3,
+          "market_size": 0.7,
+          "monetization_potential": 0.7,
+          "unique_advantage": 0
+        },
+        "reasoning": "Strong market: businesses in southeast_asia | Good monetization: saas_license",
+        "description": "Finance for businesses | Learn Skills | Chat via mobile_app | Saas License | Southeast Asia market"
+      },
+      "landing_page": {
+        "headline": "Empowering Southeast Asian Businesses with AI-Driven Financial Intelligence",
+        "subheadline": "Master finance skills, automate bookkeeping, and get instant financial guidance through our mobile chat platform—built for modern businesses in SEA",
+        "price": "49",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered chat for real-time financial advice and bookkeeping automation",
+          "Mobile-first platform accessible anytime, anywhere across Southeast Asia",
+          "Skill-based learning modules to upskill your team in finance and accounting",
+          "Cloud-based SaaS license with seamless updates and multi-device sync",
+          "Localized for SEA markets with multi-currency support and regional compliance"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    }
+  ],
+  "stats": {
+    "total_calls": 10,
+    "successful": 5,
+    "failed": 5,
+    "total_time_seconds": 337.037723126,
+    "throughput_calls_per_sec": 0.014835134636044207,
+    "phase_times": {
+      "analysis": 0.000001067,
+      "idea_generation": 0.004343341,
+      "landing_generation": 17.901206898,
+      "persona_generation": 319.131885826,
+      "scoring": 0.000005347,
+      "simulation": 0.000006205
+    }
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 10,
+      "successes": 5,
+      "failures": 5,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-12T03:43:14+05:00",
+  "config": {
+    "num_ideas": 5,
+    "num_personas": 10,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/qwen-8k-test2",
+    "providers": null,
+    "max_concurrent": 50,
+    "resume": false,
+    "verbose": true,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "llm-lfm"
+  }
+}

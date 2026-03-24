@@ -1,0 +1,438 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      },
+      "landing_page": {
+        "headline": "Ai Productivity Tool That Helps Businesses Save Time",
+        "subheadline": "AI-powered Ai Llms for businesses who need to Save Time",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Free Trial",
+        "features": [
+          "AI-powered Save Time automation",
+          "Built for Businesses",
+          "Works with your existing tools",
+          "Ai Assistant interface",
+          "Real-time analytics and insights"
+        ]
+      },
+      "metrics": {
+        "score": 1.253654505768631,
+        "composite_score": 0.1253654505768631,
+        "conversion_rate": 0,
+        "conversion_ci_low": 0,
+        "conversion_ci_high": 0.5615060804490177,
+        "uncertainty_penalty": 0.11230121608980355,
+        "simulated_cpl": 27.333333333333332,
+        "intent_strength": 2.3333333333333335,
+        "friction_score": 4.666666666666667,
+        "avg_impression": 4.333333333333333,
+        "avg_relevance": 4,
+        "conversions": 0,
+        "rejections": 3,
+        "errors": 0,
+        "total_personas": 3,
+        "valid_personas": 3
+      },
+      "simulations": [
+        {
+          "persona_name": "Andrei Petrov",
+          "persona": {
+            "name": "Andrei Petrov",
+            "age": 34,
+            "role": "QA Team Lead",
+            "company_size": "smb",
+            "experience_years": 11,
+            "pain_level": 9,
+            "current_workflow": "Manual test case execution across 3-4 active client projects, using spreadsheets and TestRail for tracking. No mobile automation currently. Developers complain about bug reports being unclear.",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 4,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "JIRA, TestRail, BrowserStack manual testing, occasional Python scripts for API testing",
+            "financial": {
+              "monthly_income": 4500,
+              "monthly_expenses": 2800,
+              "discretionary_budget": 400,
+              "current_subscriptions": [
+                {
+                  "name": "Netflix",
+                  "monthly_cost": 15,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 6,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Cloud storage",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Gym",
+                  "monthly_cost": 45,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 76,
+              "savings_months": 6,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "06:30",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Client demands faster releases but QA is bottleneck",
+                "Can't hire enough QA people in Moscow",
+                "Requirements keep changing mid-sprint"
+              ],
+              "daily_routine": "Wake early, check JIRA on phone, commute 1 hour, 10hr work day managing team + hands-on testing, home by 8pm, work emails until midnight",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Would find Loadify through LinkedIn ad or tech conference talk about AI testing tools",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Delivering client projects on time",
+                "Retaining QA team",
+                "Proving automation ROI to management"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Too generic - no QA-specific features mentioned",
+            "My bottleneck is hiring QA people, not productivity tools",
+            "Don't have time to learn new tool (1.5 hrs/day free)",
+            "Requirements changing mid-sprint is my real problem, not automation",
+            "Headline feels like every other AI tool"
+          ],
+          "pricing_reaction": "affordable",
+          "reasoning": "$29 is affordable but I'd need to cut something else from my $76 subscriptions. The tool doesn't address my actual pain points (hiring QA staff, changing requirements). With only 1.5 hours free daily and feeling overwhelmed, I don't have bandwidth to evaluate yet another AI product. Might reconsider if I see concrete QA用例.",
+          "cpl_equivalent": 35,
+          "budget_check": "affordable",
+          "priority_rank": 3,
+          "time_available": false,
+          "competing_with": "Gym subscription (non-negotiable), streaming services (habit)",
+          "decision_timeline": "next_month",
+          "tested_price": 29
+        },
+        {
+          "persona_name": "Dmitri Sokolov",
+          "persona": {
+            "name": "Dmitri Sokolov",
+            "age": 48,
+            "role": "CEO / Managing Partner",
+            "company_size": "smb",
+            "experience_years": 22,
+            "pain_level": 6,
+            "current_workflow": "Oversees 4 simultaneous client projects. QA managed by team lead but I see the P\u0026L. We lose money when projects go over scope on testing.",
+            "budget": "comfortable",
+            "decision_authority": "committee",
+            "skepticism": 5,
+            "personality": "conservative",
+            "archetype": "casual",
+            "current_tools": "JIRA, QuickBooks, Slack, weekly Zoom calls with team leads",
+            "financial": {
+              "monthly_income": 8500,
+              "monthly_expenses": 4000,
+              "discretionary_budget": 2000,
+              "current_subscriptions": [
+                {
+                  "name": "Netflix",
+                  "monthly_cost": 20,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Amazon Prime",
+                  "monthly_cost": 14,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Gym membership",
+                  "monthly_cost": 120,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Car lease",
+                  "monthly_cost": 600,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Multiple cloud services",
+                  "monthly_cost": 300,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 1054,
+              "savings_months": 18,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "22:30",
+              "free_hours_per_day": 3,
+              "top_struggles": [
+                "Finding reliable QA staff in Kazan",
+                "Client scope creep on testing phases",
+                "Managing 4 project managers"
+              ],
+              "daily_routine": "Gym 7am, office 9am, meetings until 6pm, dinner with family, check emails 9-10pm, reading or TV",
+              "mental_state": "coasting",
+              "discovery_context": "Would be approached by sales rep or see at IT forum in Moscow, would ask for case studies from similar agencies",
+              "attention_span_minutes": 20,
+              "current_priorities": [
+                "Scaling agency to 50 people",
+                "Improving profit margins",
+                "Landing enterprise clients"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 4,
+          "intent_strength": 3,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Vague value proposition - doesn't address my specific pain points (QA staffing, scope creep, PM management)",
+            "Generic AI tool claim without clear differentiation from what I already use",
+            "No mention of security, data privacy, or enterprise features I would need as a business owner",
+            "Landing page feels impersonal and mass-market, not tailored to business leaders"
+          ],
+          "pricing_reaction": "affordable",
+          "reasoning": "The $29 price is trivial compared to my discretionary budget, but I don't see how this tool specifically solves my real problems - finding QA staff in Kazan or managing client scope creep. I'm coasting mentally and unlikely to take action on something this generic without a clear connection to my business needs. Would need to see case studies from similar companies or a more targeted pitch before reconsidering.",
+          "cpl_equivalent": 12,
+          "budget_check": "affordable",
+          "priority_rank": 6,
+          "time_available": false,
+          "competing_with": "existing cloud services and workflows",
+          "decision_timeline": "next_month",
+          "tested_price": 29
+        },
+        {
+          "persona_name": "Olga Voronova",
+          "persona": {
+            "name": "Olga Voronova",
+            "age": 26,
+            "role": "QA Engineer / Part-time Developer",
+            "company_size": "startup",
+            "experience_years": 3,
+            "pain_level": 7,
+            "current_workflow": "Manual testing for 2 client apps, tried Appium once but it broke constantly and took 2 weeks to setup. Currently doing manual because it's faster than fighting with automation.",
+            "budget": "tight",
+            "decision_authority": "needs_approval",
+            "skepticism": 9,
+            "personality": "skeptical",
+            "archetype": "struggling",
+            "current_tools": "JIRA, manual Android emulator, Charles Proxy, some Postman",
+            "financial": {
+              "monthly_income": 1800,
+              "monthly_expenses": 1400,
+              "discretionary_budget": 100,
+              "current_subscriptions": [
+                {
+                  "name": "Yandex Plus",
+                  "monthly_cost": 8,
+                  "usage": "daily"
+                },
+                {
+                  "name": "VK Combo",
+                  "monthly_cost": 5,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 13,
+              "savings_months": 2,
+              "risk_tolerance": "minimal",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "08:00",
+              "sleep_time": "00:30",
+              "free_hours_per_day": 2,
+              "top_struggles": [
+                "Boss wants me to do automation but gives me zero time",
+                "Appium setup failed 3 times this month",
+                "Freelance clients want discounts I can't afford"
+              ],
+              "daily_routine": "Commute 45 min, work 9-7 doing QA + some frontend work because team is understaffed, side freelance projects evenings, scroll phone until 1am",
+              "mental_state": "burned_out",
+              "discovery_context": "Would see Loadify mentioned in Telegram dev community, would immediately think 'too good to be true'",
+              "attention_span_minutes": 8,
+              "current_priorities": [
+                "Keeping current job",
+                "Learning Python properly",
+                "Earning extra money"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 3,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Target audience mismatch - I'm an individual contributor, not a business",
+            "Generic AI claims with no specific problem-solution fit for QA automation",
+            "Only 2 hours free time daily and I'm burned out - can't learn new tool",
+            "Typo in subheadline ('Ai Ai Llms') raises quality concerns",
+            "Appium already failed 3 times - I don't have bandwidth for another complex setup"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "$29/month is almost a third of my discretionary budget and I only have $100 total after bills. With 2 months savings runway and recent purchase regret, I can't justify this risk. The page talks about 'businesses' but I'm an individual contributor struggling with automation. Plus I'm burned out - I have zero mental energy to learn something new right now.",
+          "cpl_equivalent": 35,
+          "budget_check": "stretch",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "survival mode - just trying to get through current job",
+          "decision_timeline": "never",
+          "tested_price": 29
+        }
+      ],
+      "price_experiments": [
+        {
+          "price": 29,
+          "metrics": {
+            "score": 1.253654505768631,
+            "composite_score": 0.1253654505768631,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.5615060804490177,
+            "uncertainty_penalty": 0.11230121608980355,
+            "simulated_cpl": 27.333333333333332,
+            "intent_strength": 2.3333333333333335,
+            "friction_score": 4.666666666666667,
+            "avg_impression": 4.333333333333333,
+            "avg_relevance": 4,
+            "conversions": 0,
+            "rejections": 3,
+            "errors": 0,
+            "total_personas": 3,
+            "valid_personas": 3
+          }
+        }
+      ],
+      "selected_price": 29,
+      "rank_stability": 0
+    }
+  ],
+  "stats": {
+    "total_calls": 5,
+    "successful": 4,
+    "failed": 1,
+    "total_time_seconds": 616.994543107,
+    "throughput_calls_per_sec": 0.006483039509324015,
+    "phase_times": {
+      "analysis": 98.915734911,
+      "idea_generation": 0.000001223,
+      "landing_generation": 134.09249834,
+      "persona_generation": 330.418084783,
+      "scoring": 0.00001436,
+      "simulation": 53.56812113
+    },
+    "calibration_warnings": [
+      "Funnel stage cold expected conversion range 0.5%-3.0%.",
+      "Observed conversion 0.0% is below expected range for cold traffic.",
+      "Very low aggregate conversion 0.0%; check simulation assumptions.",
+      "High uncertainty for rank #1 (CI width 0.56)."
+    ],
+    "observed_conversion": 0,
+    "expected_conv_low": 0.005,
+    "expected_conv_high": 0.03,
+    "learning_gate_passed": false
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 5,
+      "successes": 4,
+      "failures": 1,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-16T07:06:50+05:00",
+  "config": {
+    "pinned_ideas": [
+      {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      }
+    ],
+    "num_ideas": 100,
+    "num_personas": 3,
+    "deep_personas": 60,
+    "deep_top_k": 3,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/loadify",
+    "providers": null,
+    "price_points": [
+      1000
+    ],
+    "max_concurrent": 5,
+    "resume": false,
+    "verbose": false,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "maxclaw",
+    "learning_mode": "hybrid",
+    "pricing_mode": "fixed",
+    "sample_mode": "single_stage",
+    "simulation_bias": "neutral",
+    "funnel_stage": "cold",
+    "conversion_floor": 0,
+    "enforce_calibration": true,
+    "ci_threshold": 0.55,
+    "seed": 1773626193566042152
+  }
+}

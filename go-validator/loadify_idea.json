@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "category": "ai_productivity",
+    "audience": "businesses",
+    "value_proposition": "save_time",
+    "interaction_model": "ai_assistant",
+    "content_format": "text",
+    "technology": "ai_llms",
+    "monetization": "subscription",
+    "engagement_mechanics": "reputation",
+    "network_structure": "one_to_one",
+    "distribution": "web_platform",
+    "geography": "global",
+    "data_source": "ai_generated"
+  },
+  "fit_score": 0.75,
+  "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring.",
+  "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation"
+}

@@ -1,0 +1,163 @@
+{
+  "strengths": [
+    "Python",
+    "Dart",
+    "Go",
+    "PHP",
+    "C",
+    "JavaScript",
+    "React",
+    "Vue",
+    "Svelte",
+    "Authentication",
+    "Payment processing (Stripe/LemonSqueezy)",
+    "Docker",
+    "Cloud hosting (AWS/GCP/Azure)",
+    "Simple hosting (Vercel/Netlify/Coolify)",
+    "LLM APIs (OpenAI/Anthropic)",
+    "AI SDKs (LangChain)",
+    "Prompt engineering",
+    "Vector databases",
+    "RAG systems",
+    "Model training/fine-tuning",
+    "AI agent superpower: can code almost anything",
+    "Kazakhstan (local market knowledge)",
+    "Muslim community (cultural fit)",
+    "Kazakh language community",
+    "Underserved emerging market positioning",
+    "US/global online market access",
+    "Proven Chrome extension success (Sora Queue)",
+    "Can code almost anything with AI agents",
+    "Full-stack + AI capability (rare combo)",
+    "Proven ability to ship (Sora Queue has paying users)",
+    "Technical depth (embedded, distributed systems, AI)"
+  ],
+  "limitations": [
+    "Native iOS (Swift/SwiftUI)",
+    "Native Android (Kotlin/Java)",
+    "Real-time multiplayer",
+    "Hardware/embedded systems",
+    "Complex UI/UX design",
+    "Capital: $500-2000",
+    "Time to revenue: 1-2 months",
+    "MVP timeline: 1 week",
+    "Team: Solo",
+    "Lack of focus (CRITICAL: need quick wins, not long projects)",
+    "Promotion/marketing weakness (built good products, didn't sell them)",
+    "ASO/distribution struggle (reading app failed on App Store)"
+  ],
+  "conditions": {
+    "financial": {
+      "max_marketing_budget": 2000,
+      "time_to_revenue_months": 2,
+      "target_monthly_revenue": 7500
+    },
+    "product": {
+      "max_mvp_time_weeks": 1,
+      "max_complexity": "moderate",
+      "preferred_distribution": [
+        "web",
+        "browser_extension",
+        "api"
+      ]
+    },
+    "market": {
+      "geographic_focus": [
+        "global",
+        "middle_east",
+        "central_asia"
+      ],
+      "target_audience_size": "niche",
+      "competition_tolerance": "moderate"
+    },
+    "personal": {
+      "solo_founder": true,
+      "can_hire_freelancers": true,
+      "weekly_hours": 30,
+      "focus_issues": true
+    }
+  },
+  "preferences": {
+    "target_customer": "flexible",
+    "business_model": [
+      "Subscription",
+      "One-time payment",
+      "Freemium",
+      "SaaS license"
+    ],
+    "avoid_technology": [
+      "ar_vr",
+      "blockchain",
+      "hardware",
+      "embedded",
+      "ios_native",
+      "android_native",
+      "multiplayer"
+    ],
+    "avoid_industries": [
+      "18+ adult content",
+      "Gambling",
+      "Interest-based lending (riba)"
+    ],
+    "favor_technology": [
+      "ai_llms",
+      "web",
+      "chrome_extension"
+    ],
+    "favor_distribution": [
+      "web",
+      "browser_extension",
+      "api"
+    ],
+    "favor_monetization": [
+      "subscription",
+      "freemium",
+      "one_time"
+    ],
+    "favor_audience": [
+      "developers",
+      "students",
+      "professionals",
+      "creators"
+    ],
+    "favor_geography": [
+      "global",
+      "middle_east",
+      "central_asia"
+    ]
+  },
+  "constraints": {
+    "hard": [
+      "Native iOS/Android (can't build)",
+      "Real-time multiplayer (can't build)",
+      "Hardware/embedded (can't build)",
+      "Enterprise sales cycles (solo founder, urgent timeline)",
+      "Complex UI/UX (hard limitation)",
+      "Paid-ads-heavy models (capital constraint)",
+      "Multi-sided platforms (1-week MVP constraint)",
+      "Adult/gambling/interest-based (ethical constraints)",
+      "Long time-to-value (urgency constraint)"
+    ],
+    "soft": [
+      "B2B enterprise (long sales cycles)",
+      "Marketplace/network effects (slow cold start)",
+      "Content-heavy products (takes time to build library)",
+      "Complex onboarding (friction = lost customers)",
+      "High competition saturated markets (need unfair advantage)"
+    ]
+  },
+  "scoring_weights": {
+    "buildability": 0.3,
+    "market_size": 0.25,
+    "monetization_potential": 0.25,
+    "competition_level": 0.1,
+    "unique_advantage": 0.1
+  },
+  "unfair_advantages": [
+    "AI agent coding superpower",
+    "Chrome extension proven success",
+    "Muslim/Kazakhstan market access",
+    "Full-stack + AI capabilities",
+    "Riding AI/LLM hype cycle"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "weights": {
+    "weights": {
+      "audience": {
+        "athletes": 0.0807730923694779,
+        "businesses": 0.0807730923694779,
+        "creators": 0.11149598393574296,
+        "developers": 0.0807730923694779,
+        "entrepreneurs": 0.0807730923694779,
+        "gamers": 0.0807730923694779,
+        "investors": 0.0807730923694779,
+        "kids": 0.0807730923694779,
+        "parents": 0.0807730923694779,
+        "professionals": 0.0807730923694779,
+        "seniors": 0.0807730923694779,
+        "students": 0.0807730923694779
+      },
+      "category": {
+        "ai_productivity": 0.07774122807017543,
+        "dating": 0.07774122807017543,
+        "ecommerce": 0.07774122807017543,
+        "education": 0.07774122807017543,
+        "entertainment": 0.07774122807017543,
+        "finance": 0.14484649122807017,
+        "food_delivery": 0.07774122807017543,
+        "gaming": 0.07774122807017543,
+        "health_fitness": 0.07774122807017543,
+        "lifestyle": 0.07774122807017543,
+        "social": 0.07774122807017543,
+        "travel": 0.07774122807017543
+      },
+      "content_format": {
+        "ar_vr": 0.1111111111111111,
+        "audio": 0.1111111111111111,
+        "games": 0.1111111111111111,
+        "images": 0.1111111111111111,
+        "interactive_simulation": 0.1111111111111111,
+        "livestream": 0.1111111111111111,
+        "long_video": 0.1111111111111111,
+        "short_video": 0.1111111111111111,
+        "text": 0.1111111111111111
+      },
+      "data_source": {
+        "ai_generated": 0.125,
+        "camera_input": 0.125,
+        "external_apis": 0.125,
+        "financial_data": 0.125,
+        "gps_location": 0.125,
+        "sensors_wearables": 0.125,
+        "user_generated": 0.125,
+        "voice_input": 0.125
+      },
+      "distribution": {
+        "browser_extension": 0.1111111111111111,
+        "car_infotainment": 0.1111111111111111,
+        "desktop_software": 0.1111111111111111,
+        "messaging_bot": 0.1111111111111111,
+        "mobile_app": 0.1111111111111111,
+        "smart_tv": 0.1111111111111111,
+        "smartwatch": 0.1111111111111111,
+        "voice_assistant": 0.1111111111111111,
+        "web_platform": 0.1111111111111111
+      },
+      "engagement_mechanics": {
+        "badges": 0.125,
+        "leaderboards": 0.125,
+        "levels": 0.125,
+        "quests": 0.125,
+        "reputation": 0.125,
+        "rewards": 0.125,
+        "social_challenges": 0.125,
+        "streaks": 0.125
+      },
+      "geography": {
+        "africa": 0.1111111111111111,
+        "china": 0.1111111111111111,
+        "europe": 0.1111111111111111,
+        "global": 0.1111111111111111,
+        "india": 0.1111111111111111,
+        "latin_america": 0.1111111111111111,
+        "middle_east": 0.1111111111111111,
+        "southeast_asia": 0.1111111111111111,
+        "us": 0.1111111111111111
+      },
+      "interaction_model": {
+        "ai_assistant": 0.1111111111111111,
+        "chat": 0.1111111111111111,
+        "collaboration": 0.1111111111111111,
+        "community_forum": 0.1111111111111111,
+        "creator_platform": 0.1111111111111111,
+        "feed": 0.1111111111111111,
+        "livestream": 0.1111111111111111,
+        "marketplace": 0.1111111111111111,
+        "multiplayer": 0.1111111111111111
+      },
+      "monetization": {
+        "ads": 0.12115963855421685,
+        "creator_revenue_share": 0.12115963855421685,
+        "digital_goods": 0.12115963855421685,
+        "in_app_purchases": 0.12115963855421685,
+        "marketplace_commission": 0.12115963855421685,
+        "saas_license": 0.12115963855421685,
+        "subscription": 0.15188253012048192,
+        "transaction_fees": 0.12115963855421685
+      },
+      "network_structure": {
+        "creator_fan": 0.16666666666666666,
+        "many_to_many": 0.16666666666666666,
+        "one_to_many": 0.16666666666666666,
+        "one_to_one": 0.16666666666666666,
+        "peer_to_peer": 0.16666666666666666,
+        "two_sided_marketplace": 0.16666666666666666
+      },
+      "technology": {
+        "ai_llms": 0.12325819672131148,
+        "ar_vr": 0.12325819672131148,
+        "blockchain": 0.12325819672131148,
+        "computer_vision": 0.12325819672131148,
+        "iot": 0.12325819672131148,
+        "robotics": 0.12325819672131148,
+        "voice_interface": 0.1371926229508197,
+        "wearables": 0.12325819672131148
+      },
+      "value_proposition": {
+        "build_community": 0.1052083333333333,
+        "entertainment": 0.1052083333333333,
+        "express_creativity": 0.15833333333333327,
+        "find_relationships": 0.1052083333333333,
+        "improve_health": 0.1052083333333333,
+        "increase_productivity": 0.1052083333333333,
+        "learn_skills": 0.1052083333333333,
+        "make_money": 0.1052083333333333,
+        "save_time": 0.1052083333333333
+      }
+    },
+    "epoch": 1
+  },
+  "learned_dimensions": {},
+  "dimension_order": [
+    "category",
+    "audience",
+    "value_proposition",
+    "interaction_model",
+    "content_format",
+    "technology",
+    "monetization",
+    "engagement_mechanics",
+    "network_structure",
+    "distribution",
+    "geography",
+    "data_source"
+  ],
+  "epochs": [
+    {
+      "epoch": 1,
+      "ideas_tested": 10,
+      "avg_conversion": 0.13,
+      "weight_deltas": null,
+      "new_dimensions": null,
+      "new_options": null,
+      "timestamp": "2026-03-12T02:16:42+05:00"
+    }
+  ]
+}

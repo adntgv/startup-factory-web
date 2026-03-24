@@ -1,0 +1,628 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      },
+      "landing_page": {
+        "headline": "Ai Productivity Tool That Helps Businesses Save Time",
+        "subheadline": "AI-powered Ai Llms for businesses who need to Save Time",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Free Trial",
+        "features": [
+          "AI-powered Save Time automation",
+          "Built for Businesses",
+          "Works with your existing tools",
+          "Ai Assistant interface",
+          "Real-time analytics and insights"
+        ]
+      },
+      "metrics": {
+        "score": 1.6010170104958377,
+        "composite_score": 0.16010170104958377,
+        "conversion_rate": 0,
+        "conversion_ci_low": 0,
+        "conversion_ci_high": 0.43449149475208104,
+        "uncertainty_penalty": 0.08689829895041622,
+        "simulated_cpl": 35,
+        "intent_strength": 2.2,
+        "friction_score": 6.4,
+        "avg_impression": 4.8,
+        "avg_relevance": 4.4,
+        "conversions": 0,
+        "rejections": 5,
+        "errors": 0,
+        "total_personas": 5,
+        "valid_personas": 5
+      },
+      "simulations": [
+        {
+          "persona_name": "Alexei Volkov",
+          "persona": {
+            "name": "Alexei Volkov",
+            "age": 35,
+            "role": "Founder \u0026 CEO",
+            "company_size": "startup",
+            "experience_years": 12,
+            "pain_level": 10,
+            "current_workflow": "Chaotic - developers do some testing, occasional freelance testers, no systematic process, lots of scope creep from clients",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 4,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Trello, Slack, WhatsApp for client comms, Firebase Crashlytics only",
+            "financial": {
+              "monthly_income": 3500,
+              "monthly_expenses": 3100,
+              "discretionary_budget": 200,
+              "current_subscriptions": [
+                {
+                  "name": "Slack",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Basic hosting",
+                  "monthly_cost": 50,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Phone plan",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 65,
+              "savings_months": 1,
+              "risk_tolerance": "aggressive",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "08:00",
+              "sleep_time": "01:00",
+              "free_hours_per_day": 0.5,
+              "top_struggles": [
+                "Can't afford full QA team yet",
+                "Lost last client because of critical bugs post-launch",
+                "No time to test properly - always rushing"
+              ],
+              "daily_routine": "Work from 9am-1am, eat while working, no real evenings or weekends, girlfriend complains about no attention",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Would Google \"automated mobile testing small team\" or see ad in Telegram tech channel",
+              "attention_span_minutes": 8,
+              "current_priorities": [
+                "Close next client deal",
+                "Make payroll next month",
+                "Find any edge to compete with bigger agencies"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 6,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month is 5x my entire discretionary budget",
+            "Only $200 left after bills - this is impossible",
+            "Savings runway only 1 month - can't afford any risk",
+            "I have 0.5 hours free daily - no time to learn new tools",
+            "Lost client due to bugs - this doesn't address QA specifically",
+            "Recently regretted a purchase - being more cautious now",
+            "Overwhelmed with 17-hour workdays - can't add another thing"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "I can't afford this at all - $1000/month is completely out of reach when I only have $200 discretionary. Even if it could help with productivity, I have literally no time to implement it with my 17-hour days, and my recent purchase regret makes me cautious. This doesn't even solve my real problem of QA and bug prevention.",
+          "cpl_equivalent": 20,
+          "budget_check": "cant_afford",
+          "priority_rank": 1,
+          "time_available": false,
+          "competing_with": "time itself and my existing desperate state",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Dmitry Kozlov",
+          "persona": {
+            "name": "Dmitry Kozlov",
+            "age": 28,
+            "role": "Technical Lead / QA Manager",
+            "company_size": "smb",
+            "experience_years": 6,
+            "pain_level": 9,
+            "current_workflow": "Manual testing on shared devices, Requirements captured in Word docs, No automated regression, Clients complain about bug escape rates",
+            "budget": "moderate",
+            "decision_authority": "self",
+            "skepticism": 3,
+            "personality": "early_adopter",
+            "archetype": "power_user",
+            "current_tools": "Jira, Google Sheets, BrowserStack (shared), TestRail (manual)",
+            "financial": {
+              "monthly_income": 4500,
+              "monthly_expenses": 2800,
+              "discretionary_budget": 700,
+              "current_subscriptions": [
+                {
+                  "name": "Netflix",
+                  "monthly_cost": 15,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 5,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Pro",
+                  "monthly_cost": 4,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Cloud storage",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 34,
+              "savings_months": 3,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "07:30",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Can't hire QA fast enough for client demand",
+                "Manual regression takes 40% of sprint time",
+                "Client requirements change mid-project, tests become outdated"
+              ],
+              "daily_routine": "Commute 45min, 8h work + overtime, comes home exhausted, scrolls phone until sleep",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Would find Loadify through LinkedIn tech communities or at a QA conference in Moscow",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Deliver current client project on time",
+                "Prove automation ROI to leadership",
+                "Hire 2 more QA testers"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 7,
+          "intent_strength": 4,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Price is 143% of discretionary budget ($1000 vs $700)",
+            "Vague AI claims without QA-specific use cases",
+            "No social proof or testimonials from QA leaders",
+            "No clear ROI or time savings quantification",
+            "Currently overwhelmed - no bandwidth to implement new tool",
+            "Would need team approval and budget justification"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $1000/month this is completely outside my financial reality - nearly double my entire discretionary budget. Even though this could theoretically help with my regression testing pain point, I can't justify that expense to myself, let alone leadership, without concrete numbers. Plus I'm already drowning in work and wouldn't have time to properly onboard a new tool.",
+          "cpl_equivalent": 25,
+          "budget_check": "cant_afford",
+          "priority_rank": 3,
+          "time_available": false,
+          "competing_with": "existing manual regression processes and lack of implementation time",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Viktor Morozov",
+          "persona": {
+            "name": "Viktor Morozov",
+            "age": 38,
+            "role": "Delivery Manager",
+            "company_size": "smb",
+            "experience_years": 14,
+            "pain_level": 7,
+            "current_workflow": "Mix of onshore QA team (3 people) and outsourced manual testers, lots of coordination overhead, reporting is a nightmare",
+            "budget": "comfortable",
+            "decision_authority": "committee",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "casual",
+            "current_tools": "Jira, Confluence, Zephyr, BrowserStack, Jenkins, Excel dashboards",
+            "financial": {
+              "monthly_income": 5800,
+              "monthly_expenses": 3500,
+              "discretionary_budget": 800,
+              "current_subscriptions": [
+                {
+                  "name": "Multiple streaming",
+                  "monthly_cost": 35,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Gaming subscription",
+                  "monthly_cost": 15,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Work tools (Jira, etc.)",
+                  "monthly_cost": 200,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Language tutor",
+                  "monthly_cost": 100,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 350,
+              "savings_months": 6,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 2,
+              "top_struggles": [
+                "Coordinating QA across time zones with outsourced team",
+                "Client scope changes cause testing chaos",
+                "Senior management wants headcount reduction without quality drop"
+              ],
+              "daily_routine": "Work 8:30-6:30, gym 3x week, family dinner, occasional evening calls with US clients",
+              "mental_state": "focused",
+              "discovery_context": "Would get recommendation from industry peer or see at tech exhibition in St. Petersburg",
+              "attention_span_minutes": 18,
+              "current_priorities": [
+                "Optimize QA operations to reduce costs",
+                "Keep client delivery quality high",
+                "Prove team efficiency to keep budget"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month exceeds my entire discretionary budget of $800",
+            "Too generic - no mention of QA coordination or testing workflows",
+            "No clear ROI calculation for my specific role",
+            "Would need management approval for business expense",
+            "14 days isn't enough time to validate against my complex use cases",
+            "Unclear how it specifically addresses time zone coordination"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "The $1000/month price tag is actually more than my total discretionary budget, so even as a business expense I'd need to justify it to leadership which is a heavy lift. More importantly, the value proposition is extremely generic - it talks about 'saving time' but shows no understanding of QA coordination across time zones or testing chaos from scope changes, which are my actual pain points. I'd need to see case studies from similar delivery managers or a much clearer integration story with Jira before I'd even consider the trial, and right now I simply don't have the 2 hours needed to properly evaluate it.",
+          "cpl_equivalent": 35,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "existing Jira/Confluence workflows and manual process文档ation",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Olga Petrova",
+          "persona": {
+            "name": "Olga Petrova",
+            "age": 42,
+            "role": "Head of Quality Assurance",
+            "company_size": "smb",
+            "experience_years": 18,
+            "pain_level": 6,
+            "current_workflow": "Established manual testing process, Excel test matrices, some Selenium WebDriver for web, nothing for mobile",
+            "budget": "comfortable",
+            "decision_authority": "needs_approval",
+            "skepticism": 8,
+            "personality": "conservative",
+            "archetype": "struggling",
+            "current_tools": "Jira, Confluence, Selenium, Postman, Excel macros",
+            "financial": {
+              "monthly_income": 7200,
+              "monthly_expenses": 4000,
+              "discretionary_budget": 1200,
+              "current_subscriptions": [
+                {
+                  "name": "Premium TV streaming",
+                  "monthly_cost": 20,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Gym membership",
+                  "monthly_cost": 45,
+                  "usage": "daily"
+                },
+                {
+                  "name": "LinkedIn Premium",
+                  "monthly_cost": 30,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Cloud services",
+                  "monthly_cost": 25,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 120,
+              "savings_months": 8,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "06:30",
+              "sleep_time": "22:30",
+              "free_hours_per_day": 2.5,
+              "top_struggles": [
+                "Team resistant to new tools",
+                "Board requires ROI proof for any new spend",
+                "Mobile testing is biggest gap, losing bids because of it"
+              ],
+              "daily_routine": "Gym at 6am, office by 9, leaves at 6pm, family time evenings, occasional work emails at night",
+              "mental_state": "burned_out",
+              "discovery_context": "Would hear about it from a peer at another outsourcing firm or read a review on Habr (Russian tech blog)",
+              "attention_span_minutes": 20,
+              "current_priorities": [
+                "Maintain current client satisfaction",
+                "Justify budget to CFO",
+                "Modernize QA without disrupting delivery"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 3,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Price is $1000/month which is 83% of my entire discretionary budget",
+            "No mention of mobile testing which is my biggest gap and losing us bids",
+            "Board requires ROI proof before any spend - no case studies or ROI calculator",
+            "I\u0026#39;m burned out and don\u0026#39;t have energy to evaluate new tools",
+            "Team is already resistant to new tools - implementation would be a battle",
+            "Recently regretted a purchase so I\u0026#39;m extra cautious right now",
+            "Generic \u0026#39;AI saves time\u0026#39; claim doesn\u0026#39;t address my specific QA automation needs"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "This tool doesn\u0026#39;t address my #1 problem (mobile testing) and the $1000/month price would nearly wipe out my entire discretionary budget while I already have $120 in subscriptions. I\u0026#39;m burned out, my team resists new tools, and the board needs ROI proof - none of that is addressed here. The 14-day trial isn\u0026#39;t enough incentive given all these barriers.",
+          "cpl_equivalent": 45,
+          "budget_check": "stretch",
+          "priority_rank": 3,
+          "time_available": false,
+          "competing_with": "exhaustion and skepticism from recent regret",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Natalia Smirnova",
+          "persona": {
+            "name": "Natalia Smirnova",
+            "age": 31,
+            "role": "Senior QA Engineer",
+            "company_size": "smb",
+            "experience_years": 8,
+            "pain_level": 5,
+            "current_workflow": "Strong manual background, uses Appium for some projects but setup takes forever, thinks AI can't replace human intuition",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 7,
+            "personality": "skeptical",
+            "archetype": "non_user",
+            "current_tools": "Appium, Charles Proxy, Postman, Jira, Notion for test docs",
+            "financial": {
+              "monthly_income": 3800,
+              "monthly_expenses": 2200,
+              "discretionary_budget": 600,
+              "current_subscriptions": [
+                {
+                  "name": "Streaming service",
+                  "monthly_cost": 12,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Coursera",
+                  "monthly_cost": 49,
+                  "usage": "rarely"
+                },
+                {
+                  "name": "Cloud storage",
+                  "monthly_cost": 8,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Language app",
+                  "monthly_cost": 12,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 81,
+              "savings_months": 4,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 2,
+              "top_struggles": [
+                "Tool fatigue - new tools every month promising miracles",
+                "Management wants AI but team knows it has limits",
+                "Hard to keep test cases updated when requirements change weekly"
+              ],
+              "daily_routine": "Commute 30min, work 9-6, cook dinner, watch show, check work emails once more before bed",
+              "mental_state": "coasting",
+              "discovery_context": "Would be shown Loadify by sales rep at work or find in G2/Capterra alternatives",
+              "attention_span_minutes": 15,
+              "current_priorities": [
+                "Keep current projects stable",
+                "Learn new automation skills for resume",
+                "Avoid being replaced by AI"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 3,
+          "intent_strength": 1,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month is 1.67x my entire discretionary budget - completely unrealistic for an individual contributor",
+            "Tool fatigue - I already get bombarded with tools promising miracles every month",
+            "Messaging is for businesses, not a QA engineer like me",
+            "Management pushes AI but our team knows the limits - this feels like another overpromise",
+            "No clear connection to my actual struggles (test case maintenance, changing requirements)",
+            "Generic headline tells me nothing about what this actually does"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "The price alone makes this a non-starter - $1000/month is far beyond my $600 discretionary budget and my current subscription spending. Beyond that, the messaging targets 'businesses' while I'm a senior QA engineer, not a decision-maker. I have significant tool fatigue and skepticism about AI promises, especially given my experience that AI has real limits in testing. The 14-day trial doesn't matter when the fundamental value proposition and price don't align with my reality.",
+          "cpl_equivalent": 50,
+          "budget_check": "cant_afford",
+          "priority_rank": 1,
+          "time_available": false,
+          "competing_with": "my existing test automation tools and spreadsheets",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        }
+      ],
+      "price_experiments": [
+        {
+          "price": 1000,
+          "metrics": {
+            "score": 1.6010170104958377,
+            "composite_score": 0.16010170104958377,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.43449149475208104,
+            "uncertainty_penalty": 0.08689829895041622,
+            "simulated_cpl": 35,
+            "intent_strength": 2.2,
+            "friction_score": 6.4,
+            "avg_impression": 4.8,
+            "avg_relevance": 4.4,
+            "conversions": 0,
+            "rejections": 5,
+            "errors": 0,
+            "total_personas": 5,
+            "valid_personas": 5
+          }
+        }
+      ],
+      "selected_price": 29,
+      "rank_stability": 0
+    }
+  ],
+  "stats": {
+    "total_calls": 7,
+    "successful": 6,
+    "failed": 1,
+    "total_time_seconds": 373.898408453,
+    "throughput_calls_per_sec": 0.016047139715905517,
+    "phase_times": {
+      "analysis": 20.247273909,
+      "idea_generation": 7.79e-7,
+      "landing_generation": 134.205347613,
+      "persona_generation": 182.042162128,
+      "scoring": 0.000016619,
+      "simulation": 37.403547196
+    },
+    "calibration_warnings": [
+      "Funnel stage cold expected conversion range 0.5%-3.0%.",
+      "Observed conversion 0.0% is below expected range for cold traffic.",
+      "Very low aggregate conversion 0.0%; check simulation assumptions.",
+      "High uncertainty for rank #1 (CI width 0.43)."
+    ],
+    "observed_conversion": 0,
+    "expected_conv_low": 0.005,
+    "expected_conv_high": 0.03,
+    "learning_gate_passed": false
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 7,
+      "successes": 6,
+      "failures": 1,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-16T06:56:18+05:00",
+  "config": {
+    "pinned_ideas": [
+      {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      }
+    ],
+    "num_ideas": 100,
+    "num_personas": 5,
+    "deep_personas": 60,
+    "deep_top_k": 3,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/loadify",
+    "providers": null,
+    "price_points": [
+      1000
+    ],
+    "max_concurrent": 10,
+    "resume": false,
+    "verbose": false,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "maxclaw",
+    "learning_mode": "hybrid",
+    "pricing_mode": "grid",
+    "sample_mode": "single_stage",
+    "simulation_bias": "neutral",
+    "funnel_stage": "cold",
+    "conversion_floor": 0,
+    "enforce_calibration": true,
+    "ci_threshold": 0.55,
+    "seed": 1773625804333248781
+  }
+}

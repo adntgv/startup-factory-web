@@ -1,0 +1,194 @@
+   Learner: loaded epoch 9 with 1 learned dimensions
+
+======================================================================
+STARTUP FACTORY PIPELINE: 10 ideas × 20 personas
+Max concurrent: 500 | Min score: 0.50
+======================================================================
+
+Phase 1: Generating ideas (local)...
+   Found 10/10 viable ideas (attempt 1273)...
+   Generated 10 ideas from 1273 attempts (0.8% acceptance)
+  Generated 10 ideas in 0.0s
+
+Phase 2: Generating 10 landing pages in parallel...
+  Generated 10 landing pages in 27.1s
+
+Phase 3: Generating personas for 10 ideas in parallel...
+2026/03/15 07:21:38 pipeline.go:976: Failed to parse daily life: json: cannot unmarshal string into Go value of type map[string]interface {}
+  Generated 200 total personas in 34.6s
+
+Phase 4: Running 1000 simulations in parallel...
+  [100/1000] simulations complete
+  [200/1000] simulations complete
+  [300/1000] simulations complete
+  [400/1000] simulations complete
+  [500/1000] simulations complete
+  [600/1000] simulations complete
+  [700/1000] simulations complete
+  [800/1000] simulations complete
+  [900/1000] simulations complete
+  [1000/1000] simulations complete
+  Completed 1020 simulations in 81.8s
+
+Phase 5a: Scoring results...
+Phase 5a.2: Deep-evaluating top ideas...
+2026/03/15 07:24:56 pipeline.go:666: Batched persona generation: requested 60, got 60
+  [100/300] simulations complete
+  [200/300] simulations complete
+  [300/300] simulations complete
+2026/03/15 07:27:42 pipeline.go:666: Batched persona generation: requested 60, got 60
+  [100/300] simulations complete
+  [200/300] simulations complete
+  [300/300] simulations complete
+2026/03/15 07:30:20 pipeline.go:666: Batched persona generation: requested 60, got 60
+  [100/300] simulations complete
+  [200/300] simulations complete
+  [300/300] simulations complete
+Phase 5b: Analyzing decisions via LLM...
+   Analyzing 1600 decisions in 32 batches via LLM...
+2026/03/15 07:34:26 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:34:27 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:34:32 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:34:33 learner.go:184: analyzeBatch parse error: json: cannot unmarshal string into Go value of type struct { Persona string "json:\"persona\""; Decision string "json:\"decision\""; PositiveDimensions []string "json:\"positive_dimensions\""; NegativeDimensions []string "json:\"negative_dimensions\""; MissingFactors []string "json:\"missing_factors\"" } (response preview: [
+  {"persona":"Avery D.", "decision":"no", "positive_dimensions":["audience:professionals","category:dating","content_format":"short_video","data_source":"gps_location","distribution":"web_platform","engagement_mechanics":"rewards","geography":"us","interaction_model":"collaboration","monetization"...)
+2026/03/15 07:34:38 learner.go:184: analyzeBatch parse error: json: cannot unmarshal object into Go value of type []struct { Persona string "json:\"persona\""; Decision string "json:\"decision\""; PositiveDimensions []string "json:\"positive_dimensions\""; NegativeDimensions []string "json:\"negative_dimensions\""; MissingFactors []string "json:\"missing_factors\"" } (response preview: [
+  {"persona": "Parker D.", "decision": "no", "positive_dimensions": ["monetization:subscription"], "negative_dimensions": ["value_proposition:entertainment", "audience:professionals"], "missing_factors": ["factor:job_relevance"]},
+  {"persona": "Alex H.", "decision": "no", "positive_dimensions": [...)
+2026/03/15 07:34:49 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:34:50 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:34:58 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:35:07 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:35:18 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:35:20 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:36:00 learner.go:184: analyzeBatch parse error: json: cannot unmarshal object into Go value of type []struct { Persona string "json:\"persona\""; Decision string "json:\"decision\""; PositiveDimensions []string "json:\"positive_dimensions\""; NegativeDimensions []string "json:\"negative_dimensions\""; MissingFactors []string "json:\"missing_factors\"" } (response preview: [
+{"persona":"Sage A.","decision":"no","positive_dimensions":[],"negative_dimensions":["technology:ai_llms"],"missing_factors":["LLM_failure"]},
+{"persona":"Morgan B.","decision":"no","positive_dimensions":[],"negative_dimensions":["technology:ai_llms"],"missing_factors":["LLM_failure"]},
+{"persona"...)
+2026/03/15 07:36:03 learner.go:168: analyzeBatch LLM error: no text in response
+2026/03/15 07:36:13 learner.go:168: analyzeBatch LLM error: no text in response
+  Analyzed 889 decisions in 308.6s
+
+Phase 5c: Updating weights + expanding topology...
+   Applied hybrid learning update: holdout agreement 0.82
+2026/03/15 07:36:13 learner.go:841:    Discovered 23 potential new dimensions from decision analysis
+   Topology: added 3 options to existing dim 'factor'
+  Saved learning state (epoch 10)
+
+
+JSON: results/pipeline_1773542173.json
+HTML: results/pipeline_1773542173.html
+
+======================================================================
+RESULTS SUMMARY
+======================================================================
+
+Runtime:     15.3 minutes
+Ideas tested: 10 (requested 10)
+LLM Calls:   1920 (1.8/s)
+LLM Success: 1647 / 1920 (86%)
+Expected Conv (cold): 0.5%-3.0% | Observed: 2.6%
+
+Persona Decisions:
+  Valid: 862 / 1040 (83%)
+    Converted: 22 (2.6% of valid)
+    Rejected:  840 (97.4% of valid)
+  Errors: 178 (parse/LLM failures)
+
+Provider Stats:
+  maxclaw: 1920 calls (86% success)
+
+Calibration warnings:
+  - Funnel stage cold expected conversion range 0.5%-3.0%.
+
+Phase times:
+  Idea Generation:          0.0s
+  Landing Generation:       27.1s
+  Persona Generation:       34.6s
+  Simulation:               81.8s
+  Deep Evaluation:          463.3s
+  Scoring:                  463.3s
+  Analysis:                 308.6s
+
+Top 10 Ideas:
+
+  #1 Score:0.310 Conv:7% [3-18%] | Price:$9 | Stability:0% | 4✓ 50✗ 6⚠ | Ai Productivity → Professionals | Ai Llms
+     [WHO] professionals in india focused on learn_skills
+[CHANNEL] LinkedIn outreach + cold email to target job titles
+[WHY THIS] Meets users in their existing messaging workflow — no new app habit required for learn_skills
+[RETENTION] streaks via daily habit loop with streak/quest mechanics
+[MOAT] Distribution advantage via messaging_bot — hard to replicate channel
+[ASSET] Domain-specific ai_productivity data accumulated through professionals engagement
+[POSTURE] best_niche
+[WARNING] Bloodbath category — differentiation required to survive
+  #2 Score:0.249 Conv:5% [2-14%] | Price:$19 | Stability:100% | 3✓ 57✗ 0⚠ | Finance → Developers | Ai Llms
+     [WHO] developers in southeast_asia focused on learn_skills
+[CHANNEL] Developer communities: GitHub, HN, dev Discords, Twitter/X
+[WHY THIS] Meets users in their existing messaging workflow — no new app habit required for learn_skills
+[RETENTION] badges via reward accumulation and status signaling
+[MOAT] Distribution advantage via messaging_bot — hard to replicate channel
+[ASSET] Financial history + behavioral spending model per user
+[POSTURE] best_free
+  #3 Score:0.246 Conv:6% [3-10%] | Price:$29 | Stability:100% | 12✓ 202✗ 86⚠ | Dating → Professionals | Ai Llms
+     [WHO] professionals in us focused on express_creativity
+[CHANNEL] LinkedIn outreach + cold email to target job titles
+[WHY THIS] express_creativity with ai_llms as primary differentiator
+[RETENTION] rewards via reward accumulation and status signaling
+[MOAT] Distribution advantage via web_platform — hard to replicate channel
+[ASSET] Domain-specific dating data accumulated through professionals engagement
+[POSTURE] best_premium
+  #4 Score:0.222 Conv:1% [0-5%] | Price:$29 | Stability:100% | 1✓ 99✗ 0⚠ | Entertainment → Entrepreneurs | Ai Llms
+     [WHO] entrepreneurs in us focused on build_community
+[CHANNEL] Slack/Discord app directories + community demos
+[WHY THIS] Meets users in their existing messaging workflow — no new app habit required for build_community
+[RETENTION] leaderboards via ongoing value delivery through repeated use
+[MOAT] Distribution advantage via messaging_bot — hard to replicate channel
+[ASSET] Domain-specific entertainment data accumulated through entrepreneurs engagement
+[POSTURE] best_niche
+  #5 Score:0.218 Conv:0% [0-4%] | Price:$29 | Stability:100% | 0✓ 100✗ 0⚠ | Education → Creators | Iot
+     [WHO] creators in europe focused on build_community
+[CHANNEL] Creator communities: YouTube, TikTok, Instagram DMs + collabs
+[WHY THIS] Meets users in their existing messaging workflow — no new app habit required for build_community
+[RETENTION] rewards via personalized AI that gets smarter with usage (data flywheel)
+[MOAT] Proprietary user data corpus — competitors start from zero
+[ASSET] User-generated dataset compounds with each new user — training data moat
+[POSTURE] best_niche
+  #6 Score:0.209 Conv:3% [1-9%] | Price:$29 | Stability:100% | 2✓ 77✗ 21⚠ | Finance → Athletes | Ai Llms
+     [WHO] athletes in global focused on save_time
+[CHANNEL] Slack/Discord app directories + community demos
+[WHY THIS] Meets users in their existing messaging workflow — no new app habit required for save_time
+[RETENTION] reputation via reputation/level progression that can't be exported
+[MOAT] Historical biometric data creates personalization gap competitors can't close
+[ASSET] Financial history + behavioral spending model per user
+[POSTURE] best_niche
+  #7 Score:0.197 Conv:0% [0-19%] | Price:$29 | Stability:100% | 0✓ 16✗ 4⚠ | Ecommerce → Developers | Ai Llms
+     [WHO] developers in us focused on build_community
+[CHANNEL] Developer communities: GitHub, HN, dev Discords, Twitter/X
+[WHY THIS] Low-competition wedge: first mover advantage in narrow segment for build_community
+[RETENTION] badges via AI assistant improves with each session — switching means starting over
+[MOAT] Distribution advantage via messaging_bot — hard to replicate channel
+[ASSET] Domain-specific ecommerce data accumulated through developers engagement
+[POSTURE] best_free
+  #8 Score:0.179 Conv:0% [0-4%] | Price:$29 | Stability:0% | 0✓ 100✗ 0⚠ | Finance → Businesses | Computer Vision
+     [WHO] businesses in latin_america focused on improve_health
+[CHANNEL] LinkedIn outreach + cold email to target job titles
+[WHY THIS] Zero-install, in-context delivery — improve_health happens where the user already is
+[RETENTION] quests via daily habit loop with streak/quest mechanics
+[MOAT] B2B contract stickiness + admin/team onboarding investment
+[ASSET] Financial history + behavioral spending model per user
+[POSTURE] best_niche
+  #9 Score:0.157 Conv:0% [0-5%] | Price:$29 | Stability:100% | 0✓ 73✗ 27⚠ | Ecommerce → Professionals | Ai Llms
+     [WHO] professionals in global focused on entertainment
+[CHANNEL] LinkedIn outreach + cold email to target job titles
+[WHY THIS] entertainment with ai_llms as primary differentiator
+[RETENTION] rewards via reward accumulation and status signaling
+[MOAT] Distribution advantage via desktop_software — hard to replicate channel
+[ASSET] Domain-specific ecommerce data accumulated through professionals engagement
+[POSTURE] best_premium
+  #10 Score:0.137 Conv:0% [0-6%] | Price:$29 | Stability:100% | 0✓ 66✗ 34⚠ | Finance → Gamers | Ai Llms
+     [WHO] gamers in us focused on save_time
+[CHANNEL] browser_extension distribution + organic social
+[WHY THIS] Zero-install, in-context delivery — save_time happens where the user already is
+[RETENTION] rewards via reward accumulation and status signaling
+[MOAT] Browser real-estate + UX context switching cost (users won't uninstall if embedded in workflow)
+[ASSET] Financial history + behavioral spending model per user
+[POSTURE] best_niche

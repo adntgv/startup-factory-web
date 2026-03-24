@@ -1,0 +1,43 @@
+{
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "max_workers": 1,
+  "total_time_minutes": 1.3336981376012167,
+  "products": [
+    {
+      "product": "AsyncVideo Pro",
+      "actual_outcome": "success",
+      "simulated_score": 14.01,
+      "simulated_conversion": "66.7%",
+      "time_seconds": 23.936098098754883
+    },
+    {
+      "product": "ProseCheck AI",
+      "actual_outcome": "success",
+      "simulated_score": 0,
+      "simulated_conversion": "0.0%",
+      "time_seconds": 14.669872522354126
+    },
+    {
+      "product": "CreatorMail",
+      "actual_outcome": "success",
+      "simulated_score": 0,
+      "simulated_conversion": "0.0%",
+      "time_seconds": 11.875601053237915
+    },
+    {
+      "product": "CollabWave",
+      "actual_outcome": "failure",
+      "simulated_score": 0,
+      "simulated_conversion": "0.0%",
+      "time_seconds": 13.290552139282227
+    },
+    {
+      "product": "QuickWatch Premium",
+      "actual_outcome": "failure",
+      "simulated_score": 0,
+      "simulated_conversion": "0.0%",
+      "time_seconds": 16.249724626541138
+    }
+  ]
+}

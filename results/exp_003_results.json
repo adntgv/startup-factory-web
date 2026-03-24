@@ -1,0 +1,313 @@
+{
+  "config": {
+    "experiment_id": "exp_003",
+    "industry": "creator_economy",
+    "role": "podcast_hosts",
+    "workflow": "episode_outline_to_script",
+    "headline": "Turn 10-Minute Chats Into Polished Scripts in 5 Minutes",
+    "subheadline": "AI that listens to your raw recording, extracts key points, and writes a structured script instantly.",
+    "cta": "Start free trial",
+    "demo_type": "interactive",
+    "price": 79,
+    "pricing_model": "monthly",
+    "trial_type": "freemium",
+    "features": [
+      "Transcribe full episodes to text",
+      "Auto-generate structured episode outlines",
+      "Extract talking points and quotes",
+      "One-click export to Google Docs"
+    ],
+    "ad_copy": "Stop spending hours transcribing and outlining your episodes. Upload your audio, and get a polished script ready for your show notes or blog in minutes. Built specifically for podcasters who hate admin work.",
+    "target_keywords": [
+      "property listing writer",
+      "real estate AI",
+      "listing generator"
+    ],
+    "min_signups": 3,
+    "target_cpl": 10,
+    "reasoning": "The current YouTube experiment (9.69 score) proves high demand in the creator economy for workflow automation. Podcasting is a massive, high-growth sector with a pain point (transcription/outlining) identical to YouTube thumbnails but currently underserved by specialized tools. Moving to a 'freemium' trial lowers the barrier to entry compared to a paid trial, likely increasing conversion rate beyond the 15% target while maintaining a healthy price point of $79 for the pro tier. The 'time-save' headline directly addresses the high-pain workflow of content repurposing."
+  },
+  "research": {
+    "pain_intensity": "High: Podcast hosts face significant pressure to maintain consistent quality and release schedules. Converting a rough outline to a full script manually is time-consuming (often 2-4 hours per episode), leading to burnout and delayed releases. The friction of turning ideas into engaging, spoken-word content is a primary bottleneck for growth.",
+    "willingness_to_pay": "$29 - $99/month. Most podcasters operate on lean budgets; enterprise solutions are rare unless the host is a major brand. They prefer affordable tools that offer 'good enough' AI assistance rather than enterprise-grade perfection.",
+    "competition": [
+      "Descript (strong in editing/transcription, growing in AI scripting)",
+      "Otter.ai (focus on transcription, limited creative scripting)",
+      "Descript Overdub (voice cloning, not strictly outlining)",
+      "Fliki (text-to-video/audio, less focused on podcast scripts)",
+      "Generic LLM wrappers (custom GPTs or Copilot plugins used manually)"
+    ],
+    "demographics": "Independent creators and small-to-mid-sized media companies. Typically ages 25-45, tech-savvy but not necessarily developers. They value speed and ease-of-use over complex customization. Many are solo operators or run small teams of 1-5 people."
+  },
+  "metrics": {
+    "score": 9.33,
+    "conversion_rate": 0.263,
+    "conversions": 5,
+    "total_personas": 19,
+    "simulated_cpl": 6.4,
+    "intent_strength": 0.379,
+    "friction_score": 1.0,
+    "avg_impression": 6.8,
+    "avg_relevance": 7.9
+  },
+  "insights": [
+    "tech_enthusiast: 5/6 converted (83%)",
+    "busy_professional: 0/5 converted (0%)",
+    "skeptical_veteran: 0/6 converted (0%)",
+    "tire_kicker: 0/2 converted (0%)",
+    "Top friction: The feature set description focuses on \"Transcribe full episodes\" and \"Outlines,...",
+    "CPL: converted avg $2.00 vs failed $7.97",
+    "High relevance (7+) converts at 33% (5/15)"
+  ],
+  "results": [
+    {
+      "persona_name": "Alex Rivera",
+      "archetype": "tech_enthusiast",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.72,
+      "friction_points": [
+        "The feature set description focuses on \"Transcribe full episodes\" and \"Outlines,\" but it doesn't explicitly mention taking my raw Notion bullet points and \"fleshing them out\" into a full script. I need to know if it acts as an *expander* or just a *recorder*."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 10\nSKEPTICISM: \"It claims to 'transcribe' audio to get a script, but my workflow is writing bullet points in Notion first. This tool sounds like it's solving the wrong problem for me\u2014I need an AI to *expand* my rough notes into a spoken-word draft, not just transcribe an existing recording. Also, does it know my specific niche jargon like 'web3 monetization' or 'audience retention curves' without me retraining it?\"\nPRICING: $79 is right in my sweet spot. It's expensive enough to feel like a real business expense, but cheap enough that I can justify it as a direct ROI on saving 3 hours of Sunday burnout.\nFRICTION: The feature set description focuses on \"Transcribe full episodes\" and \"Outlines,\" but it doesn't explicitly mention taking my raw Notion bullet points and \"fleshing them out\" into a full script. I need to know if it acts as an *expander* or just a *recorder*.\nDECISION: NO\nREASONING: The core value prop is slightly misaligned with my specific workflow (I write outlines, not start with audio), and the landing page doesn't clearly answer my niche jargon concern or show a demo of the \"outline-to-spoken-word\" expansion speed I'm looking for.\nMONOLOGUE: \"This looks cool, but I'm not sure if it actually does what I need yet. I don't upload audio to get a script; I upload ideas from Notion to get a script. Until they show me a demo where I paste my rough bullets and get a 5-minute spoken-word draft back, I'm not taking the risk on this.\""
+    },
+    {
+      "persona_name": "Sarah Jenkins",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 7,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.0,
+      "intent_strength": 0.36,
+      "friction_points": [
+        "The price point combined with the lack of a specific \"voice retention\" guarantee is the main blocker. I don't want to pay a premium for a tool that might force me to rewrite the output later to sound like me."
+      ],
+      "full_response": "FIRST_IMPRESSION: 7/10\nRELEVANCE: 9/10\nSKEPTICISM: The promise to turn a \"chat\" into a \"polished script\" sounds dangerously simple. I worry the AI will flatten my conversational nuances and make my episodes sound like a generic blog post. I need to see an example of a generated script that retains my specific voice and humor before I trust this \"magic.\"\nPRICING: $79/month is out of my immediate budget range ($29-$49). It feels like a luxury I can't justify yet, even if the time savings are real. I'd rather stick to my current stack or find a cheaper alternative until I'm sure this is essential.\nFRICTION: The price point combined with the lack of a specific \"voice retention\" guarantee is the main blocker. I don't want to pay a premium for a tool that might force me to rewrite the output later to sound like me.\nDECISION: NO\nREASONING: While the workflow fit is excellent, the $79 price tag is a hard stop for a 2-5 person team right now. I would only consider this if they offered a tiered plan closer to my $49 budget or a clear demo showing how they handle unique voice preservation without manual editing.\nMONOLOGUE: \"This tool solves my biggest bottleneck\u2014turning rough notes into scripts\u2014but $79 is too steep when I'm trying to stretch every dollar before hiring that part-time producer I need. Unless they can show me a generated script that doesn't sound robotic or charge less, I'm sticking with my current workflow and Grammarly for now.\""
+    },
+    {
+      "persona_name": "Marcus Thorne",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 4,
+      "relevance_score": 7,
+      "cpl_equivalent": 6.75,
+      "intent_strength": 0.13,
+      "friction_points": [
+        "The pricing barrier combined with the lack of specific use-case proof (e.g., \"how does it handle my specific intro/outro templates?\") is enough to stop me from signing up today."
+      ],
+      "full_response": "FIRST_IMPRESSION: 4/10\nRELEVANCE: 7/10\nSKEPTICISM: The headline promises \"polished scripts\" in minutes, but my gut tells me this is just another LLM wrapper. I've seen these tools hallucinate facts before, and if the AI gets my interview facts wrong, I look incompetent on air. I need to see how it handles specific data points, not just generic fluff.\nPRICING: $79/month is a hard stop for me. That's nearly double my current budget and three times what I'm willing to pay. Unless it's a miracle tool that completely eliminates the need for my team, I won't justify this cost.\nFRICTION: The pricing barrier combined with the lack of specific use-case proof (e.g., \"how does it handle my specific intro/outro templates?\") is enough to stop me from signing up today.\nDECISION: NO\nREASONING: The price is out of my immediate budget range, and my high skepticism regarding AI accuracy for intellectual property prevents me from risking a free trial that might just be a toy rather than a production tool.\nMONOLOGUE: \"This looks like a flashy demo that will hallucinate my guest's name; I can't afford $79/month when my current Word workflow, while slow, guarantees my facts are right. I'll stick with Audacity and my team until I see a peer in my industry actually endorse this specific tool without any caveats.\""
+    },
+    {
+      "persona_name": "David Chen",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 4.8,
+      "intent_strength": 0.38,
+      "friction_points": [
+        "The pricing and the lack of clear evidence regarding \"industry-specific training data\" or Notion integration in the copy. I need a demo showing how it handles my specific workflow before I commit."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: \"Turn 10-minute chats into polished scripts\" sounds too generic. If it's just a basic LLM summarizing my rough notes, it will lack the industry-specific nuance my audience expects. I need to know if it understands my specific startup ecosystem jargon or if it's just hallucinating generic startup advice.\nPRICING: $79/month is over my budget ceiling of $59. Unless it integrates with Notion to replace the $15 I spend on Rev.com transcription, this feels like an unnecessary add-on rather than a consolidation tool.\nFRICTION: The pricing and the lack of clear evidence regarding \"industry-specific training data\" or Notion integration in the copy. I need a demo showing how it handles my specific workflow before I commit.\nDECISION: NO\nREASONING: The price is too high for a generic solution, and without a clear path to integrate into my existing Notion stack or proof of specialized training, the ROI isn't clear enough to justify the upgrade from my current Rev.com + manual editing workflow.\nMONOLOGUE: \"This solves the transcription pain, sure, but at $79 it's too expensive unless it replaces my Rev.com subscription. Also, the landing page doesn't mention Notion integration or industry-specific training, which are my two non-negotiables. I'm going to wait for a version that fits my budget and plugs directly into my workspace.\""
+    },
+    {
+      "persona_name": "Elena Rodriguez",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 8,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.63,
+      "friction_points": [
+        "The landing page is a bit generic and doesn't explicitly mention how it handles the specific problem of \"expanding raw guest notes into a cohesive narrative\" which is my biggest bottleneck; it focuses too much on transcription."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 10\nSKEPTICISM: The \"freemium\" model feels slightly risky for a tool that needs to understand my specific show's voice and guest dynamics; I need to see a demo or case study showing how well it handles my specific \"clunky flow\" issues before trusting it blindly.\nPRICING: $79 is right at the top of my comfort zone; it's a stretch compared to my usual $39-$69 budget, but since I'm ambitious and willing to pay for speed to scale, if the ROI is clear (saving 3 hours/episode), the extra $10 is an easy investment.\nFRICTION: The landing page is a bit generic and doesn't explicitly mention how it handles the specific problem of \"expanding raw guest notes into a cohesive narrative\" which is my biggest bottleneck; it focuses too much on transcription.\nDECISION: YES\nREASONING: My pain level is too high (9/10) to ignore a tool that promises to automate the exact manual expansion process I hate; I'm an early adopter and will take the $79 hit to test if it saves me hours, provided I can see a specific workflow demo.\nMONOLOGUE: \"Okay, I'm drowning in the release schedule right now, and manually rewriting these clunky guest notes is killing my momentum. Even if it's $79, which is a bit pricey, if this AI can actually turn those raw notes into a host-ready draft that flows naturally, I'll save so much time I can justify the cost immediately. Let me try the trial and see if it actually gets the tone right.\""
+    },
+    {
+      "persona_name": "Robert 'Rob' Miller",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 3,
+      "relevance_score": 4,
+      "cpl_equivalent": 10.88,
+      "intent_strength": 0.02,
+      "friction_points": [
+        "The promise to \"auto-generate structured episode outlines\" directly attacks my rigid, hand-crafted workflow. I don't want an AI guessing my structure; I want to build the architecture of the conversation myself before a single word is spoken."
+      ],
+      "full_response": "FIRST_IMPRESSION: 3\nRELEVANCE: 4\nSKEPTICISM: This sounds like a factory stamp on my legacy. \"Polished scripts\" implies smoothing out the rough edges where my human thought process and historical accuracy live. I'm terrified they will auto-correct my cadence or \"improve\" my phrasing into something generic and soulless. It feels like they are trying to digitize and sanitize the very craft I've spent 20 years perfecting.\nPRICING: $79 is a luxury I can't afford right now anyway, but honestly, even if it were free, I wouldn't touch it. At this price point, it feels like a subscription to a digital ghostwriter rather than a utility.\nFRICTION: The promise to \"auto-generate structured episode outlines\" directly attacks my rigid, hand-crafted workflow. I don't want an AI guessing my structure; I want to build the architecture of the conversation myself before a single word is spoken.\nDECISION: NO\nREASONING: The product promises to automate the very process of \"turning ideas into engaging, spoken-word content,\" which is exactly the manual, thoughtful friction I value. Using this would feel like cheating the craft of history storytelling.\nMONOLOGUE: \"They're selling me speed at the cost of authenticity. If I upload my audio and let an algorithm generate a script, who is responsible for the historical nuance? It's just a machine trying to sound like a human, which is exactly what I fear most about this industry right now.\""
+    },
+    {
+      "persona_name": "Priya Patel",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 7,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.2,
+      "intent_strength": 0.29,
+      "friction_points": [
+        "\"The pricing mismatch is the dealbreaker, compounded by the lack of a clear feature demo showing how it handles the specific 'middle ground' I need\u2014neither a raw outline nor a full novel, but a structured script.\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 7\nRELEVANCE: 9\nSKEPTICISM: \"This sounds a bit too convenient. If the AI just expands my outline without me guiding the tone, will it sound like a generic robot reading a press release? I need to know it understands the 'voice' of the show, not just the words.\"\nPRICING: \"The $79 price tag is a hard stop for me. My budget is strictly $29-$59, and while I understand 'value' includes saving 2 hours, I can't justify doubling my monthly software spend without seeing a guaranteed ROI or a lower entry tier. It feels like enterprise pricing for a solo creator.\"\nFRICTION: \"The pricing mismatch is the dealbreaker, compounded by the lack of a clear feature demo showing how it handles the specific 'middle ground' I need\u2014neither a raw outline nor a full novel, but a structured script.\"\nDECISION: NO\nREASONING: The $79/month cost immediately disqualifies this tool regardless of its potential efficiency, as it falls completely outside my allocated budget and feels disproportionate for a small team operation.\nMONOLOGUE: \"I love the idea of turning my rough chats into polished scripts, but $79 is just too steep for our current runway. Before I could even consider it, I'd need to see a free trial where I can test if the AI respects my specific voice and if there's a more affordable plan that fits our $50 cap.\""
+    },
+    {
+      "persona_name": "James Wilson",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 9,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.9,
+      "friction_points": [
+        "\"The pricing is the only real blocker, but the headline 'Turn 10-Minute Chats Into Polished Scripts' hits my pain point so hard that I'm willing to ignore the cost temporarily.\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 9\nRELEVANCE: 10\nSKEPTICISM: \"Is this just another generic LLM wrapper or a specialized engine? I need to see that 'AI voice optimization' mentioned in my triggers before I trust it, but the 'freemium' tag lowers my guard enough to check it out.\"\nPRICING: \"$79 is way over my $29-$49 sweet spot, but since it's 'freemium' I can test the viral hook features first. If the beta version is hype-worthy, I'll downgrade my budget or squeeze the savings out of my merch drop to afford it.\"\nFRICTION: \"The pricing is the only real blocker, but the headline 'Turn 10-Minute Chats Into Polished Scripts' hits my pain point so hard that I'm willing to ignore the cost temporarily.\"\nDECISION: YES\nREASONING: \"My pain level is maxed out and I'm desperate for that 'viral' edge; if the free trial lets me generate the script fast enough to save me 3 hours, I'll happily pay the $79 later or hunt for a discount code immediately.\"\nMONOLOGUE: \"Okay, this tool claims to fix the exact bottleneck killing my retention\u2014manual outlining. Even though $79 hurts my wallet, the 'freemium' model means I can test the 'shiny object' right now. If the output looks like it has built-in viral hooks and trending topic integration, I'm in; no more skipping scripts and getting low audio quality.\""
+    },
+    {
+      "persona_name": "Linda Gomez",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 7,
+      "relevance_score": 8,
+      "cpl_equivalent": 5.0,
+      "intent_strength": 0.24,
+      "friction_points": [
+        "There is no mention of data security, NDA capabilities, or enterprise compliance. As a risk-averse leader, deploying an unvetted AI tool without knowing where the data lives or if we can sign an NDA is a non-starter."
+      ],
+      "full_response": "FIRST_IMPRESSION: 7\nRELEVANCE: 8\nSKEPTICISM: The headline promises to \"turn chats into scripts,\" but my intern currently handles the heavy lifting of turning outlines into full scripts. I need assurance that the AI can match our specific corporate voice and editorial standards, not just transcribe audio. If it outputs generic fluff, it's useless for our show.\nPRICING: $79/month sits comfortably within my $49-$99 budget, which is a relief. However, the \"freemium\" model worries me; if the free tier is watered down to force upgrades, it might actually be a trap that wastes our time before we pay.\nFRICTION: There is no mention of data security, NDA capabilities, or enterprise compliance. As a risk-averse leader, deploying an unvetted AI tool without knowing where the data lives or if we can sign an NDA is a non-starter.\nDECISION: NO\nREASONING: While the price is right and the concept is relevant, the landing page lacks the security assurances and enterprise-grade guarantees I need before authorizing my team to use it.\nMONOLOGUE: \"This tool sounds like it could save our intern hours, but the lack of security info and NDA language is a major red flag for our compliance standards. I need to see a data privacy policy and the ability to sign an NDA before I'll even consider the trial.\""
+    },
+    {
+      "persona_name": "Tom Baker",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 4.8,
+      "intent_strength": 0.43,
+      "friction_points": [
+        "The price point is the hard stop; secondly, I need to see a demo of the \"rewriting\" capability to ensure it doesn't turn my raw, conversational interviews into dry, corporate prose."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: I'm wary of \"auto-generate\" claims; AI often hallucinates names or misses the nuanced tone of a specific interview. I need to know if the output is actually *engaging* or just a robotic summary, and if I can easily edit the hallucinations.\nPRICING: $79/month is immediately out of my sweet spot ($29-$59). Unless they offer a steep discount for annual billing or a pro plan, this feels like a premium tool for enterprise, not a lean solo creator like me.\nFRICTION: The price point is the hard stop; secondly, I need to see a demo of the \"rewriting\" capability to ensure it doesn't turn my raw, conversational interviews into dry, corporate prose.\nDECISION: NO\nREASONING: The cost exceeds my monthly budget, and without seeing a clear path to a lower tier or a free trial where I can verify the quality of the \"rewriting\" before committing, the risk feels too high for a solo operator.\nMONOLOGUE: \"Look, I know I'm busy and hate rewriting those raw transcripts, but $79 is just too steep when Descript already handles the heavy lifting for $15. I'll stick to my current workflow of using a cheaper tool for transcription and just manually curating the best parts until I find one that fits my wallet better.\""
+    },
+    {
+      "persona_name": "Grace Lee",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.2,
+      "intent_strength": 0.32,
+      "friction_points": [
+        "The promise of \"turning 10-minute chats into scripts\" implies I need to record audio first, but my main blocker is the *text* (outlining/writing), not the audio recording. I also don't see a specific \"Start Writing\" button for a blank page, which is my exact trigger."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: \"Is this going to sound like a robot reading a Wikipedia article? I need to sound like a friendly peer, not a corporate brochure. Also, 'freemium' usually means my good ideas get watermarked or limited until I pay, which is annoying for someone who just wants to start.\"\nPRICING: \"$79 is way over my $39 limit. It feels like a luxury I can't afford right now, even if it saves time. Maybe there's a hidden annual plan or a cheaper tier?\"\nFRICTION: The promise of \"turning 10-minute chats into scripts\" implies I need to record audio first, but my main blocker is the *text* (outlining/writing), not the audio recording. I also don't see a specific \"Start Writing\" button for a blank page, which is my exact trigger.\nDECISION: NO\nREASONING: The price is too high for a solo creator on a lean budget, and the feature set focuses on transcribing existing audio rather than helping me write the first draft from a blank screen, which is my specific anxiety.\nMONOLOGUE: \"This tool sounds great for editing old episodes, but I'm stuck at the very beginning with a blank page. If I spend $79/month on this, I'm scared it won't help me actually *start* the episode without the expensive add-ons. Plus, I really need that friendly, conversational tone, and AI usually defaults to being too formal unless I pay for the 'premium' voice tweaking.\""
+    },
+    {
+      "persona_name": "Kevin O'Brien",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 6,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.4,
+      "intent_strength": 0.19,
+      "friction_points": [
+        "\"The promise of '5 minutes' ignores the reality that my team isn't tech-savvy. If this requires complex setup or training, we aren't doing it. We need something that works in our browser immediately like our current Google Doc.\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 6\nRELEVANCE: 9\nSKEPTICISM: \"This sounds too magical. How does it know our specific topics without a heavy learning curve? If it hallucinates facts about our local council, that's bad PR.\"\nPRICING: \"$79 is a hard stop. My budget cap is $49. I'd have to justify this to my producer and maybe cut my Soundtrap subscription to afford it, which feels like a bad trade.\"\nFRICTION: \"The promise of '5 minutes' ignores the reality that my team isn't tech-savvy. If this requires complex setup or training, we aren't doing it. We need something that works in our browser immediately like our current Google Doc.\"\nDECISION: NO\nREASONING: The price is out of budget, and I'm worried the 'easy' promise will break down when my non-tech team tries to use it without a steep learning curve.\nMONOLOGUE: \"I need a tool that fits our $40 budget, not one that forces me to dip into other funds. If it's going to be an AI black box that my team can't figure out without a manual, we're back to the clunky Google Doc where at least we know how to use it.\""
+    },
+    {
+      "persona_name": "Sophie Martin",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 9,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.56,
+      "friction_points": [
+        "\"The landing page promises 'transcribing' and 'outlines,' but it doesn't explicitly mention converting my *visual* sketches into text yet. I need to know if it understands the non-linear nature of my creative process.\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 9\nRELEVANCE: 10\nSKEPTICISM: \"I know generic AI tools exist, but I need to see a demo where it actually captures my visual sketches or understands my specific 'Design Matters' tone before I fully trust it.\"\nPRICING: \"$79 is at the top of my budget, which makes me hesitate slightly, but given how much I'm currently paying for Descript and Adobe Audition separately, the all-in-one value might justify the jump.\"\nFRICTION: \"The landing page promises 'transcribing' and 'outlines,' but it doesn't explicitly mention converting my *visual* sketches into text yet. I need to know if it understands the non-linear nature of my creative process.\"\nDECISION: YES\nREASONING: \"The pain of spending 2-4 hours manually converting ideas to scripts is too high; even if I have to test it with a short clip first, saving that time is worth the $79/month trial.\"\nMONOLOGUE: \"Okay, I'm tired of fighting to type out the energy of my ideas; if this tool can actually turn my messy visual notes into a spoken-word script without forcing me into a rigid linear format, I'll sign up immediately and upload my latest rough draft to see if it gets the 'Design Matters' vibe right.\""
+    },
+    {
+      "persona_name": "Frank Russo",
+      "archetype": "tire_kicker",
+      "converted": false,
+      "impression_score": 4,
+      "relevance_score": 2,
+      "cpl_equivalent": 22.5,
+      "intent_strength": 0.01,
+      "friction_points": [
+        "The fact that I have to log in, upload files, and trust a stranger with my intellectual property. I also can't see the pricing for a \"free tier\" that doesn't require a credit card on file immediately."
+      ],
+      "full_response": "FIRST_IMPRESSION: 4\nRELEVANCE: 2\nSKEPTICISM: This \"upload audio and get a script\" magic trick sounds like a scam. I've seen software from the 90s crash harder than this AI promise. Why would a machine understand my voice better than my own pen? It feels like I'm outsourcing my craft to a robot that probably doesn't know what a \"guest segment\" is.\nPRICING: $79/month? That's more than I spend on coffee. I don't need to pay a subscription to write a few sentences. If it's free, maybe I'll look at it, but paying premium for something I think I can do with a $1 notebook is insulting.\nFRICTION: The fact that I have to log in, upload files, and trust a stranger with my intellectual property. I also can't see the pricing for a \"free tier\" that doesn't require a credit card on file immediately.\nDECISION: NO\nREASONING: You're asking me to abandon 18 years of muscle memory and a $5 pen for a $79/month bill that likely will produce generic garbage.\nMONOLOGUE: \"Frank, stop. You're a host, not a tech beta tester. If you can't write a script with a ballpoint pen and the template from 1998, you're not ready for an AI anyway. Plus, $79 is a no-brainer to say no to.\""
+    },
+    {
+      "persona_name": "Nina Kowalski",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.65,
+      "friction_points": [
+        "\"The landing page promises 'transcribing' and 'outlines,' but it doesn't explicitly mention real-time news aggregation or meme integration in the feature list. How do I know it knows about the 'doge wif' trend without me prompting it?\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: \"It says it generates structured outlines, but does it actually ingest live Twitter/X and Discord feeds to pull in the *latest* crypto slang and memes? If it just transcribes my audio, that's boring\u2014I need it to act like a hype-man, not a stenographer.\"\nPRICING: \"$79 is right in my sweet spot. It's not $200 enterprise bloat, and it's not a $19 scam. It feels like a solid investment for a solo host if it saves me 3 hours a week.\"\nFRICTION: \"The landing page promises 'transcribing' and 'outlines,' but it doesn't explicitly mention real-time news aggregation or meme integration in the feature list. How do I know it knows about the 'doge wif' trend without me prompting it?\"\nDECISION: YES\nREASONING: The promise of turning 10-minute chats into polished scripts in 5 minutes solves my context-switching pain immediately, and the price is perfect for a high-energy solo operator who needs to ship faster.\nMONOLOGUE: \"Okay, Nina, stop overthinking. You're burning out trying to juggle industry news while writing. If this tool actually automates the drafting so you can focus on the 'Crypto & Culture' edge, sign up. Just make sure the demo shows it understands the lingo before you commit.\""
+    },
+    {
+      "persona_name": "Bill Henderson",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 7,
+      "relevance_score": 6,
+      "cpl_equivalent": 6.5,
+      "intent_strength": 0.14,
+      "friction_points": [
+        "The pricing is the biggest blocker, but the underlying fear is that this tool will force me to \"cheat\" my audience by automating the writing process I've built my reputation on."
+      ],
+      "full_response": "FIRST_IMPRESSION: 7\nRELEVANCE: 6\nSKEPTICISM: \"Turn 10-minute chats into polished scripts in 5 minutes\" sounds too magical for someone who values human nuance. I'm worried this will sanitize my voice and make my show feel robotic. I need proof that the output still sounds like *me*, not a generic AI essay.\nPRICING: $79 is way over my comfort zone of $29-$59. While the features sound useful, I can't justify the cost without a clear ROI, especially when cheaper alternatives (like manually prompting an LLM) exist.\nFRICTION: The pricing is the biggest blocker, but the underlying fear is that this tool will force me to \"cheat\" my audience by automating the writing process I've built my reputation on.\nDECISION: NO\nREASONING: The price is too high for a solo operator on a lean budget, and I need to see a demo specifically addressing how it preserves my authentic voice before I consider it ethical.\nMONOLOGUE: \"I love the promise of saving time on admin, but $79 feels like a stretch for a small show, and I'm really struggling with the guilt of using AI to 'fix' my rough transcripts. If they can show me that it's acting as a co-pilot to refine my thoughts rather than rewriting them, maybe I'll reconsider, but right now I'm going to stick to my manual Google Docs workflow.\""
+    },
+    {
+      "persona_name": "Rachel Green",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 7,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.0,
+      "intent_strength": 0.32,
+      "friction_points": [
+        "\"I need to know if this actually preserves the 'empathetic, gentle tone' required for our brand, and I need to see it handle the 'rough idea' format, not just polished audio files.\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 7\nRELEVANCE: 9\nSKEPTICISM: \"It promises to turn 'rough ideas' into scripts, but my volunteers submit raw audio ideas, not full episodes. Will this AI understand the nuance of my team's specific, gentle tone? The demo looks generic, not tailored for our empathetic niche.\"\nPRICING: \"$79/month is a hard stop for me. My budget is capped at $49, and I can't justify spending $30 more without seeing a guaranteed ROI on time savings. It feels too expensive for a tool that might just mess up our voice.\"\nFRICTION: \"I need to know if this actually preserves the 'empathetic, gentle tone' required for our brand, and I need to see it handle the 'rough idea' format, not just polished audio files.\"\nDECISION: NO\nREASONING: The price is outside my budget, and the landing page doesn't clearly address how it handles the specific 'rough idea' input from volunteers versus full podcast episodes, increasing the risk of losing our unique voice.\nMONOLOGUE: \"I love the concept of getting my weekends back, but $79 is just too steep when I'm already cutting expenses for my team. Plus, I'm terrified that an AI will sanitize our rough, human ideas into something corporate and cold, which is exactly what our listeners hate. I need a tool that understands our specific vibe, not just a generic transcriber.\""
+    },
+    {
+      "persona_name": "Steve 'The Shark' Davis",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 8,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.9,
+      "friction_points": [
+        "\"Why do I need to upload audio first? Can't I just paste my rough notes and have it write the script instantly? I need the input/output speed to be immediate.\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 8/10\nRELEVANCE: 10/10\nSKEPTICISM: \"It sounds too easy, but honestly? I'm so desperate for results I'll take the risk. Just show me the magic button.\"\nPRICING: \"$79 is right in my sweet spot. I'm burning money on missed deadlines anyway; this is an investment to save my sanity, not an expense.\"\nFRICTION: \"Why do I need to upload audio first? Can't I just paste my rough notes and have it write the script instantly? I need the input/output speed to be immediate.\"\nDECISION: YES\nREASONING: The promise of turning a 10-minute chat into a polished script in 5 minutes directly solves my #1 bottleneck. I don't care about the tech stack; I care about getting the draft on the screen before my next deadline hits.\nMONOLOGUE: \"Okay, stop wasting my time with 'transcription' fluff. If I can just paste my outline and get a full script in minutes, I'm buying this. $79 is cheap compared to the stress of missing another release. Click it.\""
+    },
+    {
+      "persona_name": "Amanda Foster",
+      "archetype": "tire_kicker",
+      "converted": false,
+      "impression_score": 4,
+      "relevance_score": 2,
+      "cpl_equivalent": 22.5,
+      "intent_strength": 0.01,
+      "friction_points": [
+        "\"The requirement to create an account and upload my audio to a stranger's server feels like a huge security risk. I also don't see how 'outlining' helps when I write short, simple scripts from memory myself.\""
+      ],
+      "full_response": "FIRST_IMPRESSION: 4\nRELEVANCE: 2\nSKEPTICISM: \"It sounds like I'm about to download a virus or give away my voice to some corporate algorithm. Why do I need an 'app' when my voice recorder works perfectly fine? If it's just typing out what I already said, why can't I just do that on my laptop without signing up for a 'freemium' trap?\"\nPRICING: \"$79? That's nearly five times more than I'm used to spending on 'software.' At this price, I assume it wants my credit card info immediately. I don't understand the 'trial' concept; usually, trials are for expensive car rentals, not digital tools. It feels like a scam.\"\nFRICTION: \"The requirement to create an account and upload my audio to a stranger's server feels like a huge security risk. I also don't see how 'outlining' helps when I write short, simple scripts from memory myself.\"\nDECISION: NO\nREASONING: The price is way out of my budget, and the idea of using AI to write my show notes feels like over-engineering a simple task I already handle with my voice recorder. I need a tool that is literally one click and doesn't require reading a manual, not a subscription service.\nMONOLOGUE: \"This sounds like too much trouble for something I can just dictate into my phone. I don't have time to learn a new system, and $79 is way too much money for a podcast host who just wants to share Grandma's recipes without worrying about budgets.\""
+    }
+  ],
+  "report": "\n=== EXPERIMENT REPORT ===\n\nConfig:\n  Industry: creator_economy\n  Role: podcast_hosts\n  Workflow: episode_outline_to_script\n  Price: $79/month\n  Trial: freemium\n\nResults:\n  Score: 9.33\n  Conversion Rate: 26.3% (5/19)\n  Simulated CPL: $6.4\n  Intent Strength: 0.379\n  Friction Score: 1.0\n\nEngagement:\n  Avg Impression: 6.8/10\n  Avg Relevance: 7.9/10\n\nInsights:\n  \u2022 tech_enthusiast: 5/6 converted (83%)\n  \u2022 busy_professional: 0/5 converted (0%)\n  \u2022 skeptical_veteran: 0/6 converted (0%)\n  \u2022 tire_kicker: 0/2 converted (0%)\n  \u2022 Top friction: The feature set description focuses on \"Transcribe full episodes\" and \"Outlines,...\n  \u2022 CPL: converted avg $2.00 vs failed $7.97\n  \u2022 High relevance (7+) converts at 33% (5/15)\n\n\u2705 RECOMMENDATION: Worth testing with real ads ($50-100 budget)\n",
+  "timestamp": "2026-03-10T14:50:55.624064"
+}

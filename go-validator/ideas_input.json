@@ -1,0 +1,1802 @@
+[
+  {
+    "description": "Education for businesses | Learn Skills | Creator Platform via web platform | Saas License | Global market",
+    "coordinates": {
+      "category": "education",
+      "audience": "businesses",
+      "value_proposition": "learn_skills",
+      "interaction_model": "creator_platform",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "levels",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "global",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.6950000000000001
+  },
+  {
+    "description": "Education for entrepreneurs | Entertainment | Ai Assistant via browser extension | Transaction Fees | Global market",
+    "coordinates": {
+      "category": "education",
+      "audience": "entrepreneurs",
+      "value_proposition": "entertainment",
+      "interaction_model": "ai_assistant",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "transaction_fees",
+      "engagement_mechanics": "levels",
+      "network_structure": "one_to_many",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.65
+  },
+  {
+    "description": "Education for entrepreneurs | Express Creativity | Ai Assistant via messaging bot | In App Purchases | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "entrepreneurs",
+      "value_proposition": "express_creativity",
+      "interaction_model": "ai_assistant",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "badges",
+      "network_structure": "one_to_one",
+      "distribution": "messaging_bot",
+      "geography": "middle_east",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.645
+  },
+  {
+    "description": "Lifestyle for entrepreneurs | Save Time | Feed via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "lifestyle",
+      "audience": "entrepreneurs",
+      "value_proposition": "save_time",
+      "interaction_model": "feed",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.64
+  },
+  {
+    "description": "Entertainment for creators | Learn Skills | Ai Assistant via browser extension | Subscription | Middle East market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "creators",
+      "value_proposition": "learn_skills",
+      "interaction_model": "ai_assistant",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "quests",
+      "network_structure": "one_to_one",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.6200000000000001
+  },
+  {
+    "description": "Dating for creators | Express Creativity | Ai Assistant via web platform | Subscription | Europe market",
+    "coordinates": {
+      "category": "dating",
+      "audience": "creators",
+      "value_proposition": "express_creativity",
+      "interaction_model": "ai_assistant",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "one_to_many",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.605
+  },
+  {
+    "description": "Ai Productivity for professionals | Entertainment | Marketplace via messaging bot | Subscription | Us market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "professionals",
+      "value_proposition": "entertainment",
+      "interaction_model": "marketplace",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "one_to_many",
+      "distribution": "messaging_bot",
+      "geography": "us",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.605
+  },
+  {
+    "description": "Ecommerce for businesses | Save Time | Marketplace via web platform | Saas License | Middle East market",
+    "coordinates": {
+      "category": "ecommerce",
+      "audience": "businesses",
+      "value_proposition": "save_time",
+      "interaction_model": "marketplace",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "levels",
+      "network_structure": "creator_fan",
+      "distribution": "web_platform",
+      "geography": "middle_east",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.595
+  },
+  {
+    "description": "Social for professionals | Improve Health | Collaboration via messaging bot | Subscription | Global market",
+    "coordinates": {
+      "category": "social",
+      "audience": "professionals",
+      "value_proposition": "improve_health",
+      "interaction_model": "collaboration",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "peer_to_peer",
+      "distribution": "messaging_bot",
+      "geography": "global",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.585
+  },
+  {
+    "description": "Entertainment for entrepreneurs | Increase Productivity | Livestream via browser extension | Subscription | Europe market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "entrepreneurs",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "livestream",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "europe",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.585
+  },
+  {
+    "description": "Travel for professionals | Learn Skills | Ai Assistant via web platform | Saas License | Southeast Asia market",
+    "coordinates": {
+      "category": "travel",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "ai_assistant",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "streaks",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "southeast_asia",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.5800000000000001
+  },
+  {
+    "description": "Ecommerce for businesses | Improve Health | Livestream via browser extension | Subscription | India market",
+    "coordinates": {
+      "category": "ecommerce",
+      "audience": "businesses",
+      "value_proposition": "improve_health",
+      "interaction_model": "livestream",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "one_to_many",
+      "distribution": "browser_extension",
+      "geography": "india",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.5800000000000001
+  },
+  {
+    "description": "Education for professionals | Learn Skills | Collaboration via browser extension | Ads | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "collaboration",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "ads",
+      "engagement_mechanics": "badges",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.58
+  },
+  {
+    "description": "Finance for developers | Find Relationships | Multiplayer via browser extension | In App Purchases | Europe market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "developers",
+      "value_proposition": "find_relationships",
+      "interaction_model": "multiplayer",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "reputation",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "europe",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.58
+  },
+  {
+    "description": "Health Fitness for professionals | Learn Skills | Ai Assistant via browser extension | Subscription | Us market",
+    "coordinates": {
+      "category": "health_fitness",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "ai_assistant",
+      "content_format": "text",
+      "technology": "iot",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.5700000000000001
+  },
+  {
+    "description": "Education for professionals | Increase Productivity | Community Forum via messaging bot | Saas License | China market",
+    "coordinates": {
+      "category": "education",
+      "audience": "professionals",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "community_forum",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "quests",
+      "network_structure": "creator_fan",
+      "distribution": "messaging_bot",
+      "geography": "china",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.5650000000000001
+  },
+  {
+    "description": "Entertainment for professionals | Make Money | Ai Assistant via mobile app | Subscription | Middle East market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "professionals",
+      "value_proposition": "make_money",
+      "interaction_model": "ai_assistant",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "mobile_app",
+      "geography": "middle_east",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.565
+  },
+  {
+    "description": "Lifestyle for businesses | Build Community | Collaboration via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "lifestyle",
+      "audience": "businesses",
+      "value_proposition": "build_community",
+      "interaction_model": "collaboration",
+      "content_format": "short_video",
+      "technology": "iot",
+      "monetization": "subscription",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "one_to_one",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.56
+  },
+  {
+    "description": "Social for professionals | Build Community | Creator Platform via messaging bot | Subscription | Us market",
+    "coordinates": {
+      "category": "social",
+      "audience": "professionals",
+      "value_proposition": "build_community",
+      "interaction_model": "creator_platform",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "messaging_bot",
+      "geography": "us",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.56
+  },
+  {
+    "description": "Lifestyle for businesses | Find Relationships | Marketplace via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "lifestyle",
+      "audience": "businesses",
+      "value_proposition": "find_relationships",
+      "interaction_model": "marketplace",
+      "content_format": "livestream",
+      "technology": "computer_vision",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.56
+  },
+  {
+    "description": "Finance for businesses | Improve Health | Community Forum via browser extension | Subscription | Middle East market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "businesses",
+      "value_proposition": "improve_health",
+      "interaction_model": "community_forum",
+      "content_format": "livestream",
+      "technology": "robotics",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.5550000000000002
+  },
+  {
+    "description": "Dating for businesses | Save Time | Chat via desktop software | Subscription | Us market",
+    "coordinates": {
+      "category": "dating",
+      "audience": "businesses",
+      "value_proposition": "save_time",
+      "interaction_model": "chat",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "creator_fan",
+      "distribution": "desktop_software",
+      "geography": "us",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.555
+  },
+  {
+    "description": "Dating for professionals | Improve Health | Creator Platform via browser extension | Subscription | India market",
+    "coordinates": {
+      "category": "dating",
+      "audience": "professionals",
+      "value_proposition": "improve_health",
+      "interaction_model": "creator_platform",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "many_to_many",
+      "distribution": "browser_extension",
+      "geography": "india",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.555
+  },
+  {
+    "description": "Travel for developers | Learn Skills | Multiplayer via browser extension | Subscription | Us market",
+    "coordinates": {
+      "category": "travel",
+      "audience": "developers",
+      "value_proposition": "learn_skills",
+      "interaction_model": "multiplayer",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "levels",
+      "network_structure": "one_to_many",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.555
+  },
+  {
+    "description": "Finance for creators | Entertainment | Ai Assistant via messaging bot | Transaction Fees | Global market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "creators",
+      "value_proposition": "entertainment",
+      "interaction_model": "ai_assistant",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "transaction_fees",
+      "engagement_mechanics": "streaks",
+      "network_structure": "one_to_one",
+      "distribution": "messaging_bot",
+      "geography": "global",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.55
+  },
+  {
+    "description": "Lifestyle for developers | Save Time | Ai Assistant via browser extension | In App Purchases | Southeast Asia market",
+    "coordinates": {
+      "category": "lifestyle",
+      "audience": "developers",
+      "value_proposition": "save_time",
+      "interaction_model": "ai_assistant",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "browser_extension",
+      "geography": "southeast_asia",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.5499999999999999
+  },
+  {
+    "description": "Finance for kids | Save Time | Collaboration via web platform | Saas License | Global market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "kids",
+      "value_proposition": "save_time",
+      "interaction_model": "collaboration",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "quests",
+      "network_structure": "many_to_many",
+      "distribution": "web_platform",
+      "geography": "global",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.545
+  },
+  {
+    "description": "Education for professionals | Entertainment | Chat via web platform | Ads | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "professionals",
+      "value_proposition": "entertainment",
+      "interaction_model": "chat",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "ads",
+      "engagement_mechanics": "quests",
+      "network_structure": "many_to_many",
+      "distribution": "web_platform",
+      "geography": "middle_east",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.54
+  },
+  {
+    "description": "Social for developers | Build Community | Community Forum via web platform | Subscription | Global market",
+    "coordinates": {
+      "category": "social",
+      "audience": "developers",
+      "value_proposition": "build_community",
+      "interaction_model": "community_forum",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "peer_to_peer",
+      "distribution": "web_platform",
+      "geography": "global",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.54
+  },
+  {
+    "description": "Ai Productivity for businesses | Learn Skills | Creator Platform via web platform | Subscription | Europe market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "businesses",
+      "value_proposition": "learn_skills",
+      "interaction_model": "creator_platform",
+      "content_format": "audio",
+      "technology": "wearables",
+      "monetization": "subscription",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.54
+  },
+  {
+    "description": "Food Delivery for developers | Express Creativity | Feed via web platform | Subscription | Global market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "developers",
+      "value_proposition": "express_creativity",
+      "interaction_model": "feed",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "global",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.54
+  },
+  {
+    "description": "Finance for entrepreneurs | Make Money | Marketplace via web platform | Saas License | Middle East market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "entrepreneurs",
+      "value_proposition": "make_money",
+      "interaction_model": "marketplace",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "quests",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "web_platform",
+      "geography": "middle_east",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.54
+  },
+  {
+    "description": "Food Delivery for businesses | Find Relationships | Marketplace via web platform | Subscription | India market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "businesses",
+      "value_proposition": "find_relationships",
+      "interaction_model": "marketplace",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "creator_fan",
+      "distribution": "web_platform",
+      "geography": "india",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.54
+  },
+  {
+    "description": "Ai Productivity for creators | Save Time | Community Forum via web platform | In App Purchases | Europe market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "creators",
+      "value_proposition": "save_time",
+      "interaction_model": "community_forum",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.5399999999999999
+  },
+  {
+    "description": "Lifestyle for professionals | Save Time | Collaboration via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "lifestyle",
+      "audience": "professionals",
+      "value_proposition": "save_time",
+      "interaction_model": "collaboration",
+      "content_format": "interactive_simulation",
+      "technology": "robotics",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.535
+  },
+  {
+    "description": "Health Fitness for gamers | Increase Productivity | Marketplace via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "health_fitness",
+      "audience": "gamers",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "marketplace",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.5349999999999999
+  },
+  {
+    "description": "Education for entrepreneurs | Increase Productivity | Multiplayer via browser extension | Ads | Europe market",
+    "coordinates": {
+      "category": "education",
+      "audience": "entrepreneurs",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "multiplayer",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "ads",
+      "engagement_mechanics": "reputation",
+      "network_structure": "many_to_many",
+      "distribution": "browser_extension",
+      "geography": "europe",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.5349999999999999
+  },
+  {
+    "description": "Finance for businesses | Find Relationships | Chat via browser extension | Creator Revenue Share | Global market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "businesses",
+      "value_proposition": "find_relationships",
+      "interaction_model": "chat",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "creator_revenue_share",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.53
+  },
+  {
+    "description": "Education for seniors | Find Relationships | Feed via browser extension | Saas License | Us market",
+    "coordinates": {
+      "category": "education",
+      "audience": "seniors",
+      "value_proposition": "find_relationships",
+      "interaction_model": "feed",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "streaks",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.53
+  },
+  {
+    "description": "Finance for professionals | Save Time | Livestream via desktop software | Subscription | Latin America market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "professionals",
+      "value_proposition": "save_time",
+      "interaction_model": "livestream",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "quests",
+      "network_structure": "peer_to_peer",
+      "distribution": "desktop_software",
+      "geography": "latin_america",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.53
+  },
+  {
+    "description": "Finance for creators | Find Relationships | Livestream via browser extension | Saas License | Latin America market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "creators",
+      "value_proposition": "find_relationships",
+      "interaction_model": "livestream",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "quests",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "latin_america",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.53
+  },
+  {
+    "description": "Entertainment for businesses | Build Community | Multiplayer via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "businesses",
+      "value_proposition": "build_community",
+      "interaction_model": "multiplayer",
+      "content_format": "images",
+      "technology": "robotics",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "one_to_one",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.53
+  },
+  {
+    "description": "Education for developers | Learn Skills | Creator Platform via browser extension | Subscription | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "developers",
+      "value_proposition": "learn_skills",
+      "interaction_model": "creator_platform",
+      "content_format": "audio",
+      "technology": "voice_interface",
+      "monetization": "subscription",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.525
+  },
+  {
+    "description": "Finance for developers | Learn Skills | Feed via mobile app | Subscription | Global market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "developers",
+      "value_proposition": "learn_skills",
+      "interaction_model": "feed",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "peer_to_peer",
+      "distribution": "mobile_app",
+      "geography": "global",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.525
+  },
+  {
+    "description": "Education for creators | Improve Health | Multiplayer via browser extension | Subscription | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "creators",
+      "value_proposition": "improve_health",
+      "interaction_model": "multiplayer",
+      "content_format": "text",
+      "technology": "iot",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.525
+  },
+  {
+    "description": "Social for businesses | Express Creativity | Ai Assistant via messaging bot | Saas License | Global market",
+    "coordinates": {
+      "category": "social",
+      "audience": "businesses",
+      "value_proposition": "express_creativity",
+      "interaction_model": "ai_assistant",
+      "content_format": "long_video",
+      "technology": "robotics",
+      "monetization": "saas_license",
+      "engagement_mechanics": "streaks",
+      "network_structure": "creator_fan",
+      "distribution": "messaging_bot",
+      "geography": "global",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.5249999999999999
+  },
+  {
+    "description": "Finance for creators | Make Money | Ai Assistant via browser extension | Marketplace Commission | China market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "creators",
+      "value_proposition": "make_money",
+      "interaction_model": "ai_assistant",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "marketplace_commission",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "one_to_one",
+      "distribution": "browser_extension",
+      "geography": "china",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.52
+  },
+  {
+    "description": "Education for entrepreneurs | Increase Productivity | Creator Platform via messaging bot | Ads | Global market",
+    "coordinates": {
+      "category": "education",
+      "audience": "entrepreneurs",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "creator_platform",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "ads",
+      "engagement_mechanics": "rewards",
+      "network_structure": "one_to_many",
+      "distribution": "messaging_bot",
+      "geography": "global",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.52
+  },
+  {
+    "description": "Food Delivery for professionals | Learn Skills | Ai Assistant via mobile app | Subscription | India market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "ai_assistant",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "levels",
+      "network_structure": "peer_to_peer",
+      "distribution": "mobile_app",
+      "geography": "india",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.515
+  },
+  {
+    "description": "Food Delivery for businesses | Improve Health | Chat via web platform | Saas License | Southeast Asia market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "businesses",
+      "value_proposition": "improve_health",
+      "interaction_model": "chat",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "levels",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "web_platform",
+      "geography": "southeast_asia",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.515
+  },
+  {
+    "description": "Social for professionals | Learn Skills | Collaboration via web platform | Subscription | Latin America market",
+    "coordinates": {
+      "category": "social",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "collaboration",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "quests",
+      "network_structure": "one_to_many",
+      "distribution": "web_platform",
+      "geography": "latin_america",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.515
+  },
+  {
+    "description": "Education for seniors | Increase Productivity | Livestream via messaging bot | Subscription | Us market",
+    "coordinates": {
+      "category": "education",
+      "audience": "seniors",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "livestream",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "peer_to_peer",
+      "distribution": "messaging_bot",
+      "geography": "us",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.515
+  },
+  {
+    "description": "Education for professionals | Learn Skills | Feed via browser extension | In App Purchases | Global market",
+    "coordinates": {
+      "category": "education",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "feed",
+      "content_format": "long_video",
+      "technology": "robotics",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "many_to_many",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.5149999999999999
+  },
+  {
+    "description": "Education for gamers | Build Community | Ai Assistant via desktop software | In App Purchases | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "gamers",
+      "value_proposition": "build_community",
+      "interaction_model": "ai_assistant",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "badges",
+      "network_structure": "creator_fan",
+      "distribution": "desktop_software",
+      "geography": "middle_east",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.51
+  },
+  {
+    "description": "Entertainment for investors | Increase Productivity | Multiplayer via browser extension | Subscription | Us market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "investors",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "multiplayer",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "many_to_many",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.5099999999999999
+  },
+  {
+    "description": "Entertainment for businesses | Find Relationships | Ai Assistant via web platform | Marketplace Commission | Europe market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "businesses",
+      "value_proposition": "find_relationships",
+      "interaction_model": "ai_assistant",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "marketplace_commission",
+      "engagement_mechanics": "streaks",
+      "network_structure": "peer_to_peer",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Ai Productivity for creators | Express Creativity | Chat via messaging bot | Subscription | Middle East market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "creators",
+      "value_proposition": "express_creativity",
+      "interaction_model": "chat",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "levels",
+      "network_structure": "creator_fan",
+      "distribution": "messaging_bot",
+      "geography": "middle_east",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Travel for developers | Improve Health | Collaboration via browser extension | In App Purchases | Us market",
+    "coordinates": {
+      "category": "travel",
+      "audience": "developers",
+      "value_proposition": "improve_health",
+      "interaction_model": "collaboration",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "one_to_many",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Entertainment for creators | Entertainment | Creator Platform via browser extension | In App Purchases | Us market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "creators",
+      "value_proposition": "entertainment",
+      "interaction_model": "creator_platform",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Food Delivery for parents | Find Relationships | Livestream via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "parents",
+      "value_proposition": "find_relationships",
+      "interaction_model": "livestream",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "one_to_one",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Health Fitness for gamers | Build Community | Livestream via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "health_fitness",
+      "audience": "gamers",
+      "value_proposition": "build_community",
+      "interaction_model": "livestream",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "one_to_many",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Ai Productivity for businesses | Increase Productivity | Livestream via browser extension | Marketplace Commission | Middle East market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "businesses",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "livestream",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "marketplace_commission",
+      "engagement_mechanics": "quests",
+      "network_structure": "one_to_many",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Lifestyle for professionals | Build Community | Marketplace via voice assistant | Subscription | Middle East market",
+    "coordinates": {
+      "category": "lifestyle",
+      "audience": "professionals",
+      "value_proposition": "build_community",
+      "interaction_model": "marketplace",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "many_to_many",
+      "distribution": "voice_assistant",
+      "geography": "middle_east",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.505
+  },
+  {
+    "description": "Ai Productivity for investors | Make Money | Ai Assistant via web platform | Subscription | China market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "investors",
+      "value_proposition": "make_money",
+      "interaction_model": "ai_assistant",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "china",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.5
+  },
+  {
+    "description": "Education for creators | Express Creativity | Livestream via browser extension | Saas License | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "creators",
+      "value_proposition": "express_creativity",
+      "interaction_model": "livestream",
+      "content_format": "livestream",
+      "technology": "wearables",
+      "monetization": "saas_license",
+      "engagement_mechanics": "quests",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.5
+  },
+  {
+    "description": "Finance for investors | Save Time | Chat via web platform | In App Purchases | Europe market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "investors",
+      "value_proposition": "save_time",
+      "interaction_model": "chat",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "reputation",
+      "network_structure": "one_to_many",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.495
+  },
+  {
+    "description": "Finance for businesses | Save Time | Community Forum via messaging bot | Marketplace Commission | Us market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "businesses",
+      "value_proposition": "save_time",
+      "interaction_model": "community_forum",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "marketplace_commission",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "one_to_many",
+      "distribution": "messaging_bot",
+      "geography": "us",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.4900000000000001
+  },
+  {
+    "description": "Ecommerce for businesses | Make Money | Livestream via web platform | In App Purchases | Europe market",
+    "coordinates": {
+      "category": "ecommerce",
+      "audience": "businesses",
+      "value_proposition": "make_money",
+      "interaction_model": "livestream",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "quests",
+      "network_structure": "creator_fan",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.49
+  },
+  {
+    "description": "Education for professionals | Learn Skills | Feed via web platform | Saas License | Us market",
+    "coordinates": {
+      "category": "education",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "feed",
+      "content_format": "short_video",
+      "technology": "computer_vision",
+      "monetization": "saas_license",
+      "engagement_mechanics": "badges",
+      "network_structure": "creator_fan",
+      "distribution": "web_platform",
+      "geography": "us",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.48999999999999994
+  },
+  {
+    "description": "Ai Productivity for professionals | Improve Health | Multiplayer via web platform | Saas License | Us market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "professionals",
+      "value_proposition": "improve_health",
+      "interaction_model": "multiplayer",
+      "content_format": "interactive_simulation",
+      "technology": "computer_vision",
+      "monetization": "saas_license",
+      "engagement_mechanics": "rewards",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "web_platform",
+      "geography": "us",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.48999999999999994
+  },
+  {
+    "description": "Entertainment for seniors | Increase Productivity | Livestream via browser extension | Saas License | Us market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "seniors",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "livestream",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "quests",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.48500000000000004
+  },
+  {
+    "description": "Travel for developers | Increase Productivity | Livestream via browser extension | Saas License | India market",
+    "coordinates": {
+      "category": "travel",
+      "audience": "developers",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "livestream",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "badges",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "india",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.48500000000000004
+  },
+  {
+    "description": "Entertainment for developers | Increase Productivity | Marketplace via browser extension | Creator Revenue Share | Global market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "developers",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "marketplace",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "creator_revenue_share",
+      "engagement_mechanics": "levels",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.48500000000000004
+  },
+  {
+    "description": "Finance for investors | Learn Skills | Collaboration via messaging bot | Saas License | Global market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "investors",
+      "value_proposition": "learn_skills",
+      "interaction_model": "collaboration",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "reputation",
+      "network_structure": "peer_to_peer",
+      "distribution": "messaging_bot",
+      "geography": "global",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.485
+  },
+  {
+    "description": "Health Fitness for professionals | Make Money | Community Forum via messaging bot | Subscription | India market",
+    "coordinates": {
+      "category": "health_fitness",
+      "audience": "professionals",
+      "value_proposition": "make_money",
+      "interaction_model": "community_forum",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "peer_to_peer",
+      "distribution": "messaging_bot",
+      "geography": "india",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.485
+  },
+  {
+    "description": "Education for professionals | Learn Skills | Multiplayer via messaging bot | Subscription | Us market",
+    "coordinates": {
+      "category": "education",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "multiplayer",
+      "content_format": "long_video",
+      "technology": "voice_interface",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "many_to_many",
+      "distribution": "messaging_bot",
+      "geography": "us",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.485
+  },
+  {
+    "description": "Entertainment for entrepreneurs | Learn Skills | Multiplayer via messaging bot | Subscription | Us market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "entrepreneurs",
+      "value_proposition": "learn_skills",
+      "interaction_model": "multiplayer",
+      "content_format": "short_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "one_to_one",
+      "distribution": "messaging_bot",
+      "geography": "us",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.485
+  },
+  {
+    "description": "Finance for creators | Save Time | Chat via desktop software | In App Purchases | Europe market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "creators",
+      "value_proposition": "save_time",
+      "interaction_model": "chat",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "rewards",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "desktop_software",
+      "geography": "europe",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Dating for professionals | Make Money | Chat via browser extension | Subscription | Europe market",
+    "coordinates": {
+      "category": "dating",
+      "audience": "professionals",
+      "value_proposition": "make_money",
+      "interaction_model": "chat",
+      "content_format": "short_video",
+      "technology": "iot",
+      "monetization": "subscription",
+      "engagement_mechanics": "streaks",
+      "network_structure": "many_to_many",
+      "distribution": "browser_extension",
+      "geography": "europe",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Finance for businesses | Build Community | Collaboration via browser extension | Saas License | China market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "businesses",
+      "value_proposition": "build_community",
+      "interaction_model": "collaboration",
+      "content_format": "audio",
+      "technology": "voice_interface",
+      "monetization": "saas_license",
+      "engagement_mechanics": "levels",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "china",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Education for students | Improve Health | Collaboration via browser extension | Subscription | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "students",
+      "value_proposition": "improve_health",
+      "interaction_model": "collaboration",
+      "content_format": "audio",
+      "technology": "computer_vision",
+      "monetization": "subscription",
+      "engagement_mechanics": "quests",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "browser_extension",
+      "geography": "middle_east",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Health Fitness for professionals | Learn Skills | Feed via browser extension | Subscription | Us market",
+    "coordinates": {
+      "category": "health_fitness",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "feed",
+      "content_format": "interactive_simulation",
+      "technology": "computer_vision",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "one_to_one",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Travel for athletes | Entertainment | Feed via browser extension | Subscription | Us market",
+    "coordinates": {
+      "category": "travel",
+      "audience": "athletes",
+      "value_proposition": "entertainment",
+      "interaction_model": "feed",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "streaks",
+      "network_structure": "one_to_many",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Finance for professionals | Increase Productivity | Feed via voice assistant | Subscription | Global market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "professionals",
+      "value_proposition": "increase_productivity",
+      "interaction_model": "feed",
+      "content_format": "images",
+      "technology": "robotics",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "peer_to_peer",
+      "distribution": "voice_assistant",
+      "geography": "global",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Food Delivery for businesses | Learn Skills | Livestream via browser extension | Saas License | Us market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "businesses",
+      "value_proposition": "learn_skills",
+      "interaction_model": "livestream",
+      "content_format": "images",
+      "technology": "iot",
+      "monetization": "saas_license",
+      "engagement_mechanics": "badges",
+      "network_structure": "many_to_many",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Entertainment for entrepreneurs | Make Money | Marketplace via browser extension | Subscription | China market",
+    "coordinates": {
+      "category": "entertainment",
+      "audience": "entrepreneurs",
+      "value_proposition": "make_money",
+      "interaction_model": "marketplace",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "one_to_one",
+      "distribution": "browser_extension",
+      "geography": "china",
+      "data_source": "sensors_wearables"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Food Delivery for parents | Improve Health | Marketplace via browser extension | Subscription | Us market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "parents",
+      "value_proposition": "improve_health",
+      "interaction_model": "marketplace",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "us",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Finance for businesses | Improve Health | Multiplayer via browser extension | Saas License | Southeast Asia market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "businesses",
+      "value_proposition": "improve_health",
+      "interaction_model": "multiplayer",
+      "content_format": "livestream",
+      "technology": "computer_vision",
+      "monetization": "saas_license",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "southeast_asia",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Health Fitness for professionals | Make Money | Multiplayer via browser extension | Subscription | Europe market",
+    "coordinates": {
+      "category": "health_fitness",
+      "audience": "professionals",
+      "value_proposition": "make_money",
+      "interaction_model": "multiplayer",
+      "content_format": "text",
+      "technology": "wearables",
+      "monetization": "subscription",
+      "engagement_mechanics": "social_challenges",
+      "network_structure": "peer_to_peer",
+      "distribution": "browser_extension",
+      "geography": "europe",
+      "data_source": "gps_location"
+    },
+    "fit_score": 0.48
+  },
+  {
+    "description": "Education for seniors | Save Time | Collaboration via voice assistant | Saas License | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "seniors",
+      "value_proposition": "save_time",
+      "interaction_model": "collaboration",
+      "content_format": "images",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "rewards",
+      "network_structure": "peer_to_peer",
+      "distribution": "voice_assistant",
+      "geography": "middle_east",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.475
+  },
+  {
+    "description": "Ai Productivity for businesses | Find Relationships | Community Forum via desktop software | Saas License | Latin America market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "businesses",
+      "value_proposition": "find_relationships",
+      "interaction_model": "community_forum",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "badges",
+      "network_structure": "peer_to_peer",
+      "distribution": "desktop_software",
+      "geography": "latin_america",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.47
+  },
+  {
+    "description": "Dating for seniors | Save Time | Marketplace via web platform | Subscription | Europe market",
+    "coordinates": {
+      "category": "dating",
+      "audience": "seniors",
+      "value_proposition": "save_time",
+      "interaction_model": "marketplace",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.47
+  },
+  {
+    "description": "Ecommerce for businesses | Express Creativity | Creator Platform via web platform | Saas License | Global market",
+    "coordinates": {
+      "category": "ecommerce",
+      "audience": "businesses",
+      "value_proposition": "express_creativity",
+      "interaction_model": "creator_platform",
+      "content_format": "short_video",
+      "technology": "iot",
+      "monetization": "saas_license",
+      "engagement_mechanics": "reputation",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "global",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.465
+  },
+  {
+    "description": "Health Fitness for professionals | Learn Skills | Creator Platform via messaging bot | Subscription | Global market",
+    "coordinates": {
+      "category": "health_fitness",
+      "audience": "professionals",
+      "value_proposition": "learn_skills",
+      "interaction_model": "creator_platform",
+      "content_format": "audio",
+      "technology": "wearables",
+      "monetization": "subscription",
+      "engagement_mechanics": "rewards",
+      "network_structure": "two_sided_marketplace",
+      "distribution": "messaging_bot",
+      "geography": "global",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.46499999999999997
+  },
+  {
+    "description": "Education for seniors | Learn Skills | Creator Platform via web platform | In App Purchases | Europe market",
+    "coordinates": {
+      "category": "education",
+      "audience": "seniors",
+      "value_proposition": "learn_skills",
+      "interaction_model": "creator_platform",
+      "content_format": "long_video",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "rewards",
+      "network_structure": "creator_fan",
+      "distribution": "web_platform",
+      "geography": "europe",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.46499999999999997
+  },
+  {
+    "description": "Finance for creators | Find Relationships | Livestream via web platform | Creator Revenue Share | Us market",
+    "coordinates": {
+      "category": "finance",
+      "audience": "creators",
+      "value_proposition": "find_relationships",
+      "interaction_model": "livestream",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "creator_revenue_share",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "us",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.46499999999999997
+  },
+  {
+    "description": "Travel for entrepreneurs | Express Creativity | Multiplayer via web platform | Saas License | Middle East market",
+    "coordinates": {
+      "category": "travel",
+      "audience": "entrepreneurs",
+      "value_proposition": "express_creativity",
+      "interaction_model": "multiplayer",
+      "content_format": "audio",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "badges",
+      "network_structure": "one_to_many",
+      "distribution": "web_platform",
+      "geography": "middle_east",
+      "data_source": "external_apis"
+    },
+    "fit_score": 0.46499999999999997
+  },
+  {
+    "description": "Social for developers | Learn Skills | Multiplayer via messaging bot | Subscription | Middle East market",
+    "coordinates": {
+      "category": "social",
+      "audience": "developers",
+      "value_proposition": "learn_skills",
+      "interaction_model": "multiplayer",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "streaks",
+      "network_structure": "peer_to_peer",
+      "distribution": "messaging_bot",
+      "geography": "middle_east",
+      "data_source": "user_generated"
+    },
+    "fit_score": 0.4600000000000001
+  },
+  {
+    "description": "Food Delivery for entrepreneurs | Entertainment | Multiplayer via messaging bot | Saas License | Us market",
+    "coordinates": {
+      "category": "food_delivery",
+      "audience": "entrepreneurs",
+      "value_proposition": "entertainment",
+      "interaction_model": "multiplayer",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "saas_license",
+      "engagement_mechanics": "leaderboards",
+      "network_structure": "peer_to_peer",
+      "distribution": "messaging_bot",
+      "geography": "us",
+      "data_source": "ai_generated"
+    },
+    "fit_score": 0.4600000000000001
+  },
+  {
+    "description": "Ai Productivity for investors | Make Money | Creator Platform via web platform | In App Purchases | Global market",
+    "coordinates": {
+      "category": "ai_productivity",
+      "audience": "investors",
+      "value_proposition": "make_money",
+      "interaction_model": "creator_platform",
+      "content_format": "text",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "quests",
+      "network_structure": "one_to_one",
+      "distribution": "web_platform",
+      "geography": "global",
+      "data_source": "voice_input"
+    },
+    "fit_score": 0.46
+  }
+]

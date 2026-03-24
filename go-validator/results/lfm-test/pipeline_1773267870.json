@@ -1,0 +1,333 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "entertainment",
+          "content_format": "short_video",
+          "data_source": "ai_generated",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "social_challenges",
+          "geography": "india",
+          "interaction_model": "marketplace",
+          "monetization": "subscription",
+          "network_structure": "peer_to_peer",
+          "technology": "ai_llms",
+          "value_proposition": "express_creativity"
+        },
+        "fit_score": 0.555,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.3,
+          "market_size": 0.3,
+          "monetization_potential": 0.8,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Good monetization: subscription",
+        "description": "Entertainment for professionals | Express Creativity | Marketplace via browser_extension | Subscription | India market"
+      },
+      "landing_page": {
+        "headline": "Unleash Your Creative Spark at Work",
+        "subheadline": "AI-powered entertainment and creative tools designed for busy professionals. Transform your breaks into moments of inspiration—right from your browser.",
+        "price": "₹399",
+        "trial_type": "7-day free trial",
+        "cta": "Get Started Free",
+        "features": [
+          "AI-powered creative assistant for instant inspiration and content ideas",
+          "Curated entertainment library with productivity-boosting content",
+          "Seamless browser extension for distraction-free creativity sessions",
+          "Personalized recommendations based on your professional interests",
+          "Offline access to your favorite creative tools and content"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 2,
+      "idea": {
+        "coordinates": {
+          "audience": "students",
+          "category": "ai_productivity",
+          "content_format": "interactive_simulation",
+          "data_source": "voice_input",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "quests",
+          "geography": "africa",
+          "interaction_model": "ai_assistant",
+          "monetization": "saas_license",
+          "network_structure": "two_sided_marketplace",
+          "technology": "ai_llms",
+          "value_proposition": "learn_skills"
+        },
+        "fit_score": 0.515,
+        "fit_breakdown": {
+          "buildability": 1,
+          "competition_level": 0,
+          "market_size": 0.3,
+          "monetization_potential": 0.4,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Highly buildable: ai_llms + browser_extension",
+        "description": "Ai Productivity for students | Learn Skills | Ai Assistant via browser_extension | Saas License | Africa market"
+      },
+      "landing_page": {
+        "headline": "Your AI Study Partner for Academic Excellence",
+        "subheadline": "Boost your productivity, master new skills, and accelerate your learning with an intelligent browser extension built for African students",
+        "price": "9",
+        "trial_type": "7-day free trial",
+        "cta": "Get Started Free",
+        "features": [
+          "AI-powered study assistant available 24/7 to help with homework and research",
+          "Instant summarization of long articles, notes, and textbooks",
+          "Personalized skill learning and tutoring powered by advanced LLMs",
+          "Seamless browser integration - works where you study",
+          "Affordable SaaS license designed for the African student market"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 3,
+      "idea": {
+        "coordinates": {
+          "audience": "parents",
+          "category": "lifestyle",
+          "content_format": "images",
+          "data_source": "external_apis",
+          "distribution": "web_platform",
+          "engagement_mechanics": "levels",
+          "geography": "middle_east",
+          "interaction_model": "ai_assistant",
+          "monetization": "saas_license",
+          "network_structure": "two_sided_marketplace",
+          "technology": "ai_llms",
+          "value_proposition": "learn_skills"
+        },
+        "fit_score": 0.51,
+        "fit_breakdown": {
+          "buildability": 1,
+          "competition_level": 0.3,
+          "market_size": 0.2,
+          "monetization_potential": 0.4,
+          "unique_advantage": 0.3
+        },
+        "reasoning": "Highly buildable: ai_llms + web_platform",
+        "description": "Lifestyle for parents | Learn Skills | Ai Assistant via web_platform | Saas License | Middle East market"
+      },
+      "landing_page": {
+        "headline": "Master New Skills While Balancing Parenthood",
+        "subheadline": "Your personal AI assistant helps you learn lifestyle skills—from healthy cooking to fitness and mindfulness—designed for busy parents in the Middle East. Access everything via web platform with a monthly SaaS license.",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered personalized learning paths tailored to your schedule",
+          "Learn skills in Arabic and English with culturally relevant content",
+          "Track your progress and get adaptive recommendations from our AI LLM assistant",
+          "Exclusive community for Middle Eastern parents to share experiences",
+          "Cancel anytime—flexible monthly subscription with full access"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 4,
+      "idea": {
+        "coordinates": {
+          "audience": "parents",
+          "category": "ai_productivity",
+          "content_format": "livestream",
+          "data_source": "gps_location",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "leaderboards",
+          "geography": "europe",
+          "interaction_model": "multiplayer",
+          "monetization": "saas_license",
+          "network_structure": "two_sided_marketplace",
+          "technology": "ai_llms",
+          "value_proposition": "learn_skills"
+        },
+        "fit_score": 0.5,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0,
+          "market_size": 0.6,
+          "monetization_potential": 0.4,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Balanced fit across factors",
+        "description": "Ai Productivity for parents | Learn Skills | Multiplayer via browser_extension | Saas License | Europe market"
+      },
+      "landing_page": {
+        "headline": "AI Productivity for Parents | Learn Skills Together",
+        "subheadline": "Boost your productivity with AI-powered skill learning. Connect with other parents in multiplayer mode through our browser extension. Made for European families.",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Get Started Free",
+        "features": [
+          "AI-powered skill courses designed specifically for busy parents",
+          "Multiplayer mode - learn and grow with other parents in real-time",
+          "Seamless browser extension integration for productivity across all websites",
+          "GDPR-compliant platform built for the European market",
+          "Real-time AI assistance to help manage parenting challenges"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 5,
+      "idea": {
+        "coordinates": {
+          "audience": "creators",
+          "category": "finance",
+          "content_format": "short_video",
+          "data_source": "sensors_wearables",
+          "distribution": "mobile_app",
+          "engagement_mechanics": "quests",
+          "geography": "europe",
+          "interaction_model": "feed",
+          "monetization": "subscription",
+          "network_structure": "creator_fan",
+          "technology": "ai_llms",
+          "value_proposition": "find_relationships"
+        },
+        "fit_score": 0.5,
+        "fit_breakdown": {
+          "buildability": 0.4,
+          "competition_level": 0.3,
+          "market_size": 0.8999999999999999,
+          "monetization_potential": 0.5,
+          "unique_advantage": 0
+        },
+        "reasoning": "Strong market: creators in europe",
+        "description": "Finance for creators | Find Relationships | Feed via mobile_app | Subscription | Europe market"
+      },
+      "landing_page": {
+        "headline": "The Finance Platform Built for Europe's Creators",
+        "subheadline": "Manage your money, connect with fellow creators, and grow your wealth—all from your mobile app. AI-powered insights tailored to the creator economy.",
+        "price": "29",
+        "trial_type": "7-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered financial planning and tax optimization for creators",
+          "Connect with verified financial advisors and fellow creators in your industry",
+          "Real-time feed with personalized money tips, trends, and creator-specific insights",
+          "Multi-currency support across European markets with seamless banking integration",
+          "Automated income tracking and expense management for content creators"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    }
+  ],
+  "stats": {
+    "total_calls": 10,
+    "successful": 5,
+    "failed": 5,
+    "total_time_seconds": 60.592617647,
+    "throughput_calls_per_sec": 0.08251830328785202,
+    "phase_times": {
+      "analysis": 0.00000158,
+      "idea_generation": 0.002456329,
+      "landing_generation": 18.539715601,
+      "persona_generation": 42.05013771,
+      "scoring": 0.000007649,
+      "simulation": 0.000008014
+    }
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 10,
+      "successes": 5,
+      "failures": 5,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-12T03:24:30+05:00",
+  "config": {
+    "num_ideas": 5,
+    "num_personas": 10,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/lfm-test",
+    "providers": null,
+    "max_concurrent": 50,
+    "resume": false,
+    "verbose": true,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "llm-lfm"
+  }
+}

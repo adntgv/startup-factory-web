@@ -1,0 +1,11 @@
+cd go-validator && go run . \
+  -pinned-idea loadify_idea.json \
+  -max-concurrent 100 \
+  -sample-mode single_stage \
+  -pricing-mode grid \
+  -price-points "199,299,499,999" \
+  -funnel-stage warm \
+  -b2b-mode committee \
+  -personas 10 \
+  -output results/loadify \
+  -verbose

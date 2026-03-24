@@ -1,0 +1,179 @@
+{
+  "weights": {
+    "weights": {
+      "audience": {
+        "athletes": 0.07743055555555556,
+        "businesses": 0.14826388888888892,
+        "creators": 0.07743055555555556,
+        "developers": 0.07743055555555556,
+        "entrepreneurs": 0.07743055555555556,
+        "gamers": 0.07743055555555556,
+        "investors": 0.07743055555555556,
+        "kids": 0.07743055555555556,
+        "parents": 0.07743055555555556,
+        "professionals": 0.07743055555555556,
+        "seniors": 0.07743055555555556,
+        "students": 0.07743055555555556
+      },
+      "category": {
+        "ai_productivity": 0.07755102040816327,
+        "dating": 0.07755102040816327,
+        "ecommerce": 0.07755102040816327,
+        "education": 0.07755102040816327,
+        "entertainment": 0.07755102040816327,
+        "finance": 0.07755102040816327,
+        "food_delivery": 0.07755102040816327,
+        "gaming": 0.07755102040816327,
+        "health_fitness": 0.07755102040816327,
+        "lifestyle": 0.07755102040816327,
+        "social": 0.1469387755102041,
+        "travel": 0.07755102040816327
+      },
+      "content_format": {
+        "ar_vr": 0.10340136054421767,
+        "audio": 0.17278911564625848,
+        "games": 0.10340136054421767,
+        "images": 0.10340136054421767,
+        "interactive_simulation": 0.10340136054421767,
+        "livestream": 0.10340136054421767,
+        "long_video": 0.10340136054421767,
+        "short_video": 0.10340136054421767,
+        "text": 0.10340136054421767
+      },
+      "data_source": {
+        "ai_generated": 0.13550824175824175,
+        "camera_input": 0.05144230769230769,
+        "external_apis": 0.13550824175824175,
+        "financial_data": 0.13550824175824175,
+        "gps_location": 0.13550824175824175,
+        "sensors_wearables": 0.13550824175824175,
+        "user_generated": 0.13550824175824175,
+        "voice_input": 0.13550824175824175
+      },
+      "distribution": {
+        "browser_extension": 0.17278911564625848,
+        "car_infotainment": 0.10340136054421767,
+        "desktop_software": 0.10340136054421767,
+        "messaging_bot": 0.10340136054421767,
+        "mobile_app": 0.10340136054421767,
+        "smart_tv": 0.10340136054421767,
+        "smartwatch": 0.10340136054421767,
+        "voice_assistant": 0.10340136054421767,
+        "web_platform": 0.10340136054421767
+      },
+      "engagement_mechanics": {
+        "badges": 0.11632653061224489,
+        "leaderboards": 0.11632653061224489,
+        "levels": 0.11632653061224489,
+        "quests": 0.11632653061224489,
+        "reputation": 0.11632653061224489,
+        "rewards": 0.11632653061224489,
+        "social_challenges": 0.11632653061224489,
+        "streaks": 0.1857142857142857
+      },
+      "factor": {
+        "high": 0.3333333333333333,
+        "low": 0.3333333333333333,
+        "medium": 0.3333333333333333
+      },
+      "geography": {
+        "africa": 0.10340136054421767,
+        "china": 0.10340136054421767,
+        "europe": 0.10340136054421767,
+        "global": 0.17278911564625848,
+        "india": 0.10340136054421767,
+        "latin_america": 0.10340136054421767,
+        "middle_east": 0.10340136054421767,
+        "southeast_asia": 0.10340136054421767,
+        "us": 0.10340136054421767
+      },
+      "interaction_model": {
+        "ai_assistant": 0.10324074074074072,
+        "chat": 0.10324074074074072,
+        "collaboration": 0.10324074074074072,
+        "community_forum": 0.17407407407407405,
+        "creator_platform": 0.10324074074074072,
+        "feed": 0.10324074074074072,
+        "livestream": 0.10324074074074072,
+        "marketplace": 0.10324074074074072,
+        "multiplayer": 0.10324074074074072
+      },
+      "monetization": {
+        "ads": 0.11950431034482757,
+        "creator_revenue_share": 0.11950431034482757,
+        "digital_goods": 0.11950431034482757,
+        "in_app_purchases": 0.11950431034482757,
+        "marketplace_commission": 0.11950431034482757,
+        "saas_license": 0.11950431034482757,
+        "subscription": 0.16346982758620687,
+        "transaction_fees": 0.11950431034482757
+      },
+      "network_structure": {
+        "creator_fan": 0.15510204081632653,
+        "many_to_many": 0.22448979591836735,
+        "one_to_many": 0.15510204081632653,
+        "one_to_one": 0.15510204081632653,
+        "peer_to_peer": 0.15510204081632653,
+        "two_sided_marketplace": 0.15510204081632653
+      },
+      "technology": {
+        "ai_llms": 0.14753787878787877,
+        "ar_vr": 0.12178030303030303,
+        "blockchain": 0.12178030303030303,
+        "computer_vision": 0.12178030303030303,
+        "iot": 0.12178030303030303,
+        "robotics": 0.12178030303030303,
+        "voice_interface": 0.12178030303030303,
+        "wearables": 0.12178030303030303
+      },
+      "value_proposition": {
+        "build_community": 0.10324074074074072,
+        "entertainment": 0.10324074074074072,
+        "express_creativity": 0.10324074074074072,
+        "find_relationships": 0.10324074074074072,
+        "improve_health": 0.10324074074074072,
+        "increase_productivity": 0.10324074074074072,
+        "learn_skills": 0.10324074074074072,
+        "make_money": 0.10324074074074072,
+        "save_time": 0.17407407407407405
+      }
+    },
+    "epoch": 1
+  },
+  "learned_dimensions": {
+    "factor": {
+      "Name": "factor",
+      "Options": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  },
+  "dimension_order": [
+    "category",
+    "audience",
+    "value_proposition",
+    "interaction_model",
+    "content_format",
+    "technology",
+    "monetization",
+    "engagement_mechanics",
+    "network_structure",
+    "distribution",
+    "geography",
+    "data_source",
+    "factor"
+  ],
+  "epochs": [
+    {
+      "epoch": 1,
+      "ideas_tested": 10,
+      "avg_conversion": 0.16363636363636364,
+      "weight_deltas": null,
+      "new_dimensions": null,
+      "new_options": null,
+      "timestamp": "2026-03-12T02:14:44+05:00"
+    }
+  ]
+}

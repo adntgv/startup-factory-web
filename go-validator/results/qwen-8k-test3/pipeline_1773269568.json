@@ -1,0 +1,409 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "entrepreneurs",
+          "category": "finance",
+          "content_format": "short_video",
+          "data_source": "camera_input",
+          "distribution": "desktop_software",
+          "engagement_mechanics": "rewards",
+          "geography": "us",
+          "interaction_model": "chat",
+          "monetization": "subscription",
+          "network_structure": "peer_to_peer",
+          "technology": "ai_llms",
+          "value_proposition": "entertainment"
+        },
+        "fit_score": 0.5,
+        "fit_breakdown": {
+          "buildability": 0.4,
+          "competition_level": 0.3,
+          "market_size": 0.8999999999999999,
+          "monetization_potential": 0.5,
+          "unique_advantage": 0
+        },
+        "reasoning": "Strong market: entrepreneurs in us",
+        "description": "Finance for entrepreneurs | Entertainment | Chat via desktop_software | Subscription | Us market"
+      },
+      "landing_page": {
+        "headline": "Smart Finance, Smarter Conversations for Entrepreneurs",
+        "subheadline": "The AI-powered desktop companion that manages your business finances while keeping you entertained and connected—built for ambitious US entrepreneurs who demand more from their tools.",
+        "price": "29",
+        "trial_type": "7-day free trial",
+        "cta": "Start Free Trial",
+        "features": [
+          "AI-driven financial insights and cash flow predictions tailored to your business",
+          "Built-in chat interface for real-time financial advice and entertainment",
+          "Automated expense tracking and smart budgeting with natural language commands",
+          "Personalized market news and business trends delivered through conversational AI",
+          "Seamless desktop integration with notifications and voice-ready interactions"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 35,
+        "intent_strength": 3.5,
+        "friction_score": 5,
+        "avg_impression": 7,
+        "avg_relevance": 7,
+        "conversions": 0,
+        "rejections": 2,
+        "errors": 0,
+        "total_personas": 2,
+        "valid_personas": 2
+      },
+      "simulations": [
+        {
+          "persona_name": "Sarah Jenkins",
+          "archetype": "",
+          "impression_score": 7,
+          "relevance_score": 8,
+          "intent_strength": 4,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Subscription creep is literally one of my top struggles—I just realized I'm paying $49/month for stuff I barely use",
+            "Only 2.5 months savings runway means I should be cutting expenses, not adding new ones",
+            "14-day trial sounds good but I know I'll forget to try it within my 1.5 hours of free time",
+            "Never heard of this company—can I trust it with my financial data?",
+            "I just regretted a purchase last week, I'm not making that mistake again"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "The product actually solves my cash flow anxiety and tax dread, which are real struggles. But with only 2.5 months savings and my recent purchase regret, I can't justify another subscription right now—subscription creep is literally what I'm trying to fix. I'd need to cancel my old streaming service first ($15) and see if I can stick to the trial before committing. Probably will bookmark it and revisit when I'm not drowning in work.",
+          "cpl_equivalent": 35,
+          "budget_check": "stretch",
+          "priority_rank": 6,
+          "time_available": false,
+          "competing_with": "My existing Notion + manual spreadsheets workflow, and honestly my own exhaustion",
+          "decision_timeline": "next_month"
+        },
+        {
+          "persona_name": "Sarah Jenkins",
+          "archetype": "",
+          "impression_score": 7,
+          "relevance_score": 6,
+          "intent_strength": 3,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Just regretted a purchase last week - not ready to commit to another subscription",
+            "Overwhelmed already - adding another tool feels like more complexity",
+            "Never heard of this company - need to research trust/becurity first",
+            "I already have my own spreadsheet system for tracking expenses",
+            "1.5 hours free time isn't enough to learn a new system right now"
+          ],
+          "pricing_reaction": "affordable",
+          "reasoning": "The price is totally fine at $29 but I just made a purchase I regretted last week and I'm not ready to commit to another subscription right now. Also I'm totally overwhelmed and the last thing I need is another tool to figure out. I'll probably bookmark this and come back later when I'm not in crisis mode, but honestly I'll probably forget.",
+          "cpl_equivalent": 35,
+          "budget_check": "affordable",
+          "priority_rank": 4,
+          "time_available": false,
+          "competing_with": "my current spreadsheet system and Notion templates",
+          "decision_timeline": "next_month"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "education",
+          "content_format": "long_video",
+          "data_source": "sensors_wearables",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "streaks",
+          "geography": "us",
+          "interaction_model": "ai_assistant",
+          "monetization": "in_app_purchases",
+          "network_structure": "creator_fan",
+          "technology": "ai_llms",
+          "value_proposition": "increase_productivity"
+        },
+        "fit_score": 0.725,
+        "fit_breakdown": {
+          "buildability": 1,
+          "competition_level": 0.3,
+          "market_size": 1,
+          "monetization_potential": 0.3,
+          "unique_advantage": 0.7
+        },
+        "reasoning": "Highly buildable: ai_llms + browser_extension | Strong market: businesses in us | Unique advantage: ai_llms + education",
+        "description": "Education for businesses | Increase Productivity | Ai Assistant via browser_extension | In App Purchases | Us market"
+      },
+      "landing_page": {
+        "headline": "Transform Your Workforce with AI-Powered Business Education",
+        "subheadline": "Boost productivity 10x with our intelligent browser extension that delivers personalized learning, instant answers, and automated workflows directly in your workflow.",
+        "price": "0",
+        "trial_type": "free",
+        "cta": "Get Started Free",
+        "features": [
+          "AI Assistant integrated directly into your browser for instant answers and guidance",
+          "Personalized learning paths tailored to each employee's role and skill gaps",
+          "Real-time productivity tools including automated summarization and task automation",
+          "Seamless integration with 50+ business apps including Slack, Salesforce, and Microsoft 365",
+          "Analytics dashboard to track learning progress and productivity improvements"
+        ]
+      },
+      "metrics": {
+        "score": 9,
+        "conversion_rate": 0,
+        "simulated_cpl": 22,
+        "intent_strength": 4,
+        "friction_score": 5,
+        "avg_impression": 6,
+        "avg_relevance": 7,
+        "conversions": 0,
+        "rejections": 1,
+        "errors": 0,
+        "total_personas": 1,
+        "valid_personas": 1
+      },
+      "simulations": [
+        {
+          "persona_name": "Alex Rivera",
+          "archetype": "",
+          "impression_score": 6,
+          "relevance_score": 7,
+          "intent_strength": 4,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Already have Masterclass for learning - seems redundant",
+            "Too overwhelmed to learn a new tool right now",
+            "Never heard of this company - need to verify legitimacy",
+            "Adding another subscription feels like more complexity",
+            "I'll bookmark this for later when I have bandwidth"
+          ],
+          "pricing_reaction": "affordable",
+          "reasoning": "This actually addresses my real struggles (context switching, admin burnout), and $29 is no problem financially. But I'm already overwhelmed and have Masterclass sitting there half-used. I bookmarked it and told myself I'll revisit next month when things calm down - but honestly, I probably won't. Too many tabs, too little time.",
+          "cpl_equivalent": 22,
+          "budget_check": "affordable",
+          "priority_rank": 5,
+          "time_available": false,
+          "competing_with": "Masterclass subscription (similar use case), general fatigue and bandwidth",
+          "decision_timeline": "next_month"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "idea": {
+        "coordinates": {
+          "audience": "creators",
+          "category": "education",
+          "content_format": "long_video",
+          "data_source": "voice_input",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "creator_platform",
+          "monetization": "subscription",
+          "network_structure": "two_sided_marketplace",
+          "technology": "iot",
+          "value_proposition": "increase_productivity"
+        },
+        "fit_score": 0.5349999999999999,
+        "fit_breakdown": {
+          "buildability": 0.3,
+          "competition_level": 0,
+          "market_size": 1,
+          "monetization_potential": 0.5,
+          "unique_advantage": 0.7
+        },
+        "reasoning": "Strong market: creators in global | Unique advantage: iot + education",
+        "description": "Education for creators | Increase Productivity | Creator Platform via browser_extension | Subscription | Global market"
+      },
+      "landing_page": {
+        "headline": "Level Up Your Creative Workflow",
+        "subheadline": "The AI-powered browser extension that turns learning into doing—helping creators build skills and boost productivity in real-time",
+        "price": "19",
+        "trial_type": "14-day free trial",
+        "cta": "Start Creating Smarter",
+        "features": [
+          "Smart learning paths tailored to your creative niche",
+          "Distraction-blocking focus mode with productivity analytics",
+          "One-click access to curated educational resources while you browse",
+          "Cross-platform sync to continue learning anywhere"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 4,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "lifestyle",
+          "content_format": "short_video",
+          "data_source": "voice_input",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "levels",
+          "geography": "china",
+          "interaction_model": "feed",
+          "monetization": "saas_license",
+          "network_structure": "creator_fan",
+          "technology": "ai_llms",
+          "value_proposition": "find_relationships"
+        },
+        "fit_score": 0.53,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.3,
+          "market_size": 0.3,
+          "monetization_potential": 0.7,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Good monetization: saas_license",
+        "description": "Lifestyle for professionals | Find Relationships | Feed via browser_extension | Saas License | China market"
+      },
+      "landing_page": {
+        "headline": "专业精英的情感生活平台",
+        "subheadline": "AI智能匹配，浏览器插件即时推送，让繁忙的职场人士轻松找到理想伴侣",
+        "price": "199",
+        "trial_type": "free_trial",
+        "cta": "立即开始免费试用",
+        "features": [
+          "AI深度学习算法，根据职业、兴趣、生活方式精准匹配",
+          "浏览器扩展实时推送优质对象，不错过任何相遇机会",
+          "专属红娘团队提供1对1情感咨询服务",
+          "会员专属活动与高端社交派对",
+          "严格隐私保护，企业级数据安全保障"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 5,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "finance",
+          "content_format": "short_video",
+          "data_source": "financial_data",
+          "distribution": "web_platform",
+          "engagement_mechanics": "rewards",
+          "geography": "india",
+          "interaction_model": "ai_assistant",
+          "monetization": "saas_license",
+          "network_structure": "many_to_many",
+          "technology": "voice_interface",
+          "value_proposition": "make_money"
+        },
+        "fit_score": 0.5049999999999999,
+        "fit_breakdown": {
+          "buildability": 0.6,
+          "competition_level": 0,
+          "market_size": 0.6,
+          "monetization_potential": 0.7,
+          "unique_advantage": 0
+        },
+        "reasoning": "Good monetization: saas_license",
+        "description": "Finance for professionals | Make Money | Ai Assistant via web_platform | Saas License | India market"
+      },
+      "landing_page": {
+        "headline": "Voice-Powered Financial Assistant for Indian Professionals",
+        "subheadline": "Automate your finances, track investments, and maximize earnings with AI-driven insights tailored for doctors, lawyers, chartered accountants, and business owners.",
+        "price": "2,499",
+        "trial_type": "14-day free trial",
+        "cta": "Start Free Trial",
+        "features": [
+          "Voice-enabled financial queries in Hindi, English, and regional languages",
+          "Real-time investment tracking and portfolio analysis with AI recommendations",
+          "Automated tax optimization and compliance alerts for Indian tax laws",
+          "Secure document management and expense tracking with OCR technology",
+          "Dedicated priority support and personalized financial roadmap"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    }
+  ],
+  "stats": {
+    "total_calls": 13,
+    "successful": 10,
+    "failed": 3,
+    "total_time_seconds": 632.439643324,
+    "throughput_calls_per_sec": 0.01581178552856305,
+    "phase_times": {
+      "analysis": 28.896578122,
+      "idea_generation": 0.001297568,
+      "landing_generation": 12.400840942,
+      "persona_generation": 572.975340859,
+      "scoring": 0.00001991,
+      "simulation": 18.165328466
+    }
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 13,
+      "successes": 10,
+      "failures": 3,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-12T03:52:48+05:00",
+  "config": {
+    "num_ideas": 5,
+    "num_personas": 10,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/qwen-8k-test3",
+    "providers": null,
+    "max_concurrent": 50,
+    "resume": false,
+    "verbose": true,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "llm-lfm"
+  }
+}

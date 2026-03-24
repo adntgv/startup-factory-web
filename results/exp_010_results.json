@@ -1,0 +1,307 @@
+{
+  "config": {
+    "experiment_id": "exp_010",
+    "industry": "creator_economy",
+    "role": "podcast_hosts",
+    "workflow": "sponsorship_intake_and_fulfillment",
+    "headline": "Stop Chasing Manual Sponsorships: Get Filled Slots in 14 Days",
+    "subheadline": "Automated outreach, contract management, and revenue reporting for podcasters scaling from $1k to $10k MRR.",
+    "cta": "Start free trial",
+    "demo_type": "interactive",
+    "price": 79,
+    "pricing_model": "monthly",
+    "trial_type": "freemium",
+    "features": [
+      "AI-driven sponsor prospecting & auto-outreach",
+      "Smart contract generation & e-signature",
+      "Automated delivery & show note insertion",
+      "Revenue dashboard & tax-ready reports"
+    ],
+    "ad_copy": "Tired of spending 10+ hours/week on sponsorships? Our platform does the outreach, handles the contracts, and ensures delivery\u2014so you can focus on hosting. Start free today.",
+    "target_keywords": [
+      "property listing writer",
+      "real estate AI",
+      "listing generator"
+    ],
+    "min_signups": 3,
+    "target_cpl": 10,
+    "reasoning": "Podcast hosts are a high-value B2B/creator segment with a clear, expensive pain point: manual sponsorship management is a massive time sink that prevents growth. By shifting from 'thumbnail testing' (a vanity metric workflow) to 'sponsorship fulfillment' (a direct revenue workflow), we target a higher urgency. The pricing of $79 sits between the low-risk $49 and high-end $99, while 'freemium' lowers the barrier to entry for solo hosts, likely boosting the conversion rate above the 15% threshold seen in previous experiments. The headline focuses on time-saving and revenue speed, which resonates strongly with creator fatigue."
+  },
+  "research": {
+    "pain_intensity": "Medium",
+    "willingness_to_pay": "$29-79/month",
+    "competition": "Various SaaS tools",
+    "demographics": "Mixed company sizes"
+  },
+  "metrics": {
+    "score": 9.47,
+    "conversion_rate": 0.368,
+    "conversions": 7,
+    "total_personas": 19,
+    "simulated_cpl": 7.51,
+    "intent_strength": 0.308,
+    "friction_score": 1.0,
+    "avg_impression": 7.0,
+    "avg_relevance": 7.1
+  },
+  "insights": [
+    "tech_enthusiast: 6/6 converted (100%)",
+    "busy_professional: 1/4 converted (25%)",
+    "skeptical_veteran: 0/5 converted (0%)",
+    "tire_kicker: 0/4 converted (0%)",
+    "Top friction: The headline \"Start free today\" conflicts with the \"$79/month\" price tag mention...",
+    "CPL: converted avg $2.40 vs failed $10.49",
+    "High relevance (7+) converts at 54% (7/13)"
+  ],
+  "results": [
+    {
+      "persona_name": "Alex Rivera",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 9,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.72,
+      "friction_points": [
+        "The headline \"Start free today\" conflicts with the \"$79/month\" price tag mentioned elsewhere; I need to clarify if the trial is truly freemium or if I'm committing to $79 to see the core automation features."
+      ],
+      "full_response": "FIRST_IMPRESSION: 9\nRELEVANCE: 10\nSKEPTICISM: \"The promise of 'AI-driven prospecting' and 'auto-outreach' feels like magic, but given my history with Trello boards getting lost, I need to know if the 'smart' part actually understands my specific show's tone or if it's just spamming templates. I need to see that the integration with Notion isn't just a PDF upload, but a live sync.\"\nPRICING: \"$79 is right at the top of my budget, but honestly, saving 10 hours a week means I could bill for that time immediately. It's not 'too expensive' when the alternative is losing 5-10 hours of billable or creative time to admin chaos.\"\nFRICTION: The headline \"Start free today\" conflicts with the \"$79/month\" price tag mentioned elsewhere; I need to clarify if the trial is truly freemium or if I'm committing to $79 to see the core automation features.\nDECISION: YES\nREASONING: The pain of my current chaotic workflow is too high, and as a tech enthusiast who treats life as a beta test, I'm willing to pay for a tool that promises instant integration with Notion and automates the contract signing process I currently fear losing control over.\nMONOLOGUE: \"Okay, I'm drowning in Sheets and emails, and if this tool can plug straight into my Notion dashboard to handle the contracts so I don't have to hunt for my legal friend again, it's a no-brainer. I'm going to sign up for the trial to test if the 'auto-outreach' actually respects my brand voice before I worry about the monthly cost.\""
+    },
+    {
+      "persona_name": "Marcus Thorne",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 7,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.0,
+      "intent_strength": 0.27,
+      "friction_points": [
+        "The lack of specific information on how this tool integrates with HubSpot or exports to Excel. As a pragmatic leader, I can't commit to a new stack without seeing the API documentation or a demo of the integration."
+      ],
+      "full_response": "FIRST_IMPRESSION: 7/10\nRELEVANCE: 9/10\nSKEPTICISM: \"Get Filled Slots in 14 Days\" sounds like a magic bullet. How do they handle the messy integration with my existing HubSpot and Excel workflow? If this replaces my current system entirely, the data migration risk is too high for a mid-sized company where security is paramount.\nPRICING: $79/month is above my sweet spot of $45-60. I need to know if this price includes the setup fee or if it's just for the premium \"auto-outreach\" features that I might not use immediately.\nFRICTION: The lack of specific information on how this tool integrates with HubSpot or exports to Excel. As a pragmatic leader, I can't commit to a new stack without seeing the API documentation or a demo of the integration.\nDECISION: NO\nREASONING: The price is outside my comfortable budget, and the promise of \"auto-outreach\" without explicitly addressing integration complexity triggers my security concerns; I need to see a technical spec sheet before proceeding.\nMONOLOGUE: \"I'm tired of chasing payments, but jumping straight into a $79/month tool that claims to do everything feels risky. If they can't prove they'll plug into my current HubSpot setup seamlessly, the cost of data silos and security headaches will outweigh the time saved.\""
+    },
+    {
+      "persona_name": "Sarah Jenkins",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.2,
+      "intent_strength": 0.25,
+      "friction_points": [
+        "I don't see any information on implementation time or if my current tools (Gmail, QuickBooks) will integrate, and I'm worried the \"complexity\" will require training I can't give right now."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: The headline \"Get Filled Slots in 14 Days\" feels like a bold promise that might ignore the nuance of my specific niche; I need to see actual case studies of other podcasters, specifically those my size, before trusting the \"AI-driven\" part.\nPRICING: $79 is way over my comfortable $35-50 budget, which makes me worry either that the tool is overpriced for a solo founder or that the \"freemium\" tier is so limited it's useless for my needs.\nFRICTION: I don't see any information on implementation time or if my current tools (Gmail, QuickBooks) will integrate, and I'm worried the \"complexity\" will require training I can't give right now.\nDECISION: NO\nREASONING: The price jump to $79 is too steep for a first step without seeing a clear ROI or a lower-tier plan, and the lack of integration details with my existing stack makes me fear a steep learning curve.\nMONOLOGUE: \"This sounds like exactly what I need to stop chasing sponsors over coffee, but $79 is a hard no for a trial when I'm on a tight budget, and I need to see proof that this won't turn my simple Gmail workflow into a nightmare.\""
+    },
+    {
+      "persona_name": "David Chen",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 6,
+      "relevance_score": 3,
+      "cpl_equivalent": 7.0,
+      "intent_strength": 0.03,
+      "friction_points": [
+        "The lack of a visible security compliance badge (SOC2, GDPR) and the absence of a \"migration guide\" for my existing pen-and-paper workflow are immediate red flags."
+      ],
+      "full_response": "FIRST_IMPRESSION: 6/10\nRELEVANCE: 3/10\nSKEPTICISM: The headline promises \"filled slots in 14 days,\" which sounds like a sales pitch, not a tool. I am terrified of \"AI-driven\" outreach replacing my manual vetting process; I need to know exactly how you handle the contracts you generate, and I am deeply concerned that moving from my local SQL DB to a cloud-based platform could expose my financial data to a breach I haven't authorized.\nPRICING: $79 is way too steep for my $29-35 budget; at this price point, I'd expect a dedicated account manager, not just another SaaS tool with hidden fees.\nFRICTION: The lack of a visible security compliance badge (SOC2, GDPR) and the absence of a \"migration guide\" for my existing pen-and-paper workflow are immediate red flags.\nDECISION: NO\nREASONING: Even if it were free, the high skepticism regarding cloud security and the inability to integrate with my current manual workflow means I cannot justify the risk or the cost.\nMONOLOGUE: \"This 'magic button' approach feels dangerous; I spend 20 years building my current manual system because I know exactly where every data point lives, and I can't risk handing that over to an AI black box I can't audit.\""
+    },
+    {
+      "persona_name": "Elena Rodriguez",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 9,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.56,
+      "friction_points": [
+        "The headline \"Get Filled Slots in 14 Days\" feels like a sales promise rather than a feature; I need to see the specific deliverable status tracking mentioned in my trigger immediately, not just marketing fluff."
+      ],
+      "full_response": "FIRST_IMPRESSION: 9\nRELEVANCE: 10\nSKEPTICISM: \"Stop Chasing\" sounds a bit like magic, but I've seen AI tools that actually do the heavy lifting; I just need to see the dashboard where I can verify the 'smart contracts' aren't just generic templates before I trust it with my legal side.\nPRICING: $79 is slightly over my sweet spot of $55-70, but since it's freemium/trial-based, I can test it without committing to the full price yet, which lowers the risk significantly.\nFRICTION: The headline \"Get Filled Slots in 14 Days\" feels like a sales promise rather than a feature; I need to see the specific deliverable status tracking mentioned in my trigger immediately, not just marketing fluff.\nDECISION: YES\nREASONING: The promise of an all-in-one dashboard that replaces my messy Google Doc/Email chaos is exactly what I need, and the freemium model lets me bypass the upfront cost objection while I validate the efficiency gains.\nMONOLOGUE: \"Okay, this claims to handle outreach and contracts, which is exactly the bottleneck killing my week. Even if it's $5 over budget, if the interface is sleek like my current tools and it actually consolidates everything into one view, I'll sign up for the trial immediately to stop juggling five different apps.\""
+    },
+    {
+      "persona_name": "Robert 'Rob' Miller",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 6,
+      "relevance_score": 3,
+      "cpl_equivalent": 6.0,
+      "intent_strength": 0.07,
+      "friction_points": [
+        "The lack of visible enterprise security badges (SOC2), GDPR compliance statements, and specific Salesforce integration documentation creates a massive barrier to trust."
+      ],
+      "full_response": "FIRST_IMPRESSION: 6\nRELEVANCE: 3\nSKEPTICISM: The headline \"Get Filled Slots in 14 Days\" promises a sales outcome we don't control, which feels risky for an enterprise workflow. More importantly, the landing page highlights \"AI-driven prospecting\" but completely ignores our biggest friction point: it doesn't mention a single word about Salesforce integration or how data will sync with our existing Jira instance for deliverable tracking.\nPRICING: $79/month fits comfortably within our budget, but the \"freemium\" model feels cheap and potentially unstable for our compliance needs compared to a flat-rate enterprise plan.\nFRICTION: The lack of visible enterprise security badges (SOC2), GDPR compliance statements, and specific Salesforce integration documentation creates a massive barrier to trust.\nDECISION: NO\nREASONING: As an analytical Director of Partnerships, I cannot evaluate a tool that promises to solve our \"high friction\" problem without seeing how it integrates with Salesforce and Jira, nor can I proceed without seeing their SOC2/GDPR certifications first.\nMONOLOGUE: \"This looks like a nice marketing pitch for solopreneurs, but my team of three is already drowning in manual entry between Salesforce and Jira. If this tool doesn't have a native Salesforce connector and documented API docs for our security team to review before we even talk to sales, I'm not wasting my time with a trial.\""
+    },
+    {
+      "persona_name": "Jasmine Lee",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 5.0,
+      "intent_strength": 0.32,
+      "friction_points": [
+        "The landing page assumes I'm ready to pay for \"premium\" features immediately, but I haven't seen the specific ROI calculator or proof that the tool is actually easy to use for a non-tech person yet."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: \"Get Filled Slots in 14 Days\" sounds like a sales promise, not a guarantee. I need to see case studies from other solo hosts, not just feature lists about AI doing the heavy lifting.\nPRICING: $79 is a hard stop for me right now; it's 40% over my budget cap of $55, and without a clear \"solo operator\" discount, I'll assume this is built for agencies, not someone like me.\nFRICTION: The landing page assumes I'm ready to pay for \"premium\" features immediately, but I haven't seen the specific ROI calculator or proof that the tool is actually easy to use for a non-tech person yet.\nDECISION: NO\nREASONING: The price is too high for a solo operator with fluctuating revenue, and the aggressive \"14 days\" promise feels risky without seeing social proof from my specific demographic first.\nMONOLOGUE: \"This looks cool, but $79/month is a luxury I can't justify until I know it actually saves me more than 10 hours a week. I'm going to keep my Trello setup for now and only look at this again if they offer a tier for solopreneurs.\""
+    },
+    {
+      "persona_name": "Thomas Wright",
+      "archetype": "tire_kicker",
+      "converted": false,
+      "impression_score": 2,
+      "relevance_score": 4,
+      "cpl_equivalent": 22.5,
+      "intent_strength": 0.01,
+      "friction_points": [
+        "The promise of \"14 days\" to fill slots contradicts the reality of enterprise procurement cycles. Where is the SOC2 Type II compliance badge? Where is the whitepaper on data security? Without those, I cannot click a single button."
+      ],
+      "full_response": "FIRST_IMPRESSION: 2\nRELEVANCE: 4\nSKEPTICISM: This looks like a \"get rich quick\" scheme for startups. \"AI-driven\" and \"auto-outreach\" sound like magic to me, not engineering. I need to see an audit report from a Fortune 500 client, not a slick demo of a SaaS dashboard. If you're using Lotus Notes and Fax, you don't belong in a modern SaaS ecosystem; you belong in my world of on-premise stability.\nPRICING: $79 is immediately disqualifying. My CFO would kill me for approving a $948/year expense on an unproven tool when my legacy ERP handles this fine for $35. It's not just expensive; it signals low-quality software.\nFRICTION: The promise of \"14 days\" to fill slots contradicts the reality of enterprise procurement cycles. Where is the SOC2 Type II compliance badge? Where is the whitepaper on data security? Without those, I cannot click a single button.\nDECISION: NO\nREASONING: The risk of disrupting our stable, audited workflow with an unverified AI tool is too high, and the price is double my maximum budget with zero ROI proof from my peer group.\nMONOLOGUE: \"This looks like a toy for a solopreneur, not a serious solution for a VP of Marketing at a 50+ employee company. I need to see a case study from a company the size of ours where they actually integrated this with SAP without breaking anything, and the pricing needs to be in the low-$30s to even get a meeting with me.\""
+    },
+    {
+      "persona_name": "Priya Patel",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 9,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.64,
+      "friction_points": [
+        "I need to see that the contracts it generates are actually legally sound and that I can e-sign them directly from the dashboard so I don't have to juggle PDFs in my chaotic Gmail."
+      ],
+      "full_response": "FIRST_IMPRESSION: 9\nRELEVANCE: 10\nSKEPTICISM: The \"auto-outreach\" part sounds a bit like spam, but honestly, my inbox is already a mess, so I don't mind if the tool handles the boring email legwork. I just need to know it won't sound robotic.\nPRICING: $79 is right at the top of my budget, but since it's a trial and I'm saving 10+ hours a week (which is worth way more than $70), the math checks out.\nFRICTION: I need to see that the contracts it generates are actually legally sound and that I can e-sign them directly from the dashboard so I don't have to juggle PDFs in my chaotic Gmail.\nDECISION: YES\nREASONING: The promise to handle outreach and contracts hits every single one of my pain points instantly, and the price fits my budget if the ROI is real.\nMONOLOGUE: \"Okay, if this AI can actually find sponsors and handle the legal contracts without me touching Gmail for two weeks straight, it's a no-brainer trial. I just hope the 'auto-outreach' doesn't make me look like a bot to potential sponsors, but I'm willing to risk it to get my life back.\""
+    },
+    {
+      "persona_name": "Kevin O'Brien",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 7,
+      "relevance_score": 8,
+      "cpl_equivalent": 5.2,
+      "intent_strength": 0.19,
+      "friction_points": [
+        "The landing page talks about \"getting filled slots in 14 days\" which sounds like a sales guarantee, not a product capability. It doesn't show *how* the tool integrates with my current Excel sheet or physical binder; I fear I'll end up managing two systems instead of replacing my broken one."
+      ],
+      "full_response": "FIRST_IMPRESSION: 7\nRELEVANCE: 8\nSKEPTICISM: The promise of \"auto-outreach\" and \"smart contract generation\" sounds like black-magic AI that will either hallucinate bad pitches or generate legally risky terms. I need to see exactly how it handles a messy sponsor who wants a custom deliverable that doesn't fit a template, not just a generic \"fill the slot\" story.\nPRICING: $79/month is way over my $30-45 budget, but since the trial is free, I can try it to test the waters. However, if the \"free\" tier is too limited to handle our actual messy workflows, I'll be stuck between paying too much or paying nothing.\nFRICTION: The landing page talks about \"getting filled slots in 14 days\" which sounds like a sales guarantee, not a product capability. It doesn't show *how* the tool integrates with my current Excel sheet or physical binder; I fear I'll end up managing two systems instead of replacing my broken one.\nDECISION: NO\nREASONING: The \"free trial\" doesn't solve my immediate skepticism about whether the tool can handle the specific, messy edge cases of our current sponsor relationships without forcing me to abandon my existing workflow entirely.\nMONOLOGUE: \"I'm going to click the trial just to see if the demo is actually as slick as the copy claims, but I'm not going to sign up for the $79 plan yet. I need to see a live walkthrough where they try to handle that one sponsor who wants a weird, non-standard deliverable; if the tool just says 'out of scope' or tries to force a template, I'm out.\""
+    },
+    {
+      "persona_name": "Lisa Wong",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 9,
+      "relevance_score": 10,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.81,
+      "friction_points": [
+        "The fact that the headline promises \"filled slots in 14 days\" creates pressure; I need to see a specific workflow for how the \"smart contract generation\" handles my specific brand guidelines before I commit."
+      ],
+      "full_response": "FIRST_IMPRESSION: 9\nRELEVANCE: 10\nSKEPTICISM: Honestly, \"AI-driven\" and \"auto-outreach\" sounds like a magic wand, but given my low skepticism and tech background, I assume the AI is just a better email scheduler. My only worry is if the contracts are generic nonsense; I need to know they integrate with DocuSign so I don't have to chase signatures manually.\nPRICING: $79 is right on the edge of my comfort zone since my strict budget is $50-70, but my persona explicitly states I'm \"willing to pay a premium for a 'set it and forget it' solution.\" If this actually saves me 10+ hours a week, the ROI justifies the extra $10-20 over my usual Notion setup.\nFRICTION: The fact that the headline promises \"filled slots in 14 days\" creates pressure; I need to see a specific workflow for how the \"smart contract generation\" handles my specific brand guidelines before I commit.\nDECISION: YES\nREASONING: The promise of automating renewal reminders and contract handling directly kills my biggest pain point (forgetting payments), and as a fast-paced tech enthusiast, I'm willing to upgrade from my $50 budget to $79 if it means I can finally stop managing the backend and just host the show.\nMONOLOGUE: \"Okay, this looks exactly like the 'set it and forget it' tool I've been desperate for. Notion is great for notes, but terrible for chasing payments. If this AI can actually draft the contracts and send the renewal reminders automatically, the $79 is totally worth the peace of mind to stop worrying about cash flow.\""
+    },
+    {
+      "persona_name": "George Hamilton",
+      "archetype": "tire_kicker",
+      "converted": false,
+      "impression_score": 4,
+      "relevance_score": 2,
+      "cpl_equivalent": 22.5,
+      "intent_strength": 0.02,
+      "friction_points": [
+        "The friction is the loss of my existing manual workflow. I don't want to learn a new dashboard or worry about cloud security; I want to keep doing what I know works: picking up my phone and filing a physical contract."
+      ],
+      "full_response": "FIRST_IMPRESSION: 4\nRELEVANCE: 2\nSKEPTICISM: The concept of \"AI-driven prospecting\" and \"auto-outreach\" sounds like a black box. You can't trust a robot to handle contracts or negotiate terms; that requires human nuance and accountability. If the software glitches or sends the wrong email, who do I call? My gut tells me this is too high-tech for something I can manage with a pen and a phone.\nPRICING: $79/month is way over my budget of $29-35. To me, that price tag screams \"unproven risk.\" If the tool fails, I've wasted nearly $1,000 a year on something that might just be a gimmick. I need to know the ROI is guaranteed before I consider stretching my budget this much.\nFRICTION: The friction is the loss of my existing manual workflow. I don't want to learn a new dashboard or worry about cloud security; I want to keep doing what I know works: picking up my phone and filing a physical contract.\nDECISION: NO\nREASONING: The promise of automation directly conflicts with my preference for human oversight, and the price is too high to justify trying a tool I fundamentally distrust.\nMONOLOGUE: I'm not going to pay $79 a month to let some algorithm handle my sponsorships when I can just call the contacts myself and keep my contracts in the cabinet. This feels like a fancy, expensive way to lose control over my business."
+    },
+    {
+      "persona_name": "Rachel Green",
+      "archetype": "busy_professional",
+      "converted": true,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 4.8,
+      "intent_strength": 0.32,
+      "friction_points": [
+        "I don't see a clear \"How does this integrate with Asana?\" section. My biggest fear right now is that this is a siloed tool that will just add another tab I have to manage, rather than solving my \"single source of truth\" problem."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: \"Getting filled slots in 14 days\" sounds a bit aggressive for our niche. I need to see actual case studies or specific integrations with Asana/QuickBooks to know this isn't just another generic lead gen tool. The 'freemium' model is fine, but I worry the 'smart contract' feature is just a basic template unless they have real legal vetting.\nPRICING: $79/month is over my $45-60 sweet spot, but if the 'freemium' tier allows me to test the AI prospecting first, I might be willing to upgrade later. However, the headline implies immediate revenue, which suggests a premium price point, creating a slight disconnect.\nFRICTION: I don't see a clear \"How does this integrate with Asana?\" section. My biggest fear right now is that this is a siloed tool that will just add another tab I have to manage, rather than solving my \"single source of truth\" problem.\nDECISION: YES\nREASONING: The promise of automating outreach and contracts directly addresses my overwhelm, and since it's freemium, the risk of trying it is low enough to overcome the price hesitation.\nMONOLOGUE: \"I'm usually skeptical of '14 days' promises, but the fact that it handles contracts and outreach sounds like exactly the friction I'm drowning in. If the 'free' version lets me see how it connects with my current Asana workflow, I'll take the chance to finally stop juggling spreadsheets.\""
+    },
+    {
+      "persona_name": "James 'Jimmy' Carter",
+      "archetype": "skeptical_veteran",
+      "converted": false,
+      "impression_score": 6,
+      "relevance_score": 7,
+      "cpl_equivalent": 6.75,
+      "intent_strength": 0.08,
+      "friction_points": [
+        "The lack of a clear migration path or integration details with my existing legacy ERP and Outlook ecosystem. How do I get data *out* of this tool and back into my reports without breaking my current workflow?"
+      ],
+      "full_response": "FIRST_IMPRESSION: 6/10\nRELEVANCE: 7/10\nSKEPTICISM: The promise of \"filled slots in 14 days\" and \"AI-driven\" outreach feels like a classic SaaS overpromise. Given my team's resistance to change and my current fragmented workflow using SharePoint and Excel, I fear this will just be another shiny tool that creates more complexity rather than fixing the root process. I need to see a case study specifically from a company with legacy systems to believe this integrates without a massive migration headache.\nPRICING: $79/month is significantly over my approved budget of $35-50. To justify this to upper management, I'd need to prove a 3x-4x ROI immediately, but the ad doesn't offer that financial guarantee, it just offers a \"free trial\" which feels like a sales trap to a cautious buyer.\nFRICTION: The lack of a clear migration path or integration details with my existing legacy ERP and Outlook ecosystem. How do I get data *out* of this tool and back into my reports without breaking my current workflow?\nDECISION: NO\nREASONING: The price is too high for the risk of implementation friction, and I cannot sign off on a tool that threatens to disrupt my team's current (albeit messy) processes without a concrete ROI projection in the first 90 days.\nMONOLOGUE: \"This looks like a nice pitch deck, but where's the proof it works for a 25-person company stuck on legacy systems? If I spend $79/mo and my team rejects it because it complicates our Excel sheets, I'll be the one explaining to the CFO why the 'efficiency' failed.\""
+    },
+    {
+      "persona_name": "Nina Kowalski",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.5,
+      "friction_points": [
+        "The fear that the interface will be too rigid or \"corporate\" and kill my authentic hosting vibe. I also need reassurance that the contracts are editable so I can still add my specific legal clauses."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8/10 (It looks clean, modern, and distinctly \"tech-enabled\" rather than the dusty, corporate look I usually fear. The design feels like a tool for creators, not a legacy enterprise suite.)\n\nRELEVANCE: 9/10 (This hits my daily reality exactly. I spend half my day in Gmail trying to find the right contract file from last month and sending it via WeTransfer while chasing payments via text. The promise of \"auto-outreach\" and \"smart contracts\" directly attacks my messy workflow.)\n\nSKEPTICISM: \"Will this actually find sponsors, or is it just an expensive email sender? I need to see if the 'AI' is actually smart or just generic spam. Also, does the pricing jump after the trial?\"\n\nPRICING: $79 is slightly above my comfortable $75 ceiling, but since the ad says \"Start free today,\" I'll view the first month as an experimental cost of doing business to get my edge. It's not a hard no just for price.\n\nFRICTION: The fear that the interface will be too rigid or \"corporate\" and kill my authentic hosting vibe. I also need reassurance that the contracts are editable so I can still add my specific legal clauses.\n\nDECISION: YES\n\nREASONING: My pain level is too high (8/10) to ignore a solution that claims to automate the parts I hate most (contracts + chasing money). As an entrepreneur willing to experiment, I'll take the free trial to test if the \"creative vibe\" can coexist with the automation.\n\nMONOLOGUE: \"Okay, I'm drowning in emails and chasing money via text right now. If this tool can handle the boring stuff so I can focus on the actual hosting, it's worth the $79 risk. Let's sign up and see if it feels soulless or if it actually works.\""
+    },
+    {
+      "persona_name": "Paul Anderson",
+      "archetype": "tire_kicker",
+      "converted": false,
+      "impression_score": 3,
+      "relevance_score": 2,
+      "cpl_equivalent": 22.5,
+      "intent_strength": 0.01,
+      "friction_points": [
+        "The entire premise relies on replacing my rigid, manual approval chains with \"AI automation.\" My job is to control risk, and handing that over to a black-box AI tool is a liability I'm not signing up for."
+      ],
+      "full_response": "FIRST_IMPRESSION: 3\nRELEVANCE: 2\nSKEPTICISM: \"AI-driven prospecting\" and \"auto-outreach\" are code words for \"magic.\" In my 18 years of operations, if a system promises to handle contracts and delivery automatically without me touching it, it's either a scam or a toy. I need to see an actual fax machine integration or a PDF attachment workflow, not some \"smart\" AI guessing who to call. The claim of filling slots in 14 days sounds like marketing fluff, not an operational guarantee.\nPRICING: $79/month is a hard no. My budget is $29-35. Even if this worked, I can't justify double my budget for a \"revolutionary\" tool when our legacy system has served us fine for a decade. It feels like a waste of capital.\nFRICTION: The entire premise relies on replacing my rigid, manual approval chains with \"AI automation.\" My job is to control risk, and handing that over to a black-box AI tool is a liability I'm not signing up for.\nDECISION: NO\nREASONING: The tool promises to automate things I am specifically paid to manage manually, and the price is double my allocated budget for a product I don't trust.\nMONOLOGUE: \"I've got a rigid workflow that's worked for ten years; why would I let some 'AI' mess with my contracts and outreach? It sounds like a flashy distraction from real work, and $79 is way too much for a tool that doesn't even integrate with our fax system.\""
+    },
+    {
+      "persona_name": "Sophia Martinez",
+      "archetype": "tech_enthusiast",
+      "converted": true,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 2.0,
+      "intent_strength": 0.5,
+      "friction_points": [
+        "The landing page doesn't explicitly address my fear of losing creative freedom; it focuses so much on automation that I don't know how much control I retain over the actual conversation with sponsors."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: The promise to \"handle the contracts\" feels a bit heavy; I worry it will turn my community partnerships into a sterile, transactional process rather than the genuine relationships I build. I need to see that I can still inject my own voice into the outreach scripts.\nPRICING: It sits right at the top of my $60-80 budget ($79), which feels slightly risky, but the \"free trial\" removes the financial commitment barrier significantly.\nFRICTION: The landing page doesn't explicitly address my fear of losing creative freedom; it focuses so much on automation that I don't know how much control I retain over the actual conversation with sponsors.\nDECISION: YES\nREASONING: The \"Start free today\" hook is too strong to ignore given my low skepticism, and the promise of filling slots in 14 days directly targets my biggest bottleneck: engagement fatigue.\nMONOLOGUE: \"I'm tired of chasing sponsors manually, and even if the tool feels a bit rigid on the contract side, the fact that I can try it for free means there's zero risk. If I can automate the boring stuff without completely losing my community's soul, this is exactly what I need to scale.\""
+    },
+    {
+      "persona_name": "Brian Foster",
+      "archetype": "busy_professional",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 3,
+      "cpl_equivalent": 6.25,
+      "intent_strength": 0.07,
+      "friction_points": [
+        "The lack of integration details (how does it talk to my accounting software?) and the high entry price without a lower tier for small teams."
+      ],
+      "full_response": "FIRST_IMPRESSION: 8/10\nRELEVANCE: 3/10\nSKEPTICISM: \"Getting filled slots in 14 days\" sounds like a sales promise, not a technical guarantee. As a busy professional, I worry this tool will just become another 'nice to have' that adds noise to my workflow rather than fixing my actual problem of disconnected data between Google Docs and QuickBooks. I need to see how it integrates with my current stack before committing, and the landing page doesn't mention API access or Zapier support.\nPRICING: $79/month is well above my $30-45 comfort zone. Unless I can see a clear ROI where this saves me more than 10 hours a week *and* increases revenue by a specific percentage, I'm going to assume it's an unnecessary expense for my current stage.\nFRICTION: The lack of integration details (how does it talk to my accounting software?) and the high entry price without a lower tier for small teams.\nDECISION: NO\nREASONING: The tool feels like a heavy solution for a problem I haven't fully validated yet; I need to see a demo showing the Google Doc/QuickBooks integration and a pricing tier that starts closer to $40/month before I invest time or money.\nMONOLOGUE: \"I'm tired of chasing sponsorships, but paying $79 just to 'try it' feels like throwing good money after bad if it doesn't plug into my current workflow. Let me check if they have a 'growth' tier or a free integration demo first.\""
+    },
+    {
+      "persona_name": "Emily Chen",
+      "archetype": "tire_kicker",
+      "converted": false,
+      "impression_score": 8,
+      "relevance_score": 9,
+      "cpl_equivalent": 12.0,
+      "intent_strength": 0.49,
+      "friction_points": [
+        "The price is the main blocker, but I also need to see exactly what \"freemium\" means. Does the free version let me test the AI, or is it a demo-only trap where I can't actually use the tool until I pay?"
+      ],
+      "full_response": "FIRST_IMPRESSION: 8\nRELEVANCE: 9\nSKEPTICISM: \"Get Filled Slots in 14 Days\" sounds like a massive marketing promise. How do you guarantee that if the market is slow? I'm scared I'll sign up and get zero leads, wasting my time. Also, \"auto-outreach\" feels a bit spammy; will it damage my brand reputation if it's not perfect?\nPRICING: $79 is way out of my immediate budget (I'm looking at $29-35). That's nearly three times what I'm willing to spend monthly. Unless there's a hidden discount or a \"student\" plan, this is a hard no for now.\nFRICTION: The price is the main blocker, but I also need to see exactly what \"freemium\" means. Does the free version let me test the AI, or is it a demo-only trap where I can't actually use the tool until I pay?\nDECISION: NO\nREASONING: Even if the free trial is generous, I can't justify paying $79/month when my hard cap is ~$35. I need to find a cheaper alternative or wait for a discount; I won't risk overspending on a tool I haven't proven is essential yet.\nMONOLOGUE: \"This tool solves my headache, but the price tag is just too steep for a solo host. I'll stick to my free trials of Notion and Canva for now and keep hunting for a cheaper SaaS that fits my $30 budget.\""
+    }
+  ],
+  "report": "\n=== EXPERIMENT REPORT ===\n\nConfig:\n  Industry: creator_economy\n  Role: podcast_hosts\n  Workflow: sponsorship_intake_and_fulfillment\n  Price: $79/month\n  Trial: freemium\n\nResults:\n  Score: 9.47\n  Conversion Rate: 36.8% (7/19)\n  Simulated CPL: $7.51\n  Intent Strength: 0.308\n  Friction Score: 1.0\n\nEngagement:\n  Avg Impression: 7.0/10\n  Avg Relevance: 7.1/10\n\nInsights:\n  \u2022 tech_enthusiast: 6/6 converted (100%)\n  \u2022 busy_professional: 1/4 converted (25%)\n  \u2022 skeptical_veteran: 0/5 converted (0%)\n  \u2022 tire_kicker: 0/4 converted (0%)\n  \u2022 Top friction: The headline \"Start free today\" conflicts with the \"$79/month\" price tag mention...\n  \u2022 CPL: converted avg $2.40 vs failed $10.49\n  \u2022 High relevance (7+) converts at 54% (7/13)\n\n\u2705 RECOMMENDATION: Worth testing with real ads ($50-100 budget)\n",
+  "timestamp": "2026-03-10T15:10:52.431604"
+}

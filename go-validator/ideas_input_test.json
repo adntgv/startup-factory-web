@@ -1,0 +1,56 @@
+[
+  {
+    "description": "Social for developers | Build Community | Community Forum via web platform | Subscription | Global market",
+    "coordinates": {
+      "category": "social",
+      "audience": "developers",
+      "value_proposition": "build_community",
+      "interaction_model": "community_forum",
+      "content_format": "livestream",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "badges",
+      "network_structure": "peer_to_peer",
+      "distribution": "web_platform",
+      "geography": "global",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.54
+  },
+  {
+    "description": "Education for entrepreneurs | Express Creativity | Ai Assistant via messaging bot | In App Purchases | Middle East market",
+    "coordinates": {
+      "category": "education",
+      "audience": "entrepreneurs",
+      "value_proposition": "express_creativity",
+      "interaction_model": "ai_assistant",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "in_app_purchases",
+      "engagement_mechanics": "badges",
+      "network_structure": "one_to_one",
+      "distribution": "messaging_bot",
+      "geography": "middle_east",
+      "data_source": "camera_input"
+    },
+    "fit_score": 0.645
+  },
+  {
+    "description": "Lifestyle for entrepreneurs | Save Time | Feed via browser extension | Subscription | Global market",
+    "coordinates": {
+      "category": "lifestyle",
+      "audience": "entrepreneurs",
+      "value_proposition": "save_time",
+      "interaction_model": "feed",
+      "content_format": "interactive_simulation",
+      "technology": "ai_llms",
+      "monetization": "subscription",
+      "engagement_mechanics": "reputation",
+      "network_structure": "creator_fan",
+      "distribution": "browser_extension",
+      "geography": "global",
+      "data_source": "financial_data"
+    },
+    "fit_score": 0.64
+  }
+]

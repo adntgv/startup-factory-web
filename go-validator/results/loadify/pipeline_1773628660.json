@@ -1,0 +1,1797 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      },
+      "landing_page": {
+        "headline": "Ai Productivity Tool That Helps Businesses Save Time",
+        "subheadline": "AI-powered Ai Llms for businesses who need to Save Time",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Free Trial",
+        "features": [
+          "AI-powered Save Time automation",
+          "Built for Businesses",
+          "Works with your existing tools",
+          "Ai Assistant interface",
+          "Real-time analytics and insights"
+        ]
+      },
+      "metrics": {
+        "score": 1.9275548007246375,
+        "composite_score": 0.19275548007246374,
+        "conversion_rate": 0,
+        "conversion_ci_low": 0,
+        "conversion_ci_high": 0.20388926630434784,
+        "uncertainty_penalty": 0.04077785326086957,
+        "simulated_cpl": 29.133333333333333,
+        "intent_strength": 2.4,
+        "friction_score": 6.533333333333333,
+        "avg_impression": 3.7333333333333334,
+        "avg_relevance": 4.266666666666667,
+        "conversions": 0,
+        "rejections": 15,
+        "errors": 0,
+        "total_personas": 15,
+        "valid_personas": 15
+      },
+      "simulations": [
+        {
+          "persona_name": "Andrei Sokolov",
+          "persona": {
+            "name": "Andrei Sokolov",
+            "age": 38,
+            "role": "Director / Agency Owner",
+            "company_size": "smb",
+            "experience_years": 12,
+            "pain_level": 7,
+            "current_workflow": "Manages projects manually in spreadsheets and Notion, communicates with clients via WhatsApp and email, tracks time in a simple Google Sheets template, reviews deliverables through shared Google Drive folders",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 6,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Slack (free tier), Google Workspace (Basic), Trello (free), WhatsApp Business, Yandex Metrics, GetCourse for internal training",
+            "financial": {
+              "monthly_income": 14500,
+              "monthly_expenses": 11800,
+              "discretionary_budget": 400,
+              "current_subscriptions": [
+                {
+                  "name": "Google Workspace Basic",
+                  "monthly_cost": 72,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack (Free)",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Trello (Free)",
+                  "monthly_cost": 0,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Yandex Metrics",
+                  "monthly_cost": 0,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "GetCourse",
+                  "monthly_cost": 85,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Hosting/Server",
+                  "monthly_cost": 120,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 277,
+              "savings_months": 2.5,
+              "risk_tolerance": "minimal",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:15",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Too much manual tracking of client projects and invoices",
+                "Difficulty scaling without more administrative help",
+                "Constant firefighting and client hand-holding"
+              ],
+              "daily_routine": "Wakes early, checks urgent client messages on WhatsApp while having coffee, reviews project status in Trello/spreadsheets, morning team standup (15min), client calls throughout day, handles billing/finance in evenings,的最后工作到深夜处理行政事务",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Reads articles on VC.ru about productivity tools for small agencies, hears about new tools from peer agency owners in Telegram groups, occasionally sees software ads on Facebook/Instagram but rarely clicks",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Stabilize cash flow and reduce expenses",
+                "Retain existing clients",
+                "Find affordable way to automate invoicing and reporting"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 6,
+          "relevance_score": 5,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$2000/month is nearly our entire profit margin ($2700)",
+            "Only 2.5 months cash runway - too risky to commit",
+            "Just made a bad purchase decision, need to rebuild trust",
+            "Landing page is vague - no specific ROI or case studies",
+            "No time to properly evaluate or implement another tool",
+            "Already overwhelmed with 16+ hour workdays",
+            "Generic AI claims without concrete automation examples"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "With only 2.5 months runway and $2000/month being almost our entire profit, this is financially irresponsible right now. The tool is too vague on what it actually automates, and after our recent bad purchase, I can't risk burning more cash. I'm already working 16-hour days and have zero bandwidth to evaluate or implement something new. We need survival mode, not new expenses.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "GetCourse, manual tracking, firefighting clients",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Dmytro Shevchenko",
+          "persona": {
+            "name": "Dmytro Shevchenko",
+            "age": 34,
+            "role": "Founder \u0026 Lead Developer",
+            "company_size": "smb",
+            "experience_years": 11,
+            "pain_level": 7,
+            "current_workflow": "Currently manages 4 client projects simultaneously using a mix of Trello for task tracking, GitHub for code, and manual testing cycles. Handles sales calls, project management, coding, and QA himself. Loses 2-3 hours daily switching between contexts.",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Trello (free), GitHub Teams, Firebase, Cloudways hosting, Slack, Zoom, Google Workspace",
+            "financial": {
+              "monthly_income": 18500,
+              "monthly_expenses": 14200,
+              "discretionary_budget": 800,
+              "current_subscriptions": [
+                {
+                  "name": "Trello",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Teams",
+                  "monthly_cost": 44,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Firebase",
+                  "monthly_cost": 120,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Cloudways",
+                  "monthly_cost": 85,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Zoom",
+                  "monthly_cost": 16,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Google Workspace",
+                  "monthly_cost": 72,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 337,
+              "savings_months": 4.2,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Too many hats - coding vs client calls vs management",
+                "No standardized testing process - relies on manual QA",
+                "Cash flow anxiety - clients pay 30-60 days late"
+              ],
+              "daily_routine": "Wakes 7am, checks Slack/email by 7:30. Codes until 11am, then meetings/calls 11-1pm. Lunch at desk while reviewing project trackers. More coding 2-5pm. Client calls 5-7pm. Administrative work evening. Rarely stops before 11pm.",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Searches Reddit r/androiddev and r/iOSProgramming during breaks. Sees tool recommendations in Slack communities for mobile developers. Recently lost a client due to slow QA turnaround.",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Landing 2 new clients to increase runway",
+                "Reducing time spent on manual testing",
+                "Improving code review process"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Price is 15x my current software spend and nearly 27% of my total operating costs",
+            "No clear explanation of what specific problem this solves for my agency",
+            "Vague value proposition - 'save time' could mean anything",
+            "Cash runway is already tight at 4.2 months - cannot absorb $5k/month",
+            "Just made a bad purchase decision recently - need to prove ROI first",
+            "I need QA automation specifically, not generic 'productivity' tool",
+            "Would add another tool to manage on top of already feeling overwhelmed",
+            "No mention of integrations with my existing stack (GitHub, Firebase, Slack)",
+            "Typo in subheadline raises quality concerns"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $5,000/month this is 27% of my total operating costs and would burn through my 4.2 month runway in weeks. My cash flow anxiety (clients paying 30-60 days late) makes this impossible right now. The tool is too vague - I can't justify this expense to myself without understanding exactly what problem it solves, and frankly I need to recover from my recent bad purchase before buying anything else. If it was $500/month focused specifically on automated QA testing, I'd consider it.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "manual QA processes, already stretched team capacity, existing tools (GitHub, Slack, Firebase)",
+          "decision_timeline": "never",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Andrei Sokolov",
+          "persona": {
+            "name": "Andrei Sokolov",
+            "age": 38,
+            "role": "Director / Agency Owner",
+            "company_size": "smb",
+            "experience_years": 12,
+            "pain_level": 7,
+            "current_workflow": "Manages projects manually in spreadsheets and Notion, communicates with clients via WhatsApp and email, tracks time in a simple Google Sheets template, reviews deliverables through shared Google Drive folders",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 6,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Slack (free tier), Google Workspace (Basic), Trello (free), WhatsApp Business, Yandex Metrics, GetCourse for internal training",
+            "financial": {
+              "monthly_income": 14500,
+              "monthly_expenses": 11800,
+              "discretionary_budget": 400,
+              "current_subscriptions": [
+                {
+                  "name": "Google Workspace Basic",
+                  "monthly_cost": 72,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack (Free)",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Trello (Free)",
+                  "monthly_cost": 0,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Yandex Metrics",
+                  "monthly_cost": 0,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "GetCourse",
+                  "monthly_cost": 85,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Hosting/Server",
+                  "monthly_cost": 120,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 277,
+              "savings_months": 2.5,
+              "risk_tolerance": "minimal",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:15",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Too much manual tracking of client projects and invoices",
+                "Difficulty scaling without more administrative help",
+                "Constant firefighting and client hand-holding"
+              ],
+              "daily_routine": "Wakes early, checks urgent client messages on WhatsApp while having coffee, reviews project status in Trello/spreadsheets, morning team standup (15min), client calls throughout day, handles billing/finance in evenings,的最后工作到深夜处理行政事务",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Reads articles on VC.ru about productivity tools for small agencies, hears about new tools from peer agency owners in Telegram groups, occasionally sees software ads on Facebook/Instagram but rarely clicks",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Stabilize cash flow and reduce expenses",
+                "Retain existing clients",
+                "Find affordable way to automate invoicing and reporting"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Too vague - don't understand what specific problem this actually solves for my agency",
+            "$1000/month is 2.5x my entire software budget - would require significant justification",
+            "No clear connection to my actual struggles (invoicing, client project tracking, firefighting)",
+            "Have only 1.5 hours free daily - realistically won't have time to implement and learn new tool",
+            "After making a bad purchase recently, I'm being very cautious with any new spending",
+            "Tool seems generic - could be anything from the marketing"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "With only 2.5 months cash runway and $1000/month price tag, this would consume nearly all my remaining budget. The landing page is vague about what exactly the tool does - it reads like generic AI productivity fluff that may not actually solve my specific problems with client project tracking and invoicing. After making a bad purchase decision recently, I'm in no position to take this risk, especially when I barely have time to implement it with my 12-hour workdays.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 7,
+          "time_available": false,
+          "competing_with": "my overwhelmed schedule and recent cautiousness about purchases",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Olena Kovalenko",
+          "persona": {
+            "name": "Olena Kovalenko",
+            "age": 34,
+            "role": "QA Lead / Head of Quality Assurance",
+            "company_size": "smb",
+            "experience_years": 10,
+            "pain_level": 7,
+            "current_workflow": "Manually coordinate test case management across 5+ client projects using TestRail, run regression suites bi-weekly, track bugs in Jira, coordinate with remote testers across 3 time zones",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, TestRail, BrowserStack, Jenkins, Slack, GitHub, Postman",
+            "financial": {
+              "monthly_income": 45000,
+              "monthly_expenses": 32000,
+              "discretionary_budget": 3000,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 500,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 300,
+                  "usage": "daily"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 400,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 200,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub",
+                  "monthly_cost": 150,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Postman",
+                  "monthly_cost": 80,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 1630,
+              "savings_months": 8,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:30",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Managing multiple client projects with limited automation resources",
+                "Reporting QA metrics to clients who expect enterprise-level insights",
+                "Coordinating manual testing across 8 remote testers in different time zones"
+              ],
+              "daily_routine": "",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Discovers tools through industry newsletters, LinkedIn posts from peers, and during tech conferences when evaluating new solutions for clients",
+              "attention_span_minutes": 15,
+              "current_priorities": [
+                "Reducing manual regression testing time",
+                "Improving client reporting and metrics visibility",
+                "Finding cost-effective test automation solutions"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Generic, template-like copy with errors (Ai Llms) - raises credibility concerns",
+            "No QA-specific features mentioned - how does this actually help my testing workflow?",
+            "Lacks social proof, case studies, or demos",
+            "Vague claims about 'saving time' without specificity",
+            "Just made a bad purchase decision - I am now very cautious about new tools",
+            "Landing page feels like countless other AI tools I've seen"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "The $1000/month is a stretch given my software budget constraints and recent bad purchase. More importantly, as a QA Lead, I need to see specific features that solve my problems - vague promises about 'AI productivity' don't convince me this will actually reduce manual testing time or help with client reporting. I would need a detailed demo and clear ROI calculation before even considering this, and honestly I don't have the mental bandwidth to evaluate another tool right now.",
+          "cpl_equivalent": 12,
+          "budget_check": "stretch",
+          "priority_rank": 7,
+          "time_available": false,
+          "competing_with": "existing tools (Jira, TestRail, Postman) and the reality that I barely have time to optimize what I already use",
+          "decision_timeline": "next_month",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Alexei Dmitrievich Voronov",
+          "persona": {
+            "name": "Alexei Dmitrievich Voronov",
+            "age": 38,
+            "role": "Chief Technology Officer",
+            "company_size": "smb",
+            "experience_years": 14,
+            "pain_level": 7,
+            "current_workflow": "Currently manages development teams across 3-4 concurrent client projects using Jira for tracking, GitHub for code, and weekly Zoom standups. Testing is partially outsourced to a separate QA team, creating handoff delays. Budget approvals require submitting ROI calculations to the CEO.",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, GitHub Enterprise, AWS (monthly ~$2,800), Slack, Figma, BrowserStack, Zoom, Google Workspace",
+            "financial": {
+              "monthly_income": 52000,
+              "monthly_expenses": 42500,
+              "discretionary_budget": 1800,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 350,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Enterprise",
+                  "monthly_cost": 420,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 2800,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 150,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 400,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Zoom",
+                  "monthly_cost": 200,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 280,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 4780,
+              "savings_months": 5.2,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "06:15",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Managing multiple client projects with limited visibility",
+                "Time-consuming manual test reporting for stakeholders",
+                "Frequent context switching between development and QA workflows"
+              ],
+              "daily_routine": "Wakes early, reviews Slack messages during commute, first standup at 9am, alternates between architecture discussions and client calls, reviews sprint metrics in afternoon, evening dedicated to technical debt planning",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Reads TechCrunch and Hacker News on weekends, learns about tools through vendor demos at tech conferences, occasionally asks for recommendations in developer communities",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Securing two new client contracts",
+                "Reducing QA cycle time by 20%",
+                "Retaining senior developers"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 3,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Landing page is extremely vague - no mention of QA, testing, or test reporting which is my top struggle",
+            "Already over budget on tools ($4780/month vs $1800 budget)",
+            "Just made a bad purchase decision - need to prove this one works before committing",
+            "No clear integration with Jira, TestRail, or my current workflow",
+            "Generic AI buzzwords without specific functionality",
+            "Onboarding another tool takes time I dont have (1.5 hrs/day free)",
+            "$1000/month is significant without clear ROI proof"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "The vague messaging and generic AI claims dont prove this solves my specific pain around manual test reporting. Given I just made a bad purchase, I need to see concrete integration proof with TestRail/Jira before risking another $1k/month. Would need to see case studies from similar agencies and maybe try the free trial during a low-pressure sprint, but right now I should focus on using what I have more efficiently rather than adding tools.",
+          "cpl_equivalent": 12,
+          "budget_check": "stretch",
+          "priority_rank": 4,
+          "time_available": false,
+          "competing_with": "manual testing workflows and my existing tool overload",
+          "decision_timeline": "next_month",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Aleksandr Kovalenko",
+          "persona": {
+            "name": "Aleksandr Kovalenko",
+            "age": 34,
+            "role": "Senior Project Manager",
+            "company_size": "smb",
+            "experience_years": 9,
+            "pain_level": 8,
+            "current_workflow": "Manually coordinating QA cycles across 3 development teams, creating test cases in spreadsheets, chasing testers for status updates, and manually compiling QA reports for clients. Each release requires 2-3 days of dedicated manual testing which delays deployments.",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 4,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, TestRail, BrowserStack, Slack, GitHub, Trello, Google Workspace",
+            "financial": {
+              "monthly_income": 52000,
+              "monthly_expenses": 41000,
+              "discretionary_budget": 2500,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 350,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 200,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 150,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Teams",
+                  "monthly_cost": 100,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Trello",
+                  "monthly_cost": 0,
+                  "usage": "rarely"
+                }
+              ],
+              "total_sub_spend": 980,
+              "savings_months": 8.5,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Manual QA testing consumes too much time before releases",
+                "Difficulty tracking QA progress across multiple concurrent projects",
+                "Frequent scope creep and changing requirements disrupt testing schedules"
+              ],
+              "daily_routine": "Starts at 7:00 AM checking overnight messages from offshore team, morning standups at 9:30 AM, reviews test reports and updates stakeholders throughout day, coordinates with QA leads, handles client calls, ends day compiling release notes and QA summaries. Weekends often include checking in on critical releases.",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Searches for automation solutions during late-night debugging sessions, reads productivity blogs and PM newsletters, discusses tools in local tech meetups in Kyiv, watches YouTube demos during commute",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Reduce manual QA bottleneck",
+                "Improve client delivery times",
+                "Retain senior QA talent who are burned out"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 3,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Page is extremely vague about what the tool actually does - says only 'AI-powered Save Time automation'",
+            "No mention of QA testing or project management features despite my specific pain points",
+            "Cannot assess ROI without understanding core functionality",
+            "Landing page has grammatical redundancy ('Ai Ai Llms') raising credibility concerns",
+            "No case studies, testimonials, or specific metrics shown"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "At $5000/month this exceeds my entire software budget and approaches QA engineer salary territory, but the landing page provides zero specific details about how it solves manual QA testing problems. I'm overwhelmed with only 1.5 hours free daily and cannot justify spending time evaluating a tool that doesn't clearly address my core pain points. Would need to see specific QA/testing use cases and ROI projections before progressing.",
+          "cpl_equivalent": 35,
+          "budget_check": "stretch",
+          "priority_rank": 6,
+          "time_available": false,
+          "competing_with": "existing manual processes and overwhelming schedule",
+          "decision_timeline": "next_month",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Olena Kovalenko",
+          "persona": {
+            "name": "Olena Kovalenko",
+            "age": 34,
+            "role": "QA Lead / Head of Quality Assurance",
+            "company_size": "smb",
+            "experience_years": 10,
+            "pain_level": 7,
+            "current_workflow": "Manually coordinate test case management across 5+ client projects using TestRail, run regression suites bi-weekly, track bugs in Jira, coordinate with remote testers across 3 time zones",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, TestRail, BrowserStack, Jenkins, Slack, GitHub, Postman",
+            "financial": {
+              "monthly_income": 45000,
+              "monthly_expenses": 32000,
+              "discretionary_budget": 3000,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 500,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 300,
+                  "usage": "daily"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 400,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 200,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub",
+                  "monthly_cost": 150,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Postman",
+                  "monthly_cost": 80,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 1630,
+              "savings_months": 8,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:30",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Managing multiple client projects with limited automation resources",
+                "Reporting QA metrics to clients who expect enterprise-level insights",
+                "Coordinating manual testing across 8 remote testers in different time zones"
+              ],
+              "daily_routine": "",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Discovers tools through industry newsletters, LinkedIn posts from peers, and during tech conferences when evaluating new solutions for clients",
+              "attention_span_minutes": 15,
+              "current_priorities": [
+                "Reducing manual regression testing time",
+                "Improving client reporting and metrics visibility",
+                "Finding cost-effective test automation solutions"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 2,
+          "intent_strength": 1,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "No QA-specific features mentioned - completely generic product description",
+            "Landing page has typos and vague claims (Ai Llms, Save Time automation)",
+            "No case studies, testimonials, or proof of ROI",
+            "No integration details with Jira, TestRail, or GitHub",
+            "Already burned by recent bad purchase - cannot afford another misstep",
+            "$2000/month is my entire software budget with nothing left for implementation time",
+            "8 months cash runway means I need to preserve capital, not spend on unproven tools",
+            "No clarity on what the AI actually automates for QA teams"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "After 15 minutes on this page, I have no idea what this tool actually does for QA. The claims are so generic ('Save Time automation', 'Real-time analytics') that they could apply to any software. Given my 8-month runway, the recent bad purchase that still haunts me, and the fact that $2000/month is literally my entire software budget, I cannot justify this risk. My team needs a QA-specific solution that integrates with our existing stack, not another vague 'AI tool' promise. I would need at least a detailed demo and customer references before even considering this, and honestly I don't have the mental bandwidth to evaluate another tool right now.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 9,
+          "time_available": false,
+          "competing_with": "my existing Jira/TestRail workflow and my team's manual testing time",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Andrei Sokolov",
+          "persona": {
+            "name": "Andrei Sokolov",
+            "age": 38,
+            "role": "Director / Agency Owner",
+            "company_size": "smb",
+            "experience_years": 12,
+            "pain_level": 7,
+            "current_workflow": "Manages projects manually in spreadsheets and Notion, communicates with clients via WhatsApp and email, tracks time in a simple Google Sheets template, reviews deliverables through shared Google Drive folders",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 6,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Slack (free tier), Google Workspace (Basic), Trello (free), WhatsApp Business, Yandex Metrics, GetCourse for internal training",
+            "financial": {
+              "monthly_income": 14500,
+              "monthly_expenses": 11800,
+              "discretionary_budget": 400,
+              "current_subscriptions": [
+                {
+                  "name": "Google Workspace Basic",
+                  "monthly_cost": 72,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack (Free)",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Trello (Free)",
+                  "monthly_cost": 0,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Yandex Metrics",
+                  "monthly_cost": 0,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "GetCourse",
+                  "monthly_cost": 85,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Hosting/Server",
+                  "monthly_cost": 120,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 277,
+              "savings_months": 2.5,
+              "risk_tolerance": "minimal",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:15",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Too much manual tracking of client projects and invoices",
+                "Difficulty scaling without more administrative help",
+                "Constant firefighting and client hand-holding"
+              ],
+              "daily_routine": "Wakes early, checks urgent client messages on WhatsApp while having coffee, reviews project status in Trello/spreadsheets, morning team standup (15min), client calls throughout day, handles billing/finance in evenings,的最后工作到深夜处理行政事务",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Reads articles on VC.ru about productivity tools for small agencies, hears about new tools from peer agency owners in Telegram groups, occasionally sees software ads on Facebook/Instagram but rarely clicks",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Stabilize cash flow and reduce expenses",
+                "Retain existing clients",
+                "Find affordable way to automate invoicing and reporting"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 3,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$5000/month is 12.5x my entire software budget",
+            "Cash runway only 2.5 months - too risky to commit",
+            "Just made a bad purchase decision, not ready for another big spend",
+            "Tool feels generic - not solving my specific invoice/project tracking problems",
+            "No time to evaluate or learn new tool - drowning in current work",
+            "Price exceeds cost of hiring a QA engineer"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "The price is completely out of reach given my $400/month software budget and only 2.5 months cash runway. After making a bad purchase recently, I can't risk another expensive tool that doesn't directly solve my invoice tracking headaches. Even with the trial, I have zero time to evaluate it - I'm already working 16+ hour days. This feels like a tool for a bigger agency, not for someone barely surviving month to month.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "manual tracking spreadsheets and GetCourse features",
+          "decision_timeline": "never",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Aleksandr Kovalenko",
+          "persona": {
+            "name": "Aleksandr Kovalenko",
+            "age": 34,
+            "role": "Senior Project Manager",
+            "company_size": "smb",
+            "experience_years": 9,
+            "pain_level": 8,
+            "current_workflow": "Manually coordinating QA cycles across 3 development teams, creating test cases in spreadsheets, chasing testers for status updates, and manually compiling QA reports for clients. Each release requires 2-3 days of dedicated manual testing which delays deployments.",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 4,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, TestRail, BrowserStack, Slack, GitHub, Trello, Google Workspace",
+            "financial": {
+              "monthly_income": 52000,
+              "monthly_expenses": 41000,
+              "discretionary_budget": 2500,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 350,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 200,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 150,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Teams",
+                  "monthly_cost": 100,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Trello",
+                  "monthly_cost": 0,
+                  "usage": "rarely"
+                }
+              ],
+              "total_sub_spend": 980,
+              "savings_months": 8.5,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Manual QA testing consumes too much time before releases",
+                "Difficulty tracking QA progress across multiple concurrent projects",
+                "Frequent scope creep and changing requirements disrupt testing schedules"
+              ],
+              "daily_routine": "Starts at 7:00 AM checking overnight messages from offshore team, morning standups at 9:30 AM, reviews test reports and updates stakeholders throughout day, coordinates with QA leads, handles client calls, ends day compiling release notes and QA summaries. Weekends often include checking in on critical releases.",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Searches for automation solutions during late-night debugging sessions, reads productivity blogs and PM newsletters, discusses tools in local tech meetups in Kyiv, watches YouTube demos during commute",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Reduce manual QA bottleneck",
+                "Improve client delivery times",
+                "Retain senior QA talent who are burned out"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 7,
+          "intent_strength": 4,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Landing page is extremely vague with generic buzzwords - no mention of QA testing specifically",
+            "Tool doesn't appear to be specifically designed for QA workflows",
+            "Would consume 80% of entire software budget ($2000 of $2500)",
+            "No clear ROI calculation or time savings quantification",
+            "Unclear what exact problem this solves vs existing tools",
+            "Have 1.5 hours free time - barely enough to evaluate properly",
+            "Would need to consult with team leads before committing this much"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "The tool addresses a real pain point (manual testing time) and the price is reasonable vs hiring a QA engineer, but the landing page is painfully generic with no QA-specific value proposition - I can't justify $2K/month to leadership without knowing exactly what problem it solves. With only 1.5 hours free daily and 8.5 months runway, I need something that clearly integrates with our existing Jira/TestRail stack and shows concrete time savings. Will revisit after seeing a demo or case study from a similar agency.",
+          "cpl_equivalent": 22,
+          "budget_check": "stretch",
+          "priority_rank": 6,
+          "time_available": false,
+          "competing_with": "existing manual QA processes and current tool spending habits",
+          "decision_timeline": "next_month",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Dmytro Shevchenko",
+          "persona": {
+            "name": "Dmytro Shevchenko",
+            "age": 34,
+            "role": "Founder \u0026 Lead Developer",
+            "company_size": "smb",
+            "experience_years": 11,
+            "pain_level": 7,
+            "current_workflow": "Currently manages 4 client projects simultaneously using a mix of Trello for task tracking, GitHub for code, and manual testing cycles. Handles sales calls, project management, coding, and QA himself. Loses 2-3 hours daily switching between contexts.",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Trello (free), GitHub Teams, Firebase, Cloudways hosting, Slack, Zoom, Google Workspace",
+            "financial": {
+              "monthly_income": 18500,
+              "monthly_expenses": 14200,
+              "discretionary_budget": 800,
+              "current_subscriptions": [
+                {
+                  "name": "Trello",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Teams",
+                  "monthly_cost": 44,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Firebase",
+                  "monthly_cost": 120,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Cloudways",
+                  "monthly_cost": 85,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Zoom",
+                  "monthly_cost": 16,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Google Workspace",
+                  "monthly_cost": 72,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 337,
+              "savings_months": 4.2,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Too many hats - coding vs client calls vs management",
+                "No standardized testing process - relies on manual QA",
+                "Cash flow anxiety - clients pay 30-60 days late"
+              ],
+              "daily_routine": "Wakes 7am, checks Slack/email by 7:30. Codes until 11am, then meetings/calls 11-1pm. Lunch at desk while reviewing project trackers. More coding 2-5pm. Client calls 5-7pm. Administrative work evening. Rarely stops before 11pm.",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Searches Reddit r/androiddev and r/iOSProgramming during breaks. Sees tool recommendations in Slack communities for mobile developers. Recently lost a client due to slow QA turnaround.",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Landing 2 new clients to increase runway",
+                "Reducing time spent on manual testing",
+                "Improving code review process"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Landing page is extremely generic - no mention of QA or testing specifically",
+            "Headline says 'Save Time' but doesn't explain HOW",
+            "Just made a bad purchase decision - I'm now very cautious",
+            "Don't have time to evaluate new tools (1.5 hrs/day free)",
+            "Cash runway is only 4.2 months - adding $2k/month commitment is scary",
+            "No social proof or case studies shown in 12 minutes",
+            "Overwhelmed - adding another tool feels like more complexity, not less",
+            "Can't assess if this actually replaces manual QA without deeper investigation"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "The $2k/month price point actually matches low-end QA salary which should be compelling, but the landing page is so generic I can't tell if it even addresses testing/QA. After my recent bad purchase, I'm not risking $2k on something vague. I'm overwhelmed with current work and don't have bandwidth to deeply evaluate another tool. The page didn't earn my trust or time - it reads like every other 'AI for business' pitch.",
+          "cpl_equivalent": 25,
+          "budget_check": "stretch",
+          "priority_rank": 3,
+          "time_available": false,
+          "competing_with": "manual QA process and my caution after recent bad purchase",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Aleksandr Kovalenko",
+          "persona": {
+            "name": "Aleksandr Kovalenko",
+            "age": 34,
+            "role": "Senior Project Manager",
+            "company_size": "smb",
+            "experience_years": 9,
+            "pain_level": 8,
+            "current_workflow": "Manually coordinating QA cycles across 3 development teams, creating test cases in spreadsheets, chasing testers for status updates, and manually compiling QA reports for clients. Each release requires 2-3 days of dedicated manual testing which delays deployments.",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 4,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, TestRail, BrowserStack, Slack, GitHub, Trello, Google Workspace",
+            "financial": {
+              "monthly_income": 52000,
+              "monthly_expenses": 41000,
+              "discretionary_budget": 2500,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 350,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 200,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 150,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Teams",
+                  "monthly_cost": 100,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Trello",
+                  "monthly_cost": 0,
+                  "usage": "rarely"
+                }
+              ],
+              "total_sub_spend": 980,
+              "savings_months": 8.5,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Manual QA testing consumes too much time before releases",
+                "Difficulty tracking QA progress across multiple concurrent projects",
+                "Frequent scope creep and changing requirements disrupt testing schedules"
+              ],
+              "daily_routine": "Starts at 7:00 AM checking overnight messages from offshore team, morning standups at 9:30 AM, reviews test reports and updates stakeholders throughout day, coordinates with QA leads, handles client calls, ends day compiling release notes and QA summaries. Weekends often include checking in on critical releases.",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Searches for automation solutions during late-night debugging sessions, reads productivity blogs and PM newsletters, discusses tools in local tech meetups in Kyiv, watches YouTube demos during commute",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Reduce manual QA bottleneck",
+                "Improve client delivery times",
+                "Retain senior QA talent who are burned out"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Landing page is extremely generic with no mention of QA testing or software testing",
+            "No demonstration of integration with Jira, TestRail, or BrowserStack - my current tools",
+            "Features are vague buzzwords: \"AI-powered Save Time automation\", \"Ai Assistant interface\"",
+            "Subheadline has typos (\"Ai Llms\") which raises credibility concerns",
+            "$1000/month is 40% of my entire software budget - significant commitment",
+            "I have only 1.5 hours free daily and am already overwhelmed - cannot add tool evaluation to plate",
+            "No case studies, testimonials, or specific ROI numbers for similar agencies",
+            "Cannot afford risk given 8.5 months runway and cautious risk tolerance"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "The page offers zero specific value for my actual problems. I need to solve manual QA time waste and track QA progress across projects, but this tool makes no mention of testing, QA workflows, or integrations with my existing $980/month tool stack. At $1000/month (40% of my software budget), I need clear proof this replaces hiring a $2000-4000 QA engineer - not vague promises. My 1.5 hours daily free time is spent recovering from 16-hour workdays, not evaluating vague AI tools. This feels like generic AI snake oil.",
+          "cpl_equivalent": 12,
+          "budget_check": "stretch",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "manual QA work that I cannot eliminate, plus existing Jira/TestRail workflow",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Alexei Dmitrievich Voronov",
+          "persona": {
+            "name": "Alexei Dmitrievich Voronov",
+            "age": 38,
+            "role": "Chief Technology Officer",
+            "company_size": "smb",
+            "experience_years": 14,
+            "pain_level": 7,
+            "current_workflow": "Currently manages development teams across 3-4 concurrent client projects using Jira for tracking, GitHub for code, and weekly Zoom standups. Testing is partially outsourced to a separate QA team, creating handoff delays. Budget approvals require submitting ROI calculations to the CEO.",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, GitHub Enterprise, AWS (monthly ~$2,800), Slack, Figma, BrowserStack, Zoom, Google Workspace",
+            "financial": {
+              "monthly_income": 52000,
+              "monthly_expenses": 42500,
+              "discretionary_budget": 1800,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 350,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Enterprise",
+                  "monthly_cost": 420,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 2800,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 150,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 400,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Zoom",
+                  "monthly_cost": 200,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 280,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 4780,
+              "savings_months": 5.2,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "06:15",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Managing multiple client projects with limited visibility",
+                "Time-consuming manual test reporting for stakeholders",
+                "Frequent context switching between development and QA workflows"
+              ],
+              "daily_routine": "Wakes early, reviews Slack messages during commute, first standup at 9am, alternates between architecture discussions and client calls, reviews sprint metrics in afternoon, evening dedicated to technical debt planning",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Reads TechCrunch and Hacker News on weekends, learns about tools through vendor demos at tech conferences, occasionally asks for recommendations in developer communities",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Securing two new client contracts",
+                "Reducing QA cycle time by 20%",
+                "Retaining senior developers"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Landing page is extremely vague - what exactly does this tool do?",
+            "After making a bad purchase recently, I'm skeptical of vague promises",
+            "No clear ROI calculation or specific problem solved",
+            "Copy is poorly written (Ai Llms, capitalized Save Time)",
+            "Cash runway is only 5.2 months - $2K is significant commitment",
+            "Don't have time to evaluate new tools right now",
+            "Generic 'works with existing tools' claim means nothing"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "I looked at this for 12 minutes but honestly still don't understand what this tool actually does beyond vague 'AI productivity' language. After making a bad purchase decision last month, I cannot in good conscience buy something this unclear. $2K/month is roughly what I'd pay a junior QA engineer, and at least I'd know what I'm getting. The landing page reads like every other AI hype tool - no specific use case, no case studies, no clear integration story. With only 5.2 months of runway and being already overwhelmed, adding another tool subscription makes no sense. I'd need at least a detailed demo and concrete ROI analysis from a real person before I'd even consider this.",
+          "cpl_equivalent": 12,
+          "budget_check": "stretch",
+          "priority_rank": 7,
+          "time_available": false,
+          "competing_with": "cautious_spending_minimizing_new_tools",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Dmytro Shevchenko",
+          "persona": {
+            "name": "Dmytro Shevchenko",
+            "age": 34,
+            "role": "Founder \u0026 Lead Developer",
+            "company_size": "smb",
+            "experience_years": 11,
+            "pain_level": 7,
+            "current_workflow": "Currently manages 4 client projects simultaneously using a mix of Trello for task tracking, GitHub for code, and manual testing cycles. Handles sales calls, project management, coding, and QA himself. Loses 2-3 hours daily switching between contexts.",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Trello (free), GitHub Teams, Firebase, Cloudways hosting, Slack, Zoom, Google Workspace",
+            "financial": {
+              "monthly_income": 18500,
+              "monthly_expenses": 14200,
+              "discretionary_budget": 800,
+              "current_subscriptions": [
+                {
+                  "name": "Trello",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Teams",
+                  "monthly_cost": 44,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Firebase",
+                  "monthly_cost": 120,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Cloudways",
+                  "monthly_cost": 85,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 0,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Zoom",
+                  "monthly_cost": 16,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Google Workspace",
+                  "monthly_cost": 72,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 337,
+              "savings_months": 4.2,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Too many hats - coding vs client calls vs management",
+                "No standardized testing process - relies on manual QA",
+                "Cash flow anxiety - clients pay 30-60 days late"
+              ],
+              "daily_routine": "Wakes 7am, checks Slack/email by 7:30. Codes until 11am, then meetings/calls 11-1pm. Lunch at desk while reviewing project trackers. More coding 2-5pm. Client calls 5-7pm. Administrative work evening. Rarely stops before 11pm.",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Searches Reddit r/androiddev and r/iOSProgramming during breaks. Sees tool recommendations in Slack communities for mobile developers. Recently lost a client due to slow QA turnaround.",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Landing 2 new clients to increase runway",
+                "Reducing time spent on manual testing",
+                "Improving code review process"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 2,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "No clear connection to my actual pain points - manual QA and testing",
+            "Vague value proposition - doesn't tell me WHAT the tool actually does",
+            "Just made a bad purchase decision - I'm being extra cautious now",
+            "Poorly written copy (subheadline repeats AI and Save Time)",
+            "No mention of how it integrates with my existing stack",
+            "Would nearly triple my $800 software budget",
+            "Only 4.2 months cash runway - can't afford risky bets right now"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "This tool doesn't address my actual problems (manual QA, testing process). The copy is generic and vague - 'AI productivity' could mean anything. With only 4.2 months runway and a recent bad purchase, I can't justify $1k/month on something this unclear. I'd need it to directly solve my testing bottleneck and show clear ROI before even considering a trial.",
+          "cpl_equivalent": 12,
+          "budget_check": "cant_afford",
+          "priority_rank": 8,
+          "time_available": false,
+          "competing_with": "my own skepticism and overwhelmed schedule",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Olena Kovalenko",
+          "persona": {
+            "name": "Olena Kovalenko",
+            "age": 34,
+            "role": "QA Lead / Head of Quality Assurance",
+            "company_size": "smb",
+            "experience_years": 10,
+            "pain_level": 7,
+            "current_workflow": "Manually coordinate test case management across 5+ client projects using TestRail, run regression suites bi-weekly, track bugs in Jira, coordinate with remote testers across 3 time zones",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, TestRail, BrowserStack, Jenkins, Slack, GitHub, Postman",
+            "financial": {
+              "monthly_income": 45000,
+              "monthly_expenses": 32000,
+              "discretionary_budget": 3000,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 500,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 300,
+                  "usage": "daily"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 400,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 200,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub",
+                  "monthly_cost": 150,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Postman",
+                  "monthly_cost": 80,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 1630,
+              "savings_months": 8,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:30",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Managing multiple client projects with limited automation resources",
+                "Reporting QA metrics to clients who expect enterprise-level insights",
+                "Coordinating manual testing across 8 remote testers in different time zones"
+              ],
+              "daily_routine": "",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Discovers tools through industry newsletters, LinkedIn posts from peers, and during tech conferences when evaluating new solutions for clients",
+              "attention_span_minutes": 15,
+              "current_priorities": [
+                "Reducing manual regression testing time",
+                "Improving client reporting and metrics visibility",
+                "Finding cost-effective test automation solutions"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 5,
+          "intent_strength": 5,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "malformed_response"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "Recovered from malformed JSON",
+          "cpl_equivalent": 25,
+          "budget_check": "stretch",
+          "priority_rank": 5,
+          "time_available": false,
+          "competing_with": "unknown",
+          "decision_timeline": "next_month",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Alexei Dmitrievich Voronov",
+          "persona": {
+            "name": "Alexei Dmitrievich Voronov",
+            "age": 38,
+            "role": "Chief Technology Officer",
+            "company_size": "smb",
+            "experience_years": 14,
+            "pain_level": 7,
+            "current_workflow": "Currently manages development teams across 3-4 concurrent client projects using Jira for tracking, GitHub for code, and weekly Zoom standups. Testing is partially outsourced to a separate QA team, creating handoff delays. Budget approvals require submitting ROI calculations to the CEO.",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "Jira, GitHub Enterprise, AWS (monthly ~$2,800), Slack, Figma, BrowserStack, Zoom, Google Workspace",
+            "financial": {
+              "monthly_income": 52000,
+              "monthly_expenses": 42500,
+              "discretionary_budget": 1800,
+              "current_subscriptions": [
+                {
+                  "name": "Jira",
+                  "monthly_cost": 350,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub Enterprise",
+                  "monthly_cost": 420,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 2800,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Slack",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 150,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "BrowserStack",
+                  "monthly_cost": 400,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Zoom",
+                  "monthly_cost": 200,
+                  "usage": "daily"
+                },
+                {
+                  "name": "TestRail",
+                  "monthly_cost": 280,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 4780,
+              "savings_months": 5.2,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "06:15",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Managing multiple client projects with limited visibility",
+                "Time-consuming manual test reporting for stakeholders",
+                "Frequent context switching between development and QA workflows"
+              ],
+              "daily_routine": "Wakes early, reviews Slack messages during commute, first standup at 9am, alternates between architecture discussions and client calls, reviews sprint metrics in afternoon, evening dedicated to technical debt planning",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Reads TechCrunch and Hacker News on weekends, learns about tools through vendor demos at tech conferences, occasionally asks for recommendations in developer communities",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Securing two new client contracts",
+                "Reducing QA cycle time by 20%",
+                "Retaining senior developers"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "Price is 2.8x my entire monthly software budget",
+            "Currently $4780/month over budget already",
+            "Too vague - what exactly does it automate?",
+            "Just made a bad purchase, being extra cautious",
+            "No clear connection to QA/testing workflows",
+            "14-day trial not enough time to validate for complex integration"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "I can't afford this at $5000/month when I'm already $2980 over budget on tools and only have 5.2 months runway. The landing page is vague about what the tool actually does for QA workflows, and after my recent bad purchase I'm being very cautious. Even with the trial, I don't have 1.5 hours/day to evaluate and implement something this expensive without clear ROI.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 8,
+          "time_available": false,
+          "competing_with": "current tool overspend and cash runway concerns",
+          "decision_timeline": "never",
+          "tested_price": 5000
+        }
+      ],
+      "price_experiments": [
+        {
+          "price": 1000,
+          "metrics": {
+            "score": 1.4550170104958378,
+            "composite_score": 0.14550170104958376,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.43449149475208104,
+            "uncertainty_penalty": 0.08689829895041622,
+            "simulated_cpl": 18.6,
+            "intent_strength": 2.2,
+            "friction_score": 6.8,
+            "avg_impression": 3.4,
+            "avg_relevance": 4,
+            "conversions": 0,
+            "rejections": 5,
+            "errors": 0,
+            "total_personas": 5,
+            "valid_personas": 5
+          }
+        },
+        {
+          "price": 2000,
+          "metrics": {
+            "score": 1.5030170104958378,
+            "composite_score": 0.1503017010495838,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.43449149475208104,
+            "uncertainty_penalty": 0.08689829895041622,
+            "simulated_cpl": 29.8,
+            "intent_strength": 2.2,
+            "friction_score": 7.4,
+            "avg_impression": 3.8,
+            "avg_relevance": 4.4,
+            "conversions": 0,
+            "rejections": 5,
+            "errors": 0,
+            "total_personas": 5,
+            "valid_personas": 5
+          }
+        },
+        {
+          "price": 5000,
+          "metrics": {
+            "score": 1.441017010495838,
+            "composite_score": 0.1441017010495838,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.43449149475208104,
+            "uncertainty_penalty": 0.08689829895041622,
+            "simulated_cpl": 39,
+            "intent_strength": 2.8,
+            "friction_score": 5.4,
+            "avg_impression": 4,
+            "avg_relevance": 4.4,
+            "conversions": 0,
+            "rejections": 5,
+            "errors": 0,
+            "total_personas": 5,
+            "valid_personas": 5
+          }
+        }
+      ],
+      "selected_price": 1000,
+      "rank_stability": 0
+    }
+  ],
+  "stats": {
+    "total_calls": 17,
+    "successful": 16,
+    "failed": 1,
+    "total_time_seconds": 622.88417984,
+    "throughput_calls_per_sec": 0.025686958375006272,
+    "phase_times": {
+      "analysis": 296.080326639,
+      "idea_generation": 0.000001183,
+      "landing_generation": 132.895278191,
+      "persona_generation": 119.794183954,
+      "scoring": 0.00003172,
+      "simulation": 74.11429045
+    },
+    "calibration_warnings": [
+      "Funnel stage cold expected conversion range 0.5%-3.0%.",
+      "Observed conversion 0.0% is below expected range for cold traffic.",
+      "Very low aggregate conversion 0.0%; check simulation assumptions."
+    ],
+    "observed_conversion": 0,
+    "expected_conv_low": 0.005,
+    "expected_conv_high": 0.03,
+    "learning_gate_passed": false
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 17,
+      "successes": 16,
+      "failures": 1,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-16T07:37:40+05:00",
+  "config": {
+    "pinned_ideas": [
+      {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      }
+    ],
+    "num_ideas": 100,
+    "num_personas": 5,
+    "deep_personas": 60,
+    "deep_top_k": 3,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/loadify",
+    "providers": null,
+    "price_points": [
+      1000,
+      2000,
+      5000
+    ],
+    "max_concurrent": 100,
+    "resume": false,
+    "verbose": true,
+    "debug": true,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "maxclaw",
+    "learning_mode": "hybrid",
+    "pricing_mode": "grid",
+    "sample_mode": "single_stage",
+    "simulation_bias": "neutral",
+    "funnel_stage": "cold",
+    "conversion_floor": 0,
+    "enforce_calibration": true,
+    "ci_threshold": 0.55,
+    "seed": 1773628037963419648
+  }
+}

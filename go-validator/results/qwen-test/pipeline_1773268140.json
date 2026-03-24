@@ -1,0 +1,332 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "athletes",
+          "category": "education",
+          "content_format": "audio",
+          "data_source": "financial_data",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "streaks",
+          "geography": "middle_east",
+          "interaction_model": "community_forum",
+          "monetization": "in_app_purchases",
+          "network_structure": "creator_fan",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.58,
+        "fit_breakdown": {
+          "buildability": 0.7,
+          "competition_level": 0.7,
+          "market_size": 0.5,
+          "monetization_potential": 0.3,
+          "unique_advantage": 1
+        },
+        "reasoning": "Lower competition in education | Unique advantage: ai_llms + education",
+        "description": "Education for athletes | Save Time | Community Forum via browser_extension | In App Purchases | Middle East market"
+      },
+      "landing_page": {
+        "headline": "تعلم وارتقِ | Education for Elite Athletes",
+        "subheadline": "AI-powered courses designed for busy athletes in the Middle East. Save time, gain knowledge, and connect with a community that understands your journey.",
+        "price": "49",
+        "trial_type": "7_day_free",
+        "cta": "ابدأ رحلتك التعليمية الآن",
+        "features": [
+          "دورات تعليمية مدعومة بالذكاء الاصطناعي مصممة خصيصاً للرياضيين",
+          "امكانية الوصول للمتصفح والمنصة في أي وقت للتعلم السريع",
+          "منتدى مجتمعي للرياضيين في الشرق الأوسط للتواصل والتعلم",
+          "شراء داخل التطبيق لدورات متقدمة وشهادات معتمدة",
+          "توفير الوقت مع محتوى موجز ومباشر يناسب جدول الرياضي"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 2,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "education",
+          "content_format": "interactive_simulation",
+          "data_source": "gps_location",
+          "distribution": "mobile_app",
+          "engagement_mechanics": "quests",
+          "geography": "europe",
+          "interaction_model": "feed",
+          "monetization": "saas_license",
+          "network_structure": "many_to_many",
+          "technology": "ai_llms",
+          "value_proposition": "entertainment"
+        },
+        "fit_score": 0.5499999999999999,
+        "fit_breakdown": {
+          "buildability": 0.4,
+          "competition_level": 0.3,
+          "market_size": 0.8999999999999999,
+          "monetization_potential": 0.7,
+          "unique_advantage": 0
+        },
+        "reasoning": "Strong market: professionals in europe | Good monetization: saas_license",
+        "description": "Education for professionals | Entertainment | Feed via mobile_app | Saas License | Europe market"
+      },
+      "landing_page": {
+        "headline": "Master New Skills with AI-Powered Learning",
+        "subheadline": "The mobile learning platform designed for busy European professionals. Personalized AI tutoring adapts to your schedule and career goals.",
+        "price": "49",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "AI-powered personalized learning paths tailored to your profession",
+          "Micro-learning modules accessible anytime via mobile app",
+          "Real-time progress tracking with European industry certifications",
+          "Offline mode for learning on-the-go across Europe",
+          "GDPR-compliant data privacy for European professionals"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 3,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "travel",
+          "content_format": "livestream",
+          "data_source": "financial_data",
+          "distribution": "browser_extension",
+          "engagement_mechanics": "rewards",
+          "geography": "latin_america",
+          "interaction_model": "ai_assistant",
+          "monetization": "in_app_purchases",
+          "network_structure": "one_to_many",
+          "technology": "ai_llms",
+          "value_proposition": "improve_health"
+        },
+        "fit_score": 0.545,
+        "fit_breakdown": {
+          "buildability": 1,
+          "competition_level": 0.3,
+          "market_size": 0.4,
+          "monetization_potential": 0.3,
+          "unique_advantage": 0.4
+        },
+        "reasoning": "Highly buildable: ai_llms + browser_extension",
+        "description": "Travel for businesses | Improve Health | Ai Assistant via browser_extension | In App Purchases | Latin America market"
+      },
+      "landing_page": {
+        "headline": "Viajes de negocios sin compromisos de salud | Tu asistente IA personalizado",
+        "subheadline": "Optimiza tu bienestar en viajes de negocios por América Latina. IA avanzada en tu navegador que te ayuda a mantenerte saludable, productivo y energizado en cada destino.",
+        "price": "29",
+        "trial_type": "14 dias gratis",
+        "cta": "Comienza tu prueba gratuita",
+        "features": [
+          "Asistente IA que analiza tu itinerario y sugiere rutinas de salud personalizadas para cada ciudad",
+          "Integración con calendario para recordatorios de ejercicio, hydration y descanso entre reuniones",
+          "Consejos de alimentación local Saludable y restaurantes recomendados en tu destino de viaje",
+          "Monitoreo de fatiga por zonas horarias y sugerencias para optimizar tu energía empresarial"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 4,
+      "idea": {
+        "coordinates": {
+          "audience": "professionals",
+          "category": "ai_productivity",
+          "content_format": "livestream",
+          "data_source": "gps_location",
+          "distribution": "messaging_bot",
+          "engagement_mechanics": "leaderboards",
+          "geography": "europe",
+          "interaction_model": "ai_assistant",
+          "monetization": "marketplace_commission",
+          "network_structure": "two_sided_marketplace",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.525,
+        "fit_breakdown": {
+          "buildability": 0.9000000000000001,
+          "competition_level": 0,
+          "market_size": 0.8999999999999999,
+          "monetization_potential": 0,
+          "unique_advantage": 0.3
+        },
+        "reasoning": "Highly buildable: ai_llms + messaging_bot | Strong market: professionals in europe",
+        "description": "Ai Productivity for professionals | Save Time | Ai Assistant via messaging_bot | Marketplace Commission | Europe market"
+      },
+      "landing_page": {
+        "headline": "Your AI-Powered Productivity Partner via Messaging",
+        "subheadline": "Access a smart AI assistant that handles tasks, schedules, and research directly in your favorite messaging app. Built for busy European professionals who value time.",
+        "price": "29",
+        "trial_type": "freemium",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "Instant AI assistance through messaging - no new apps to learn",
+          "Automate scheduling, email drafting, and research in seconds",
+          "Secure, GDPR-compliant platform designed for European professionals",
+          "Smart marketplace that connects you with specialized AI tools",
+          "Save 10+ hours every week with intelligent automation"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    },
+    {
+      "rank": 5,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "short_video",
+          "data_source": "sensors_wearables",
+          "distribution": "messaging_bot",
+          "engagement_mechanics": "social_challenges",
+          "geography": "global",
+          "interaction_model": "multiplayer",
+          "monetization": "subscription",
+          "network_structure": "creator_fan",
+          "technology": "robotics",
+          "value_proposition": "learn_skills"
+        },
+        "fit_score": 0.51,
+        "fit_breakdown": {
+          "buildability": 0.2,
+          "competition_level": 0,
+          "market_size": 1,
+          "monetization_potential": 0.8,
+          "unique_advantage": 0
+        },
+        "reasoning": "Strong market: businesses in global | Good monetization: subscription",
+        "description": "Ai Productivity for businesses | Learn Skills | Multiplayer via messaging_bot | Subscription | Global market"
+      },
+      "landing_page": {
+        "headline": "Transform Your Business with AI-Powered Productivity",
+        "subheadline": "Collaborate with your team in real-time through our multiplayer messaging platform, master essential AI skills, and automate workflows with cutting-edge robotics technology—built for the global market.",
+        "price": "49",
+        "trial_type": "14-day free trial",
+        "cta": "Start Your Free Trial",
+        "features": [
+          "Real-time multiplayer messaging with AI assistants for seamless team collaboration",
+          "Learn and master AI skills with personalized training modules",
+          "Automate business workflows with advanced robotics integration",
+          "Connect and coordinate global teams across time zones",
+          "Analytics dashboard to track productivity gains and ROI"
+        ]
+      },
+      "metrics": {
+        "score": 0,
+        "conversion_rate": 0,
+        "simulated_cpl": 999,
+        "intent_strength": 0,
+        "friction_score": 10,
+        "avg_impression": 0,
+        "avg_relevance": 0,
+        "conversions": 0,
+        "rejections": 0,
+        "errors": 0,
+        "total_personas": 0,
+        "valid_personas": 0
+      },
+      "simulations": []
+    }
+  ],
+  "stats": {
+    "total_calls": 10,
+    "successful": 5,
+    "failed": 5,
+    "total_time_seconds": 70.39093582,
+    "throughput_calls_per_sec": 0.07103187280796688,
+    "phase_times": {
+      "analysis": 0.000002516,
+      "idea_generation": 0.003570327,
+      "landing_generation": 18.004950998,
+      "persona_generation": 52.382083944,
+      "scoring": 0.00001431,
+      "simulation": 0.00000644
+    }
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 10,
+      "successes": 5,
+      "failures": 5,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-12T03:29:00+05:00",
+  "config": {
+    "num_ideas": 5,
+    "num_personas": 10,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/qwen-test",
+    "providers": null,
+    "max_concurrent": 50,
+    "resume": false,
+    "verbose": true,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "llm-lfm"
+  }
+}

@@ -1,0 +1,1613 @@
+{
+  "scored_ideas": [
+    {
+      "rank": 1,
+      "idea": {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      },
+      "landing_page": {
+        "headline": "Ai Productivity Tool That Helps Businesses Save Time",
+        "subheadline": "AI-powered Ai Llms for businesses who need to Save Time",
+        "price": "29",
+        "trial_type": "14-day free trial",
+        "cta": "Start Free Trial",
+        "features": [
+          "AI-powered Save Time automation",
+          "Built for Businesses",
+          "Works with your existing tools",
+          "Ai Assistant interface",
+          "Real-time analytics and insights"
+        ]
+      },
+      "metrics": {
+        "score": 1.8755548007246379,
+        "composite_score": 0.18755548007246378,
+        "conversion_rate": 0,
+        "conversion_ci_low": 0,
+        "conversion_ci_high": 0.20388926630434784,
+        "uncertainty_penalty": 0.04077785326086957,
+        "simulated_cpl": 40.666666666666664,
+        "intent_strength": 2.1333333333333333,
+        "friction_score": 5.266666666666667,
+        "avg_impression": 3.933333333333333,
+        "avg_relevance": 4.4,
+        "conversions": 0,
+        "rejections": 15,
+        "errors": 0,
+        "total_personas": 15,
+        "valid_personas": 15
+      },
+      "simulations": [
+        {
+          "persona_name": "Elena Petrova",
+          "persona": {
+            "name": "Elena Petrova",
+            "age": 29,
+            "role": "QA Team Lead",
+            "company_size": "smb",
+            "experience_years": 7,
+            "pain_level": 6,
+            "current_workflow": "Manual testing + some automation with Appium, test case management in TestRail, CI/CD pipeline with Jenkins",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 3,
+            "personality": "early_adopter",
+            "archetype": "power_user",
+            "current_tools": "Appium, TestRail, Jenkins, Charles Proxy, Postman, Firebase",
+            "financial": {
+              "monthly_income": 2800,
+              "monthly_expenses": 1900,
+              "discretionary_budget": 400,
+              "current_subscriptions": [
+                {
+                  "name": "JetBrains All Products",
+                  "monthly_cost": 25,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Coursera",
+                  "monthly_cost": 49,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 99,
+              "savings_months": 6,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "06:30",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 2.5,
+              "top_struggles": [
+                "Maintaining test automation when app UI changes frequently",
+                "Convincing developers to write better bug reports",
+                "Training junior testers"
+              ],
+              "daily_routine": "7am gym, 9am team standup, 10am-6pm testing \u0026 automation, 8pm learning new tools",
+              "mental_state": "focused",
+              "discovery_context": "LinkedIn article from QA thought leader about AI in testing, also saw demo at TechCrunch disrupt",
+              "attention_span_minutes": 25,
+              "current_priorities": [
+                "Automating 80% of regression tests",
+                "Implementing AI-assisted test generation",
+                "Reducing manual testing time by 30%"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 2,
+          "intent_strength": 1,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month is 2.5x my entire discretionary budget of $400",
+            "No QA or testing-specific features mentioned",
+            "Landing page is extremely generic - doesn't address test automation, bug reports, or junior training",
+            "I only have 2.5 hours free time daily - no capacity to learn new tool",
+            "This appears to be an enterprise B2B tool, not for individual contributors",
+            "No mention of integration with popular testing tools like Selenium, Cypress, or Jira"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $1000/month, this costs more than double my entire monthly discretionary budget. Beyond the price, there's nothing QA-specific in the pitch - it's all generic 'AI productivity' language that doesn't address my actual struggles with test automation maintenance, getting better bug reports from devs, or training juniors. Even with a free trial, I don't have 2.5 hours/day to spare for onboarding a new tool that may not solve my real problems.",
+          "cpl_equivalent": 50,
+          "budget_check": "cant_afford",
+          "priority_rank": 1,
+          "time_available": false,
+          "competing_with": "learning curve and my limited free time",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Andrey Volkov",
+          "persona": {
+            "name": "Andrey Volkov",
+            "age": 41,
+            "role": "Head of Delivery",
+            "company_size": "smb",
+            "experience_years": 18,
+            "pain_level": 5,
+            "current_workflow": "Project management via Jira, QA outsourced to team of 5 testers, weekly client demos, requirements in Confluence",
+            "budget": "comfortable",
+            "decision_authority": "committee",
+            "skepticism": 8,
+            "personality": "conservative",
+            "archetype": "casual",
+            "current_tools": "Jira, Confluence, Zoom, Microsoft Teams, GitLab, AWS Device Farm",
+            "financial": {
+              "monthly_income": 5200,
+              "monthly_expenses": 3200,
+              "discretionary_budget": 800,
+              "current_subscriptions": [
+                {
+                  "name": "LinkedIn Premium",
+                  "monthly_cost": 30,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Amazon Prime",
+                  "monthly_cost": 14,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Netflix",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 11,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Adobe Creative Cloud",
+                  "monthly_cost": 55,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 125,
+              "savings_months": 8,
+              "risk_tolerance": "minimal",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:30",
+              "sleep_time": "00:00",
+              "free_hours_per_day": 3,
+              "top_struggles": [
+                "Balancing client expectations with team capacity",
+                "Dealing with scope creep",
+                "Managing junior team members"
+              ],
+              "daily_routine": "8am emails, 9am client calls, 10am-5pm delivery management, 7pm family time",
+              "mental_state": "coasting",
+              "discovery_context": "Word of mouth from peer at outsourcing company, also saw advertisement on Habr (Russian tech blog)",
+              "attention_span_minutes": 15,
+              "current_priorities": [
+                "Expanding to new European clients",
+                "Improving delivery metrics",
+                "Reducing overtime for team"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 6,
+          "intent_strength": 1,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month is 25% more than my entire discretionary budget of $800",
+            "Already stretched thin with 16.5 hour workdays - no time to learn new tool",
+            "Minimal risk tolerance makes large SaaS commitment difficult",
+            "Recently regretted a purchase - being more cautious now",
+            "Would need to cancel significant existing subscriptions to afford this"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $1000/month this is literally more than my entire discretionary budget - impossible to justify even if the tool could help with my delivery challenges. The price is non-starter. Even with the free trial, I'd be stressed about the eventual decision and I don't have time to evaluate properly with my schedule. Recent purchase regret makes me extra cautious about big commitments.",
+          "cpl_equivalent": 50,
+          "budget_check": "cant_afford",
+          "priority_rank": 1,
+          "time_available": false,
+          "competing_with": "existing subscriptions and mental bandwidth",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Andrey Volkov",
+          "persona": {
+            "name": "Andrey Volkov",
+            "age": 41,
+            "role": "Head of Delivery",
+            "company_size": "smb",
+            "experience_years": 18,
+            "pain_level": 5,
+            "current_workflow": "Project management via Jira, QA outsourced to team of 5 testers, weekly client demos, requirements in Confluence",
+            "budget": "comfortable",
+            "decision_authority": "committee",
+            "skepticism": 8,
+            "personality": "conservative",
+            "archetype": "casual",
+            "current_tools": "Jira, Confluence, Zoom, Microsoft Teams, GitLab, AWS Device Farm",
+            "financial": {
+              "monthly_income": 5200,
+              "monthly_expenses": 3200,
+              "discretionary_budget": 800,
+              "current_subscriptions": [
+                {
+                  "name": "LinkedIn Premium",
+                  "monthly_cost": 30,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Amazon Prime",
+                  "monthly_cost": 14,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Netflix",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 11,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Adobe Creative Cloud",
+                  "monthly_cost": 55,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 125,
+              "savings_months": 8,
+              "risk_tolerance": "minimal",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:30",
+              "sleep_time": "00:00",
+              "free_hours_per_day": 3,
+              "top_struggles": [
+                "Balancing client expectations with team capacity",
+                "Dealing with scope creep",
+                "Managing junior team members"
+              ],
+              "daily_routine": "8am emails, 9am client calls, 10am-5pm delivery management, 7pm family time",
+              "mental_state": "coasting",
+              "discovery_context": "Word of mouth from peer at outsourcing company, also saw advertisement on Habr (Russian tech blog)",
+              "attention_span_minutes": 15,
+              "current_priorities": [
+                "Expanding to new European clients",
+                "Improving delivery metrics",
+                "Reducing overtime for team"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 3,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$2000/month is 2.5x my discretionary budget of $800",
+            "Does not address my specific struggles: scope creep and managing junior team members",
+            "Generic messaging with typos in the copy ('Ai Llms')",
+            "No clear ROI calculation or business case for this specific price point",
+            "I'm in a coasting mental state - not actively looking for solutions"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $2000/month this is completely outside my budget reality - it's 2.5x my entire discretionary spending. Beyond that, the tool doesn't speak to my actual pain points around scope creep and junior team management. The landing page feels generic with typos, and I recently regretted a purchase so I'm not inclined to make an impulse decision on something this expensive without a clear business case.",
+          "cpl_equivalent": 25,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "current manual processes and existing tools like spreadsheets",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Oleg Chernyshev",
+          "persona": {
+            "name": "Oleg Chernyshev",
+            "age": 38,
+            "role": "CTO",
+            "company_size": "smb",
+            "experience_years": 15,
+            "pain_level": 4,
+            "current_workflow": "Overseeing tech stack decisions, dev team of 12, QA team of 4, evaluating new tools, maintaining technical debt",
+            "budget": "comfortable",
+            "decision_authority": "self",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "GitHub Enterprise, AWS, Datadog, Sentry, CircleCI, Jenkins, SonarQube",
+            "financial": {
+              "monthly_income": 6000,
+              "monthly_expenses": 3500,
+              "discretionary_budget": 1200,
+              "current_subscriptions": [
+                {
+                  "name": "GitHub Enterprise",
+                  "monthly_cost": 189,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 400,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Datadog",
+                  "monthly_cost": 62,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Apple One",
+                  "monthly_cost": 25,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 686,
+              "savings_months": 10,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "06:00",
+              "sleep_time": "22:30",
+              "free_hours_per_day": 4,
+              "top_struggles": [
+                "Recruiting senior developers in Moscow",
+                "Keeping tech stack modern",
+                "Balancing feature development vs infrastructure"
+              ],
+              "daily_routine": "6am reading tech news, 8am standup, 9am-6pm architecture \u0026 code reviews, 7pm family dinner",
+              "mental_state": "focused",
+              "discovery_context": "Tech conference in St. Petersburg, spoke with vendor, also evaluated similar tool from Competera",
+              "attention_span_minutes": 30,
+              "current_priorities": [
+                "Improving code quality metrics",
+                "Reducing infrastructure costs",
+                "Implementing AI/ML in development process"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$5000/month is 4x my entire discretionary budget - completely unrealistic for my situation",
+            "Vague value proposition - doesn't specify which business functions it automates",
+            "No clear ROI calculation or time-saving metrics provided",
+            "Would need to justify this expense to finance/board - landing page doesn't help",
+            "Not clear how this solves my actual problems: recruiting senior devs or tech stack modernization",
+            "Trial is 14 days but no credit card needed - seems like a lead gen tactic, not confident product"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $5000/month this is completely outside my financial reality - my entire discretionary budget is $1200. Even for business expense, I'd need a massive ROI justification and this landing page doesn't provide concrete use cases. My current tools (AWS, Datadog, Notion) already handle productivity and infrastructure. Would need to see specific automation examples for recruiting or dev workflows to even consider this at 1/10th the price.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "AWS infrastructure costs, Datadog monitoring, existing Notion workflows",
+          "decision_timeline": "never",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Andrey Volkov",
+          "persona": {
+            "name": "Andrey Volkov",
+            "age": 41,
+            "role": "Head of Delivery",
+            "company_size": "smb",
+            "experience_years": 18,
+            "pain_level": 5,
+            "current_workflow": "Project management via Jira, QA outsourced to team of 5 testers, weekly client demos, requirements in Confluence",
+            "budget": "comfortable",
+            "decision_authority": "committee",
+            "skepticism": 8,
+            "personality": "conservative",
+            "archetype": "casual",
+            "current_tools": "Jira, Confluence, Zoom, Microsoft Teams, GitLab, AWS Device Farm",
+            "financial": {
+              "monthly_income": 5200,
+              "monthly_expenses": 3200,
+              "discretionary_budget": 800,
+              "current_subscriptions": [
+                {
+                  "name": "LinkedIn Premium",
+                  "monthly_cost": 30,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Amazon Prime",
+                  "monthly_cost": 14,
+                  "usage": "weekly"
+                },
+                {
+                  "name": "Netflix",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 11,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Adobe Creative Cloud",
+                  "monthly_cost": 55,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 125,
+              "savings_months": 8,
+              "risk_tolerance": "minimal",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:30",
+              "sleep_time": "00:00",
+              "free_hours_per_day": 3,
+              "top_struggles": [
+                "Balancing client expectations with team capacity",
+                "Dealing with scope creep",
+                "Managing junior team members"
+              ],
+              "daily_routine": "8am emails, 9am client calls, 10am-5pm delivery management, 7pm family time",
+              "mental_state": "coasting",
+              "discovery_context": "Word of mouth from peer at outsourcing company, also saw advertisement on Habr (Russian tech blog)",
+              "attention_span_minutes": 15,
+              "current_priorities": [
+                "Expanding to new European clients",
+                "Improving delivery metrics",
+                "Reducing overtime for team"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 7,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$5000/month is 6x my entire discretionary budget",
+            "No clarity on team size or specific use cases",
+            "Vague messaging - doesn't explain HOW it specifically helps delivery management",
+            "Misspelled 'Ai Llms' in subheadline raises credibility concerns",
+            "Working 16.5 hours/day - no time to learn new complex tool",
+            "Minimal risk tolerance prevents impulse decisions",
+            "Recently regretted a purchase makes me extra cautious"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "The price is completely disconnected from my reality - $5000/month is more than my entire monthly take-home. Even if I could expense it, the vague claims don't justify the cost, and I simply don't have 3 hours/day to learn a complex new system when I'm already working 16.5 hours. The recent purchase regret makes me doubly cautious about big-ticket items.",
+          "cpl_equivalent": 50,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "existing subscriptions and manual workflows",
+          "decision_timeline": "never",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Elena Petrova",
+          "persona": {
+            "name": "Elena Petrova",
+            "age": 29,
+            "role": "QA Team Lead",
+            "company_size": "smb",
+            "experience_years": 7,
+            "pain_level": 6,
+            "current_workflow": "Manual testing + some automation with Appium, test case management in TestRail, CI/CD pipeline with Jenkins",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 3,
+            "personality": "early_adopter",
+            "archetype": "power_user",
+            "current_tools": "Appium, TestRail, Jenkins, Charles Proxy, Postman, Firebase",
+            "financial": {
+              "monthly_income": 2800,
+              "monthly_expenses": 1900,
+              "discretionary_budget": 400,
+              "current_subscriptions": [
+                {
+                  "name": "JetBrains All Products",
+                  "monthly_cost": 25,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Coursera",
+                  "monthly_cost": 49,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 99,
+              "savings_months": 6,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "06:30",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 2.5,
+              "top_struggles": [
+                "Maintaining test automation when app UI changes frequently",
+                "Convincing developers to write better bug reports",
+                "Training junior testers"
+              ],
+              "daily_routine": "7am gym, 9am team standup, 10am-6pm testing \u0026 automation, 8pm learning new tools",
+              "mental_state": "focused",
+              "discovery_context": "LinkedIn article from QA thought leader about AI in testing, also saw demo at TechCrunch disrupt",
+              "attention_span_minutes": 25,
+              "current_priorities": [
+                "Automating 80% of regression tests",
+                "Implementing AI-assisted test generation",
+                "Reducing manual testing time by 30%"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 2,
+          "intent_strength": 1,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$2000/month is completely out of reach - that's 5x my entire discretionary budget",
+            "Page is extremely vague - what does this actually DO? No QA-specific features mentioned",
+            "No mention of test automation, bug tracking, or any QA workflows",
+            "Enterprise pricing but no indication it's designed for teams vs individual use",
+            "I would need company approval and budget for a $24k/year tool",
+            "No free tier or lower tier shown to test the waters",
+            "Generic 'AI productivity' claim without concrete use cases relevant to my daily work",
+            "Can't justify this expense without seeing clear ROI for my team"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "This is clearly enterprise software priced at $24k/year - far beyond anything I could personally justify or afford. Beyond the price, the landing page is frustratingly vague about what problem this actually solves. As a QA Lead, I need tools that help with test automation maintenance and bug report quality, but there's zero mention of any QA-specific functionality. I spent 25 minutes looking for specifics and got generic marketing fluff. This would need to be a company-wide procurement decision, not something I'd pursue in my free time with my limited budget.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 1,
+          "time_available": false,
+          "competing_with": "my current free tools (ChatGPT, existing CI/CD pipelines, manual processes)",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Elena Petrova",
+          "persona": {
+            "name": "Elena Petrova",
+            "age": 29,
+            "role": "QA Team Lead",
+            "company_size": "smb",
+            "experience_years": 7,
+            "pain_level": 6,
+            "current_workflow": "Manual testing + some automation with Appium, test case management in TestRail, CI/CD pipeline with Jenkins",
+            "budget": "moderate",
+            "decision_authority": "needs_approval",
+            "skepticism": 3,
+            "personality": "early_adopter",
+            "archetype": "power_user",
+            "current_tools": "Appium, TestRail, Jenkins, Charles Proxy, Postman, Firebase",
+            "financial": {
+              "monthly_income": 2800,
+              "monthly_expenses": 1900,
+              "discretionary_budget": 400,
+              "current_subscriptions": [
+                {
+                  "name": "JetBrains All Products",
+                  "monthly_cost": 25,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Coursera",
+                  "monthly_cost": 49,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 99,
+              "savings_months": 6,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "06:30",
+              "sleep_time": "23:00",
+              "free_hours_per_day": 2.5,
+              "top_struggles": [
+                "Maintaining test automation when app UI changes frequently",
+                "Convincing developers to write better bug reports",
+                "Training junior testers"
+              ],
+              "daily_routine": "7am gym, 9am team standup, 10am-6pm testing \u0026 automation, 8pm learning new tools",
+              "mental_state": "focused",
+              "discovery_context": "LinkedIn article from QA thought leader about AI in testing, also saw demo at TechCrunch disrupt",
+              "attention_span_minutes": 25,
+              "current_priorities": [
+                "Automating 80% of regression tests",
+                "Implementing AI-assisted test generation",
+                "Reducing manual testing time by 30%"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 5,
+          "intent_strength": 5,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "malformed_response"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "Recovered from malformed JSON",
+          "cpl_equivalent": 25,
+          "budget_check": "stretch",
+          "priority_rank": 5,
+          "time_available": false,
+          "competing_with": "unknown",
+          "decision_timeline": "next_month",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Dmitry Krasnov",
+          "persona": {
+            "name": "Dmitry Krasnov",
+            "age": 34,
+            "role": "CEO \u0026 Co-Founder",
+            "company_size": "smb",
+            "experience_years": 11,
+            "pain_level": 9,
+            "current_workflow": "Manual testing with 2 QA engineers, client requirements come via email/Notion, test cases written in Excel, regression testing takes 2 weeks per release",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 7,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Jira, Google Sheets, BrowserStack, Firebase Crashlytics, manual devices",
+            "financial": {
+              "monthly_income": 3500,
+              "monthly_expenses": 2800,
+              "discretionary_budget": 200,
+              "current_subscriptions": [
+                {
+                  "name": "Slack",
+                  "monthly_cost": 12,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub",
+                  "monthly_cost": 21,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "1C",
+                  "monthly_cost": 50,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 273,
+              "savings_months": 3.5,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Finding qualified QA staff in Kazan",
+                "Clients demanding faster releases without budget increase",
+                "Keeping test cases in sync with changing requirements"
+              ],
+              "daily_routine": "6am client calls, 9am standups, 11am-6pm project work, 8pm business admin",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Telegram group for Russian startup founders, thread about AI testing tools",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Landing new client contract",
+                "Reducing QA bottleneck",
+                "Improving client retention"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 3,
+          "intent_strength": 1,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$5000/month is 25x my entire discretionary budget of $200",
+            "Already overspending on subscriptions ($273/month) with no room for more",
+            "Tool is too generic - doesn't address my specific QA testing problems in Kazan",
+            "With only 3.5 months runway, this would drain savings in one month",
+            "Recently regretted a purchase - I'm being extra cautious now",
+            "No clear connection to my real struggles: QA hiring, test case sync, faster releases for clients"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "This is completely out of my financial reach at $5000/month when I only have $200 discretionary and already overextend on subscriptions. The tool is also too vague - it talks about 'AI productivity' and 'save time' but doesn't specifically address my real problems with QA staffing in Kazan and keeping test cases synced. After my recent regret purchase, I'm being very cautious, and this would burn through my 3.5 month runway in a single month. No brainer reject.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "existing GitHub/Notion workflow and $273/month in existing subscriptions",
+          "decision_timeline": "never",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Oleg Chernyshev",
+          "persona": {
+            "name": "Oleg Chernyshev",
+            "age": 38,
+            "role": "CTO",
+            "company_size": "smb",
+            "experience_years": 15,
+            "pain_level": 4,
+            "current_workflow": "Overseeing tech stack decisions, dev team of 12, QA team of 4, evaluating new tools, maintaining technical debt",
+            "budget": "comfortable",
+            "decision_authority": "self",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "GitHub Enterprise, AWS, Datadog, Sentry, CircleCI, Jenkins, SonarQube",
+            "financial": {
+              "monthly_income": 6000,
+              "monthly_expenses": 3500,
+              "discretionary_budget": 1200,
+              "current_subscriptions": [
+                {
+                  "name": "GitHub Enterprise",
+                  "monthly_cost": 189,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 400,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Datadog",
+                  "monthly_cost": 62,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Apple One",
+                  "monthly_cost": 25,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 686,
+              "savings_months": 10,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "06:00",
+              "sleep_time": "22:30",
+              "free_hours_per_day": 4,
+              "top_struggles": [
+                "Recruiting senior developers in Moscow",
+                "Keeping tech stack modern",
+                "Balancing feature development vs infrastructure"
+              ],
+              "daily_routine": "6am reading tech news, 8am standup, 9am-6pm architecture \u0026 code reviews, 7pm family dinner",
+              "mental_state": "focused",
+              "discovery_context": "Tech conference in St. Petersburg, spoke with vendor, also evaluated similar tool from Competera",
+              "attention_span_minutes": 30,
+              "current_priorities": [
+                "Improving code quality metrics",
+                "Reducing infrastructure costs",
+                "Implementing AI/ML in development process"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 7,
+          "intent_strength": 3,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month is 83% of entire discretionary budget and nearly double what I have left after existing subscriptions",
+            "Value proposition is extremely vague - 'Save Time' is repeated multiple times with no specific use cases",
+            "Typo in subheadline ('Ai Llms') undermines credibility",
+            "No clear differentiation from tools I already use (Notion AI, GitHub Copilot, etc.)",
+            "No mention of recruiting, infrastructure, or CTO-specific pain points",
+            "Generic 'AI-powered' claims without evidence or benchmarks"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $1000/month this costs more than my entire remaining monthly discretionary budget after existing subscriptions. The value proposition is generic and doesn't address my actual struggles (recruiting senior devs, infrastructure vs features). The copy reads like AI-washing with no specific use cases. I'd need 10x clearer ROI demonstration and a price under $200 to even trial this.",
+          "cpl_equivalent": 15,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "GitHub Copilot, Notion AI, AWS AI services already in our stack",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Dmitry Krasnov",
+          "persona": {
+            "name": "Dmitry Krasnov",
+            "age": 34,
+            "role": "CEO \u0026 Co-Founder",
+            "company_size": "smb",
+            "experience_years": 11,
+            "pain_level": 9,
+            "current_workflow": "Manual testing with 2 QA engineers, client requirements come via email/Notion, test cases written in Excel, regression testing takes 2 weeks per release",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 7,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Jira, Google Sheets, BrowserStack, Firebase Crashlytics, manual devices",
+            "financial": {
+              "monthly_income": 3500,
+              "monthly_expenses": 2800,
+              "discretionary_budget": 200,
+              "current_subscriptions": [
+                {
+                  "name": "Slack",
+                  "monthly_cost": 12,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub",
+                  "monthly_cost": 21,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "1C",
+                  "monthly_cost": 50,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 273,
+              "savings_months": 3.5,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Finding qualified QA staff in Kazan",
+                "Clients demanding faster releases without budget increase",
+                "Keeping test cases in sync with changing requirements"
+              ],
+              "daily_routine": "6am client calls, 9am standups, 11am-6pm project work, 8pm business admin",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Telegram group for Russian startup founders, thread about AI testing tools",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Landing new client contract",
+                "Reducing QA bottleneck",
+                "Improving client retention"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 5,
+          "relevance_score": 5,
+          "intent_strength": 5,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "malformed_response"
+          ],
+          "pricing_reaction": "stretch",
+          "reasoning": "Recovered from malformed JSON",
+          "cpl_equivalent": 25,
+          "budget_check": "stretch",
+          "priority_rank": 5,
+          "time_available": false,
+          "competing_with": "unknown",
+          "decision_timeline": "next_month",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Marina Sokolova",
+          "persona": {
+            "name": "Marina Sokolova",
+            "age": 26,
+            "role": "Junior Project Manager",
+            "company_size": "startup",
+            "experience_years": 3,
+            "pain_level": 8,
+            "current_workflow": "Tracking tasks in Trello, coordinating between dev and client, manual QA oversight, requirements in Figma and Google Docs",
+            "budget": "tight",
+            "decision_authority": "needs_approval",
+            "skepticism": 2,
+            "personality": "early_adopter",
+            "archetype": "struggling",
+            "current_tools": "Trello, Figma, Google Docs, Zoom, WhatsApp, manual testing on personal phone",
+            "financial": {
+              "monthly_income": 1200,
+              "monthly_expenses": 900,
+              "discretionary_budget": 100,
+              "current_subscriptions": [
+                {
+                  "name": "Trello Premium",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 5,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 30,
+              "savings_months": 1,
+              "risk_tolerance": "aggressive",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "08:00",
+              "sleep_time": "01:00",
+              "free_hours_per_day": 1,
+              "top_struggles": [
+                "Understanding technical requirements",
+                "Coordinating remote team members",
+                "Clients changing requirements last minute"
+              ],
+              "daily_routine": "9am standup, 10am-8pm firefighting tasks, 10pm-1am doom scrolling",
+              "mental_state": "burned_out",
+              "discovery_context": "Instagram ad while browsing tech community, also friend told about it at startup meetup",
+              "attention_span_minutes": 8,
+              "current_priorities": [
+                "Learning more about QA automation",
+                "Proving value to get promoted",
+                "Finding better paying job"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 6,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month is 10x my entire discretionary budget",
+            "Tool seems aimed at larger businesses, not individual PMs",
+            "No time to learn new tool - working 17 hour days",
+            "Already stretched thin with existing subscriptions",
+            "Too expensive for my financial situation with only 1 month savings"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "There's no way I can afford $1000/month when I only have $100 in discretionary spending and just 1 month of savings runway - that would be my entire income minus bills. Even though the 14-day trial is tempting and could theoretically help with my PM struggles, I'm too burned out from 17-hour workdays to even consider learning a new tool. The price is designed for businesses, not someone my age earning $1200/month.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 8,
+          "time_available": false,
+          "competing_with": "Trello Premium and Figma (already maxed out my subscription budget)",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        },
+        {
+          "persona_name": "Oleg Chernyshev",
+          "persona": {
+            "name": "Oleg Chernyshev",
+            "age": 38,
+            "role": "CTO",
+            "company_size": "smb",
+            "experience_years": 15,
+            "pain_level": 4,
+            "current_workflow": "Overseeing tech stack decisions, dev team of 12, QA team of 4, evaluating new tools, maintaining technical debt",
+            "budget": "comfortable",
+            "decision_authority": "self",
+            "skepticism": 5,
+            "personality": "pragmatic",
+            "archetype": "power_user",
+            "current_tools": "GitHub Enterprise, AWS, Datadog, Sentry, CircleCI, Jenkins, SonarQube",
+            "financial": {
+              "monthly_income": 6000,
+              "monthly_expenses": 3500,
+              "discretionary_budget": 1200,
+              "current_subscriptions": [
+                {
+                  "name": "GitHub Enterprise",
+                  "monthly_cost": 189,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 400,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Datadog",
+                  "monthly_cost": 62,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Apple One",
+                  "monthly_cost": 25,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 686,
+              "savings_months": 10,
+              "risk_tolerance": "moderate",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "06:00",
+              "sleep_time": "22:30",
+              "free_hours_per_day": 4,
+              "top_struggles": [
+                "Recruiting senior developers in Moscow",
+                "Keeping tech stack modern",
+                "Balancing feature development vs infrastructure"
+              ],
+              "daily_routine": "6am reading tech news, 8am standup, 9am-6pm architecture \u0026 code reviews, 7pm family dinner",
+              "mental_state": "focused",
+              "discovery_context": "Tech conference in St. Petersburg, spoke with vendor, also evaluated similar tool from Competera",
+              "attention_span_minutes": 30,
+              "current_priorities": [
+                "Improving code quality metrics",
+                "Reducing infrastructure costs",
+                "Implementing AI/ML in development process"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 4,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$2000/month is nearly 4x my discretionary budget of $514",
+            "Generic headline and subheadline - 'AI-powered Save Time automation' tells me nothing",
+            "No clear differentiation from ChatGPT/Claude which I already use",
+            "Doesn't address my specific struggles: recruiting senior devs, tech stack modernization, infrastructure vs features",
+            "Vague 'Real-time analytics and insights' - what specifically? For whom?",
+            "No mention of integrations with tools I already use (AWS, GitHub, Datadog)"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "The price is completely out of range - $2000/month is almost my entire discretionary budget for the month. Beyond that, the landing page reads like AI-generated marketing fluff with zero specific value proposition. As a CTO managing real infrastructure challenges (recruiting, tech stack, AWS costs), I need tools that solve concrete problems, not vague 'AI productivity' promises. The 14-day trial is irrelevant when the economics don't work.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "ChatGPT/Claude subscriptions, existing AWS AI services, internal build-vs-buy decisions",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Marina Sokolova",
+          "persona": {
+            "name": "Marina Sokolova",
+            "age": 26,
+            "role": "Junior Project Manager",
+            "company_size": "startup",
+            "experience_years": 3,
+            "pain_level": 8,
+            "current_workflow": "Tracking tasks in Trello, coordinating between dev and client, manual QA oversight, requirements in Figma and Google Docs",
+            "budget": "tight",
+            "decision_authority": "needs_approval",
+            "skepticism": 2,
+            "personality": "early_adopter",
+            "archetype": "struggling",
+            "current_tools": "Trello, Figma, Google Docs, Zoom, WhatsApp, manual testing on personal phone",
+            "financial": {
+              "monthly_income": 1200,
+              "monthly_expenses": 900,
+              "discretionary_budget": 100,
+              "current_subscriptions": [
+                {
+                  "name": "Trello Premium",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 5,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 30,
+              "savings_months": 1,
+              "risk_tolerance": "aggressive",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "08:00",
+              "sleep_time": "01:00",
+              "free_hours_per_day": 1,
+              "top_struggles": [
+                "Understanding technical requirements",
+                "Coordinating remote team members",
+                "Clients changing requirements last minute"
+              ],
+              "daily_routine": "9am standup, 10am-8pm firefighting tasks, 10pm-1am doom scrolling",
+              "mental_state": "burned_out",
+              "discovery_context": "Instagram ad while browsing tech community, also friend told about it at startup meetup",
+              "attention_span_minutes": 8,
+              "current_priorities": [
+                "Learning more about QA automation",
+                "Proving value to get promoted",
+                "Finding better paying job"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$2000/month is completely out of budget - I only have $100 discretionary spending",
+            "No clear PM-specific features - seems geared toward larger businesses",
+            "I already have Trello and Figma, adding another tool feels overwhelming",
+            "I'm burned out with 1 hour free time - can't commit to learning new software",
+            "Vague value proposition - doesn't directly address my struggles with technical requirements"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $2000/month this is literally 20x my entire monthly discretionary budget - completely inaccessible. Even with the no-credit-card trial, I don't have the mental energy or time (1 hour/day) to learn a new complex tool while burned out. The landing page feels generic and doesn't address my specific pain points around understanding technical requirements or coordinating remote teams. If this were $20/month I might try it, but at this price point it's not even a remote possibility for someone at my career level.",
+          "cpl_equivalent": 50,
+          "budget_check": "cant_afford",
+          "priority_rank": 2,
+          "time_available": false,
+          "competing_with": "Trello Premium and Figma for my project management needs",
+          "decision_timeline": "never",
+          "tested_price": 2000
+        },
+        {
+          "persona_name": "Marina Sokolova",
+          "persona": {
+            "name": "Marina Sokolova",
+            "age": 26,
+            "role": "Junior Project Manager",
+            "company_size": "startup",
+            "experience_years": 3,
+            "pain_level": 8,
+            "current_workflow": "Tracking tasks in Trello, coordinating between dev and client, manual QA oversight, requirements in Figma and Google Docs",
+            "budget": "tight",
+            "decision_authority": "needs_approval",
+            "skepticism": 2,
+            "personality": "early_adopter",
+            "archetype": "struggling",
+            "current_tools": "Trello, Figma, Google Docs, Zoom, WhatsApp, manual testing on personal phone",
+            "financial": {
+              "monthly_income": 1200,
+              "monthly_expenses": 900,
+              "discretionary_budget": 100,
+              "current_subscriptions": [
+                {
+                  "name": "Trello Premium",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Figma",
+                  "monthly_cost": 15,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Spotify",
+                  "monthly_cost": 5,
+                  "usage": "daily"
+                }
+              ],
+              "total_sub_spend": 30,
+              "savings_months": 1,
+              "risk_tolerance": "aggressive",
+              "recent_purchase_regret": false
+            },
+            "daily_life": {
+              "wake_time": "08:00",
+              "sleep_time": "01:00",
+              "free_hours_per_day": 1,
+              "top_struggles": [
+                "Understanding technical requirements",
+                "Coordinating remote team members",
+                "Clients changing requirements last minute"
+              ],
+              "daily_routine": "9am standup, 10am-8pm firefighting tasks, 10pm-1am doom scrolling",
+              "mental_state": "burned_out",
+              "discovery_context": "Instagram ad while browsing tech community, also friend told about it at startup meetup",
+              "attention_span_minutes": 8,
+              "current_priorities": [
+                "Learning more about QA automation",
+                "Proving value to get promoted",
+                "Finding better paying job"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 4,
+          "relevance_score": 5,
+          "intent_strength": 2,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$5000/month is 50x my entire monthly discretionary budget",
+            "No project management-specific features mentioned",
+            "Doesn't address my specific struggles (technical requirements, remote team coordination, changing client requirements)",
+            "I already have Trello and Figma that I use daily",
+            "No individual or small team pricing tier",
+            "Generic AI buzzwords without concrete use cases"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "This is clearly an enterprise tool priced for large corporations - $5000/month is more than 4x my entire monthly income. Even with my aggressive risk tolerance and interest in productivity tools, there's zero chance I could afford this. The landing page doesn't speak to my specific PM pain points either. I'd need a tier under $50/month to even consider it.",
+          "cpl_equivalent": 50,
+          "budget_check": "cant_afford",
+          "priority_rank": 1,
+          "time_available": true,
+          "competing_with": "Trello Premium, Figma, existing workflow",
+          "decision_timeline": "never",
+          "tested_price": 5000
+        },
+        {
+          "persona_name": "Dmitry Krasnov",
+          "persona": {
+            "name": "Dmitry Krasnov",
+            "age": 34,
+            "role": "CEO \u0026 Co-Founder",
+            "company_size": "smb",
+            "experience_years": 11,
+            "pain_level": 9,
+            "current_workflow": "Manual testing with 2 QA engineers, client requirements come via email/Notion, test cases written in Excel, regression testing takes 2 weeks per release",
+            "budget": "tight",
+            "decision_authority": "self",
+            "skepticism": 7,
+            "personality": "pragmatic",
+            "archetype": "struggling",
+            "current_tools": "Jira, Google Sheets, BrowserStack, Firebase Crashlytics, manual devices",
+            "financial": {
+              "monthly_income": 3500,
+              "monthly_expenses": 2800,
+              "discretionary_budget": 200,
+              "current_subscriptions": [
+                {
+                  "name": "Slack",
+                  "monthly_cost": 12,
+                  "usage": "daily"
+                },
+                {
+                  "name": "GitHub",
+                  "monthly_cost": 21,
+                  "usage": "daily"
+                },
+                {
+                  "name": "Notion",
+                  "monthly_cost": 10,
+                  "usage": "daily"
+                },
+                {
+                  "name": "AWS",
+                  "monthly_cost": 180,
+                  "usage": "daily"
+                },
+                {
+                  "name": "1C",
+                  "monthly_cost": 50,
+                  "usage": "weekly"
+                }
+              ],
+              "total_sub_spend": 273,
+              "savings_months": 3.5,
+              "risk_tolerance": "cautious",
+              "recent_purchase_regret": true
+            },
+            "daily_life": {
+              "wake_time": "07:00",
+              "sleep_time": "23:30",
+              "free_hours_per_day": 1.5,
+              "top_struggles": [
+                "Finding qualified QA staff in Kazan",
+                "Clients demanding faster releases without budget increase",
+                "Keeping test cases in sync with changing requirements"
+              ],
+              "daily_routine": "6am client calls, 9am standups, 11am-6pm project work, 8pm business admin",
+              "mental_state": "overwhelmed",
+              "discovery_context": "Telegram group for Russian startup founders, thread about AI testing tools",
+              "attention_span_minutes": 12,
+              "current_priorities": [
+                "Landing new client contract",
+                "Reducing QA bottleneck",
+                "Improving client retention"
+              ]
+            }
+          },
+          "archetype": "",
+          "impression_score": 3,
+          "relevance_score": 2,
+          "intent_strength": 1,
+          "converted": false,
+          "status": "rejected",
+          "skepticism": "",
+          "friction_points": [
+            "$1000/month is 5x my entire discretionary budget - completely unaffordable",
+            "No mention of QA automation or test case management - doesn't address my specific struggles",
+            "Too generic - doesn't solve my problems with QA staff in Kazan or sync with changing requirements",
+            "Already overwhelmed with 1.5 hours free time daily - can't invest time to evaluate or implement another tool",
+            "Would need to consult co-founder for this level of expense",
+            "Recently regretted a purchase - in cautious mindset"
+          ],
+          "pricing_reaction": "cant_afford",
+          "reasoning": "At $1000/month this costs more than double my monthly discretionary budget - simply not possible. Beyond the price, this tool doesn't seem to address my real problems (QA staffing, test case sync, client release pressure). I'm already overwhelmed with 1.5 hours free time daily and in a cautious mindset after my recent regret purchase. Even if it was relevant, I'd need to discuss this with my co-founder and I simply don't have the bandwidth to evaluate new tools right now.",
+          "cpl_equivalent": 45,
+          "budget_check": "cant_afford",
+          "priority_rank": 3,
+          "time_available": false,
+          "competing_with": "existing workflow and subscriptions",
+          "decision_timeline": "never",
+          "tested_price": 1000
+        }
+      ],
+      "price_experiments": [
+        {
+          "price": 1000,
+          "metrics": {
+            "score": 1.4410170104958375,
+            "composite_score": 0.14410170104958375,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.43449149475208104,
+            "uncertainty_penalty": 0.08689829895041622,
+            "simulated_cpl": 41,
+            "intent_strength": 1.6,
+            "friction_score": 5.6,
+            "avg_impression": 3.8,
+            "avg_relevance": 4.6,
+            "conversions": 0,
+            "rejections": 5,
+            "errors": 0,
+            "total_personas": 5,
+            "valid_personas": 5
+          }
+        },
+        {
+          "price": 2000,
+          "metrics": {
+            "score": 1.271017010495838,
+            "composite_score": 0.1271017010495838,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.43449149475208104,
+            "uncertainty_penalty": 0.08689829895041622,
+            "simulated_cpl": 38,
+            "intent_strength": 2.4,
+            "friction_score": 5,
+            "avg_impression": 3.8,
+            "avg_relevance": 3.8,
+            "conversions": 0,
+            "rejections": 5,
+            "errors": 0,
+            "total_personas": 5,
+            "valid_personas": 5
+          }
+        },
+        {
+          "price": 5000,
+          "metrics": {
+            "score": 1.5310170104958376,
+            "composite_score": 0.15310170104958376,
+            "conversion_rate": 0,
+            "conversion_ci_low": 0,
+            "conversion_ci_high": 0.43449149475208104,
+            "uncertainty_penalty": 0.08689829895041622,
+            "simulated_cpl": 43,
+            "intent_strength": 2.4,
+            "friction_score": 5.2,
+            "avg_impression": 4.2,
+            "avg_relevance": 4.8,
+            "conversions": 0,
+            "rejections": 5,
+            "errors": 0,
+            "total_personas": 5,
+            "valid_personas": 5
+          }
+        }
+      ],
+      "selected_price": 29,
+      "rank_stability": 0
+    }
+  ],
+  "stats": {
+    "total_calls": 17,
+    "successful": 16,
+    "failed": 1,
+    "total_time_seconds": 311.206611784,
+    "throughput_calls_per_sec": 0.05141278942718981,
+    "phase_times": {
+      "analysis": 67.336467529,
+      "idea_generation": 0.000002273,
+      "landing_generation": 133.43623247,
+      "persona_generation": 60.616073281,
+      "scoring": 0.000028555,
+      "simulation": 49.817749499
+    },
+    "calibration_warnings": [
+      "Funnel stage cold expected conversion range 0.5%-3.0%.",
+      "Observed conversion 0.0% is below expected range for cold traffic.",
+      "Very low aggregate conversion 0.0%; check simulation assumptions."
+    ],
+    "observed_conversion": 0,
+    "expected_conv_low": 0.005,
+    "expected_conv_high": 0.03,
+    "learning_gate_passed": false
+  },
+  "provider_stats": {
+    "maxclaw": {
+      "calls": 17,
+      "successes": 16,
+      "failures": 1,
+      "total_time": 0
+    }
+  },
+  "timestamp": "2026-03-16T06:54:06+05:00",
+  "config": {
+    "pinned_ideas": [
+      {
+        "coordinates": {
+          "audience": "businesses",
+          "category": "ai_productivity",
+          "content_format": "text",
+          "data_source": "ai_generated",
+          "distribution": "web_platform",
+          "engagement_mechanics": "reputation",
+          "geography": "global",
+          "interaction_model": "ai_assistant",
+          "monetization": "subscription",
+          "network_structure": "one_to_one",
+          "technology": "ai_llms",
+          "value_proposition": "save_time"
+        },
+        "fit_score": 0.75,
+        "fit_breakdown": null,
+        "reasoning": "Pinned idea for direct validation – Loadify.ai mobile QA automation",
+        "description": "Loadify – AI-powered mobile QA automation for outsourcing agencies. AI agents run test scenarios on real iOS/Android devices, auto-generate test cases from requirements, execute with pass/fail flags, and keep tests up-to-date when requirements change. Targets outsourcing companies (5-50 people) in Russia/CIS who do mobile app development for clients. Pricing: $1000/month SaaS or $2000-5000/month done-for-you testing service. Working alpha already exists. Value prop: fewer QA headcount, more bugs caught, scale client load without hiring."
+      }
+    ],
+    "num_ideas": 100,
+    "num_personas": 5,
+    "deep_personas": 60,
+    "deep_top_k": 3,
+    "min_score": 0.5,
+    "profile_path": "../profile.json",
+    "output_dir": "results/loadify",
+    "providers": null,
+    "price_points": [
+      1000,
+      2000,
+      5000
+    ],
+    "max_concurrent": 100,
+    "resume": false,
+    "verbose": false,
+    "debug": false,
+    "epochs": 1,
+    "mode": "pipeline",
+    "enrichment_mode": "maxclaw",
+    "learning_mode": "hybrid",
+    "pricing_mode": "grid",
+    "sample_mode": "single_stage",
+    "simulation_bias": "neutral",
+    "funnel_stage": "cold",
+    "conversion_floor": 0,
+    "enforce_calibration": true,
+    "ci_threshold": 0.55,
+    "seed": 1773625735470450042
+  }
+}

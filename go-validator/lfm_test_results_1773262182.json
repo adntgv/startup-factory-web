@@ -1,0 +1,802 @@
+[
+  {
+    "task_id": 0,
+    "success": true,
+    "elapsed": 0.44054126739501953,
+    "tokens": 82,
+    "tokens_per_sec": 186.1346622187682,
+    "valid_json": true
+  },
+  {
+    "task_id": 4,
+    "success": true,
+    "elapsed": 1.7406995296478271,
+    "tokens": 82,
+    "tokens_per_sec": 47.1074982231942,
+    "valid_json": true
+  },
+  {
+    "task_id": 3,
+    "success": true,
+    "elapsed": 1.745396614074707,
+    "tokens": 82,
+    "tokens_per_sec": 46.9807259500563,
+    "valid_json": true
+  },
+  {
+    "task_id": 1,
+    "success": true,
+    "elapsed": 1.747419834136963,
+    "tokens": 82,
+    "tokens_per_sec": 46.92633012289183,
+    "valid_json": true
+  },
+  {
+    "task_id": 6,
+    "success": true,
+    "elapsed": 1.7451460361480713,
+    "tokens": 82,
+    "tokens_per_sec": 46.98747170809406,
+    "valid_json": true
+  },
+  {
+    "task_id": 8,
+    "success": true,
+    "elapsed": 1.7447962760925293,
+    "tokens": 82,
+    "tokens_per_sec": 46.99689076803796,
+    "valid_json": true
+  },
+  {
+    "task_id": 2,
+    "success": true,
+    "elapsed": 1.7508854866027832,
+    "tokens": 82,
+    "tokens_per_sec": 46.83344549225967,
+    "valid_json": true
+  },
+  {
+    "task_id": 5,
+    "success": true,
+    "elapsed": 1.7549800872802734,
+    "tokens": 82,
+    "tokens_per_sec": 46.724176869195695,
+    "valid_json": true
+  },
+  {
+    "task_id": 9,
+    "success": true,
+    "elapsed": 1.7534677982330322,
+    "tokens": 82,
+    "tokens_per_sec": 46.76447442184642,
+    "valid_json": true
+  },
+  {
+    "task_id": 7,
+    "success": true,
+    "elapsed": 1.7554700374603271,
+    "tokens": 82,
+    "tokens_per_sec": 46.71113619155301,
+    "valid_json": true
+  },
+  {
+    "task_id": 10,
+    "success": true,
+    "elapsed": 1.4021637439727783,
+    "tokens": 81,
+    "tokens_per_sec": 57.767860813817,
+    "valid_json": true
+  },
+  {
+    "task_id": 11,
+    "success": true,
+    "elapsed": 0.3643040657043457,
+    "tokens": 82,
+    "tokens_per_sec": 225.08670014829823,
+    "valid_json": true
+  },
+  {
+    "task_id": 14,
+    "success": true,
+    "elapsed": 1.5747241973876953,
+    "tokens": 81,
+    "tokens_per_sec": 51.4375788054636,
+    "valid_json": true
+  },
+  {
+    "task_id": 12,
+    "success": true,
+    "elapsed": 1.5799717903137207,
+    "tokens": 81,
+    "tokens_per_sec": 51.26673811303717,
+    "valid_json": true
+  },
+  {
+    "task_id": 13,
+    "success": true,
+    "elapsed": 1.5799927711486816,
+    "tokens": 81,
+    "tokens_per_sec": 51.26605733842163,
+    "valid_json": true
+  },
+  {
+    "task_id": 15,
+    "success": true,
+    "elapsed": 1.5792322158813477,
+    "tokens": 81,
+    "tokens_per_sec": 51.29074697529205,
+    "valid_json": true
+  },
+  {
+    "task_id": 18,
+    "success": true,
+    "elapsed": 1.6557049751281738,
+    "tokens": 81,
+    "tokens_per_sec": 48.921759139927396,
+    "valid_json": true
+  },
+  {
+    "task_id": 19,
+    "success": true,
+    "elapsed": 1.655747652053833,
+    "tokens": 81,
+    "tokens_per_sec": 48.92049818070131,
+    "valid_json": true
+  },
+  {
+    "task_id": 17,
+    "success": true,
+    "elapsed": 1.658252477645874,
+    "tokens": 81,
+    "tokens_per_sec": 48.84660272903138,
+    "valid_json": true
+  },
+  {
+    "task_id": 20,
+    "success": true,
+    "elapsed": 1.573946475982666,
+    "tokens": 81,
+    "tokens_per_sec": 51.462995239040175,
+    "valid_json": true
+  },
+  {
+    "task_id": 16,
+    "success": true,
+    "elapsed": 1.6668102741241455,
+    "tokens": 81,
+    "tokens_per_sec": 48.59581276733062,
+    "valid_json": true
+  },
+  {
+    "task_id": 21,
+    "success": true,
+    "elapsed": 1.3121676445007324,
+    "tokens": 81,
+    "tokens_per_sec": 61.72991716376283,
+    "valid_json": true
+  },
+  {
+    "task_id": 22,
+    "success": true,
+    "elapsed": 0.3553202152252197,
+    "tokens": 82,
+    "tokens_per_sec": 230.7777505651467,
+    "valid_json": true
+  },
+  {
+    "task_id": 23,
+    "success": true,
+    "elapsed": 1.5658698081970215,
+    "tokens": 81,
+    "tokens_per_sec": 51.7284384538107,
+    "valid_json": true
+  },
+  {
+    "task_id": 24,
+    "success": true,
+    "elapsed": 1.5683107376098633,
+    "tokens": 81,
+    "tokens_per_sec": 51.64792796320811,
+    "valid_json": true
+  },
+  {
+    "task_id": 25,
+    "success": true,
+    "elapsed": 1.6575095653533936,
+    "tokens": 81,
+    "tokens_per_sec": 48.86849626278337,
+    "valid_json": true
+  },
+  {
+    "task_id": 28,
+    "success": true,
+    "elapsed": 1.5710020065307617,
+    "tokens": 81,
+    "tokens_per_sec": 51.55945037834294,
+    "valid_json": true
+  },
+  {
+    "task_id": 26,
+    "success": true,
+    "elapsed": 1.5736658573150635,
+    "tokens": 81,
+    "tokens_per_sec": 51.472172204459916,
+    "valid_json": true
+  },
+  {
+    "task_id": 27,
+    "success": true,
+    "elapsed": 1.5736010074615479,
+    "tokens": 81,
+    "tokens_per_sec": 51.47429343011481,
+    "valid_json": true
+  },
+  {
+    "task_id": 29,
+    "success": true,
+    "elapsed": 1.5727496147155762,
+    "tokens": 81,
+    "tokens_per_sec": 51.50215853948782,
+    "valid_json": true
+  },
+  {
+    "task_id": 30,
+    "success": true,
+    "elapsed": 1.5716361999511719,
+    "tokens": 81,
+    "tokens_per_sec": 51.53864488646707,
+    "valid_json": true
+  },
+  {
+    "task_id": 31,
+    "success": true,
+    "elapsed": 1.5716526508331299,
+    "tokens": 81,
+    "tokens_per_sec": 51.538105418561834,
+    "valid_json": true
+  },
+  {
+    "task_id": 32,
+    "success": true,
+    "elapsed": 1.3134031295776367,
+    "tokens": 81,
+    "tokens_per_sec": 61.67184939329932,
+    "valid_json": true
+  },
+  {
+    "task_id": 33,
+    "success": true,
+    "elapsed": 0.3561375141143799,
+    "tokens": 82,
+    "tokens_per_sec": 230.24813941298035,
+    "valid_json": true
+  },
+  {
+    "task_id": 34,
+    "success": true,
+    "elapsed": 1.5709352493286133,
+    "tokens": 82,
+    "tokens_per_sec": 52.19820488148393,
+    "valid_json": true
+  },
+  {
+    "task_id": 35,
+    "success": true,
+    "elapsed": 1.4818391799926758,
+    "tokens": 82,
+    "tokens_per_sec": 55.336639162426046,
+    "valid_json": true
+  },
+  {
+    "task_id": 36,
+    "success": true,
+    "elapsed": 1.4818379878997803,
+    "tokens": 82,
+    "tokens_per_sec": 55.33668367904321,
+    "valid_json": true
+  },
+  {
+    "task_id": 37,
+    "success": true,
+    "elapsed": 1.4817485809326172,
+    "tokens": 82,
+    "tokens_per_sec": 55.340022629472635,
+    "valid_json": true
+  },
+  {
+    "task_id": 39,
+    "success": true,
+    "elapsed": 1.4808993339538574,
+    "tokens": 82,
+    "tokens_per_sec": 55.37175830923494,
+    "valid_json": true
+  },
+  {
+    "task_id": 40,
+    "success": true,
+    "elapsed": 1.4808752536773682,
+    "tokens": 82,
+    "tokens_per_sec": 55.372658700572075,
+    "valid_json": true
+  },
+  {
+    "task_id": 41,
+    "success": true,
+    "elapsed": 1.480884075164795,
+    "tokens": 82,
+    "tokens_per_sec": 55.37232885084197,
+    "valid_json": true
+  },
+  {
+    "task_id": 38,
+    "success": true,
+    "elapsed": 1.48488187789917,
+    "tokens": 82,
+    "tokens_per_sec": 55.223247869395955,
+    "valid_json": true
+  },
+  {
+    "task_id": 42,
+    "success": true,
+    "elapsed": 1.4823288917541504,
+    "tokens": 82,
+    "tokens_per_sec": 55.31835779235422,
+    "valid_json": true
+  },
+  {
+    "task_id": 43,
+    "success": true,
+    "elapsed": 1.3092129230499268,
+    "tokens": 79,
+    "tokens_per_sec": 60.34159807708172,
+    "valid_json": true
+  },
+  {
+    "task_id": 44,
+    "success": true,
+    "elapsed": 0.3545520305633545,
+    "tokens": 82,
+    "tokens_per_sec": 231.27776160161497,
+    "valid_json": true
+  },
+  {
+    "task_id": 46,
+    "success": true,
+    "elapsed": 1.554802417755127,
+    "tokens": 82,
+    "tokens_per_sec": 52.739820226414494,
+    "valid_json": true
+  },
+  {
+    "task_id": 47,
+    "success": true,
+    "elapsed": 1.5548326969146729,
+    "tokens": 82,
+    "tokens_per_sec": 52.738793159364626,
+    "valid_json": true
+  },
+  {
+    "task_id": 45,
+    "success": true,
+    "elapsed": 1.557431936264038,
+    "tokens": 82,
+    "tokens_per_sec": 52.65077599262623,
+    "valid_json": true
+  },
+  {
+    "task_id": 52,
+    "success": true,
+    "elapsed": 1.5512256622314453,
+    "tokens": 82,
+    "tokens_per_sec": 52.86142564328301,
+    "valid_json": true
+  },
+  {
+    "task_id": 48,
+    "success": true,
+    "elapsed": 1.5564894676208496,
+    "tokens": 82,
+    "tokens_per_sec": 52.68265652021402,
+    "valid_json": true
+  },
+  {
+    "task_id": 50,
+    "success": true,
+    "elapsed": 1.555715560913086,
+    "tokens": 82,
+    "tokens_per_sec": 52.708864049590325,
+    "valid_json": true
+  },
+  {
+    "task_id": 51,
+    "success": true,
+    "elapsed": 1.5548615455627441,
+    "tokens": 82,
+    "tokens_per_sec": 52.73781465237929,
+    "valid_json": true
+  },
+  {
+    "task_id": 49,
+    "success": true,
+    "elapsed": 1.5579774379730225,
+    "tokens": 82,
+    "tokens_per_sec": 52.63234113754855,
+    "valid_json": true
+  },
+  {
+    "task_id": 53,
+    "success": true,
+    "elapsed": 1.4720826148986816,
+    "tokens": 82,
+    "tokens_per_sec": 55.70339542773812,
+    "valid_json": true
+  },
+  {
+    "task_id": 54,
+    "success": true,
+    "elapsed": 1.3125419616699219,
+    "tokens": 82,
+    "tokens_per_sec": 62.474193126498584,
+    "valid_json": true
+  },
+  {
+    "task_id": 56,
+    "success": true,
+    "elapsed": 0.3501276969909668,
+    "tokens": 82,
+    "tokens_per_sec": 234.20026665904007,
+    "valid_json": true
+  },
+  {
+    "task_id": 58,
+    "success": true,
+    "elapsed": 1.5744171142578125,
+    "tokens": 82,
+    "tokens_per_sec": 52.08276717612739,
+    "valid_json": true
+  },
+  {
+    "task_id": 55,
+    "success": true,
+    "elapsed": 1.5765976905822754,
+    "tokens": 82,
+    "tokens_per_sec": 52.01073202746823,
+    "valid_json": true
+  },
+  {
+    "task_id": 57,
+    "success": true,
+    "elapsed": 1.5764985084533691,
+    "tokens": 82,
+    "tokens_per_sec": 52.01400417463538,
+    "valid_json": true
+  },
+  {
+    "task_id": 59,
+    "success": true,
+    "elapsed": 1.575460433959961,
+    "tokens": 82,
+    "tokens_per_sec": 52.048276321285236,
+    "valid_json": true
+  },
+  {
+    "task_id": 62,
+    "success": true,
+    "elapsed": 1.57533860206604,
+    "tokens": 82,
+    "tokens_per_sec": 52.05230157659938,
+    "valid_json": true
+  },
+  {
+    "task_id": 61,
+    "success": true,
+    "elapsed": 1.5769522190093994,
+    "tokens": 82,
+    "tokens_per_sec": 51.99903903969283,
+    "valid_json": true
+  },
+  {
+    "task_id": 60,
+    "success": true,
+    "elapsed": 1.578512191772461,
+    "tokens": 82,
+    "tokens_per_sec": 51.94765072287774,
+    "valid_json": true
+  },
+  {
+    "task_id": 63,
+    "success": true,
+    "elapsed": 1.5762295722961426,
+    "tokens": 82,
+    "tokens_per_sec": 52.02287879965864,
+    "valid_json": true
+  },
+  {
+    "task_id": 64,
+    "success": true,
+    "elapsed": 1.473111867904663,
+    "tokens": 82,
+    "tokens_per_sec": 55.66447585317185,
+    "valid_json": true
+  },
+  {
+    "task_id": 65,
+    "success": true,
+    "elapsed": 1.333266258239746,
+    "tokens": 79,
+    "tokens_per_sec": 59.252980799424336,
+    "valid_json": true
+  },
+  {
+    "task_id": 67,
+    "success": true,
+    "elapsed": 0.24916458129882812,
+    "tokens": 82,
+    "tokens_per_sec": 329.09974432383603,
+    "valid_json": true
+  },
+  {
+    "task_id": 66,
+    "success": true,
+    "elapsed": 1.4653897285461426,
+    "tokens": 82,
+    "tokens_per_sec": 55.95780999594878,
+    "valid_json": true
+  },
+  {
+    "task_id": 69,
+    "success": true,
+    "elapsed": 1.4708518981933594,
+    "tokens": 82,
+    "tokens_per_sec": 55.750004538676,
+    "valid_json": true
+  },
+  {
+    "task_id": 68,
+    "success": true,
+    "elapsed": 1.472165822982788,
+    "tokens": 82,
+    "tokens_per_sec": 55.70024702370686,
+    "valid_json": true
+  },
+  {
+    "task_id": 70,
+    "success": true,
+    "elapsed": 1.4707913398742676,
+    "tokens": 82,
+    "tokens_per_sec": 55.75229998771265,
+    "valid_json": true
+  },
+  {
+    "task_id": 71,
+    "success": true,
+    "elapsed": 1.4707331657409668,
+    "tokens": 82,
+    "tokens_per_sec": 55.754505242756096,
+    "valid_json": true
+  },
+  {
+    "task_id": 73,
+    "success": true,
+    "elapsed": 1.470909833908081,
+    "tokens": 82,
+    "tokens_per_sec": 55.7478086757589,
+    "valid_json": true
+  },
+  {
+    "task_id": 72,
+    "success": true,
+    "elapsed": 1.4720268249511719,
+    "tokens": 82,
+    "tokens_per_sec": 55.70550659137614,
+    "valid_json": true
+  },
+  {
+    "task_id": 74,
+    "success": true,
+    "elapsed": 1.4712932109832764,
+    "tokens": 82,
+    "tokens_per_sec": 55.733282385771886,
+    "valid_json": true
+  },
+  {
+    "task_id": 75,
+    "success": true,
+    "elapsed": 1.3718059062957764,
+    "tokens": 82,
+    "tokens_per_sec": 59.77522011216644,
+    "valid_json": true
+  },
+  {
+    "task_id": 76,
+    "success": true,
+    "elapsed": 1.267852544784546,
+    "tokens": 82,
+    "tokens_per_sec": 64.67629089622152,
+    "valid_json": true
+  },
+  {
+    "task_id": 77,
+    "success": true,
+    "elapsed": 0.33245253562927246,
+    "tokens": 82,
+    "tokens_per_sec": 246.65175088765332,
+    "valid_json": true
+  },
+  {
+    "task_id": 78,
+    "success": true,
+    "elapsed": 0.328366756439209,
+    "tokens": 82,
+    "tokens_per_sec": 249.7207722523543,
+    "valid_json": true
+  },
+  {
+    "task_id": 81,
+    "success": true,
+    "elapsed": 1.5134062767028809,
+    "tokens": 82,
+    "tokens_per_sec": 54.182410409084504,
+    "valid_json": true
+  },
+  {
+    "task_id": 79,
+    "success": true,
+    "elapsed": 1.518763542175293,
+    "tokens": 82,
+    "tokens_per_sec": 53.991288125439944,
+    "valid_json": true
+  },
+  {
+    "task_id": 80,
+    "success": true,
+    "elapsed": 1.5187854766845703,
+    "tokens": 82,
+    "tokens_per_sec": 53.990508375812055,
+    "valid_json": true
+  },
+  {
+    "task_id": 82,
+    "success": true,
+    "elapsed": 1.5174448490142822,
+    "tokens": 82,
+    "tokens_per_sec": 54.03820774986743,
+    "valid_json": true
+  },
+  {
+    "task_id": 83,
+    "success": true,
+    "elapsed": 1.517432451248169,
+    "tokens": 82,
+    "tokens_per_sec": 54.038649254239054,
+    "valid_json": true
+  },
+  {
+    "task_id": 84,
+    "success": true,
+    "elapsed": 1.518416404724121,
+    "tokens": 82,
+    "tokens_per_sec": 54.00363151035533,
+    "valid_json": true
+  },
+  {
+    "task_id": 85,
+    "success": true,
+    "elapsed": 1.518427848815918,
+    "tokens": 82,
+    "tokens_per_sec": 54.00322449561515,
+    "valid_json": true
+  },
+  {
+    "task_id": 86,
+    "success": true,
+    "elapsed": 1.4807212352752686,
+    "tokens": 82,
+    "tokens_per_sec": 55.378418331898956,
+    "valid_json": true
+  },
+  {
+    "task_id": 87,
+    "success": true,
+    "elapsed": 1.269625186920166,
+    "tokens": 81,
+    "tokens_per_sec": 63.79835626645715,
+    "valid_json": true
+  },
+  {
+    "task_id": 88,
+    "success": true,
+    "elapsed": 1.2668447494506836,
+    "tokens": 81,
+    "tokens_per_sec": 63.93837921743955,
+    "valid_json": true
+  },
+  {
+    "task_id": 89,
+    "success": true,
+    "elapsed": 1.3070893287658691,
+    "tokens": 82,
+    "tokens_per_sec": 62.73480946969628,
+    "valid_json": true
+  },
+  {
+    "task_id": 91,
+    "success": true,
+    "elapsed": 1.3035831451416016,
+    "tokens": 82,
+    "tokens_per_sec": 62.90354420859957,
+    "valid_json": true
+  },
+  {
+    "task_id": 90,
+    "success": true,
+    "elapsed": 1.304670810699463,
+    "tokens": 82,
+    "tokens_per_sec": 62.85110337989242,
+    "valid_json": true
+  },
+  {
+    "task_id": 94,
+    "success": true,
+    "elapsed": 1.3011348247528076,
+    "tokens": 82,
+    "tokens_per_sec": 63.02190859857935,
+    "valid_json": true
+  },
+  {
+    "task_id": 96,
+    "success": true,
+    "elapsed": 1.3049883842468262,
+    "tokens": 82,
+    "tokens_per_sec": 62.835808341180204,
+    "valid_json": true
+  },
+  {
+    "task_id": 95,
+    "success": true,
+    "elapsed": 1.306318759918213,
+    "tokens": 82,
+    "tokens_per_sec": 62.771815360849544,
+    "valid_json": true
+  },
+  {
+    "task_id": 93,
+    "success": true,
+    "elapsed": 1.3095626831054688,
+    "tokens": 82,
+    "tokens_per_sec": 62.61632303506615,
+    "valid_json": true
+  },
+  {
+    "task_id": 92,
+    "success": true,
+    "elapsed": 1.3110110759735107,
+    "tokens": 82,
+    "tokens_per_sec": 62.54714510257641,
+    "valid_json": true
+  },
+  {
+    "task_id": 98,
+    "success": true,
+    "elapsed": 1.2747588157653809,
+    "tokens": 82,
+    "tokens_per_sec": 64.32589364033242,
+    "valid_json": true
+  },
+  {
+    "task_id": 97,
+    "success": true,
+    "elapsed": 1.2771246433258057,
+    "tokens": 82,
+    "tokens_per_sec": 64.20673223128863,
+    "valid_json": true
+  },
+  {
+    "task_id": 99,
+    "success": true,
+    "elapsed": 0.27015066146850586,
+    "tokens": 82,
+    "tokens_per_sec": 303.53432989672524,
+    "valid_json": true
+  }
+]

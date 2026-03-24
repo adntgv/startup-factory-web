@@ -1,0 +1,138 @@
+   Learner: starting fresh (no saved state at results/loadify/learning_state.json)
+
+======================================================================
+STARTUP FACTORY PIPELINE: 100 ideas × 100 personas
+Max concurrent: 100 | Min score: 0.50
+======================================================================
+
+Phase 1: Using 1 pinned idea(s) (skipping generation)...
+  1 ideas ready in 0.0s
+
+Phase 2: Regenerating landing page with updated prompt...
+
+── Landing Page Reasoning ──
+Let me work through this step by step.
+
+1. **Core painful problem:**
+- Outsourcing agencies in Russia/CIS doing mobile app development
+- They need to test iOS/Android apps for clients
+- Manual QA is time-consuming and requires headcount
+- Hard to scale without hiring more QA people
+- Tests become outdated when requirements change
+- Need to catch more bugs but have limited QA resources
+- Client load scaling is difficult without adding headcount
+
+2. **Exact buyer:**
+- Role: CEO, CTO, or Operations Manager at outsourcing agencies
+- Company: 5-50 people, mobile app development outsourcing
+- Location: Russia/CIS region
+- Situation: They take on client projects, need QA but don't want to hire full-time QA staff, want to scale
+
+3. **#1 outcome:**
+- Fewer QA headcount needed + more bugs caught + ability to scale client load without hiring
+- So: Scale your testing without adding QA staff
+
+4. **What makes it different:**
+- AI-powered - auto-generates test cases from requirements
+- Real iOS/Android devices
+- Auto-updates tests when requirements change
+- Pass/fail flags
+- Done-for-you service option
+- Working alpha already exists
+
+5. **Real pricing:**
+- SaaS: $1000/month
+- Done-for-you: $2000-5000/month
+
+Now I need to create a JSON with:
+- headline: outcome-focused, max 10 words
+- subheadline: who it's for + what pain it solves
+- price: 1000 (the main SaaS price)
+- trial_type: demo (since it's high-ticket B2B)
+- cta: action-oriented button
+- features: 5 specific benefits
+
+Let me craft this:
+
+Headline ideas:
+- "Scale Mobile QA Without Hiring More Testers"
+- "AI-Powered Mobile Testing That Grows With You"
+- "Catch More Bugs Without Adding QA Headcount"
+- "Mobile QA Automation That Scales With Your Agency"
+
+
+- "More Bugs Caught, Fewer QA Headcount Needed"
+
+I'll focus on the most compelling headline that captures the core value proposition: reducing QA costs while increasing bug detection. The key is highlighting the efficiency and scalability for mobile app development agencies in the Russia/CIS region.
+
+The headline strategically emphasizes two critical points: bug detection and minimal staffing requirements, directly addressing the target audience's primary pain points of resource constraints and quality assurance challenges.
+
+── Landing Page Raw Response ──
+{"headline":"Scale Mobile QA Without Adding Headcount","subheadline":"For Russia/CIS outsourcing agencies building mobile apps — test more, hire less, and catch bugs before clients do.","price":"1000","trial_type":"demo","cta":"Book Your Demo","features":["AI auto-generates test cases from your requirements in minutes","Real iOS/Android device testing with pass/fail automation","Tests auto-update when requirements change — no manual rework","Reduce QA headcount while catching more bugs","Scale client load without hiring — done-for-you service available"]}
+
+── Landing Page Parsed ──
+Headline: Scale Mobile QA Without Adding Headcount
+Subheadline: For Russia/CIS outsourcing agencies building mobile apps — test more, hire less, and catch bugs before clients do.
+Price: 1000
+CTA: Book Your Demo
+Features: [AI auto-generates test cases from your requirements in minutes Real iOS/Android device testing with pass/fail automation Tests auto-update when requirements change — no manual rework Reduce QA headcount while catching more bugs Scale client load without hiring — done-for-you service available]
+
+  [1/1] Landing page generated
+  Generated 1 landing pages in 15.7s
+
+Phase 3: Loading personas from results/loadify/pipeline_1773628660.json...
+  Loaded 5 personas in 0.0s
+
+Phase 4: Running 20 simulations in parallel...
+  [20/20] simulations complete
+  Completed 21 simulations in 56.4s
+
+Phase 5a: Scoring results...
+Phase 5b: Analyzing decisions via LLM...
+   Analyzing 20 decisions in 1 batches via LLM...
+  Analyzed 0 decisions in 315.9s
+
+Phase 5c: Updating weights + expanding topology...
+   Applied hybrid learning update: holdout agreement 1.00
+  Saved learning state (epoch 1)
+
+
+JSON: results/loadify/pipeline_1773649798.json
+HTML: results/loadify/pipeline_1773649798.html
+
+======================================================================
+RESULTS SUMMARY
+======================================================================
+
+Runtime:     6.5 minutes
+Ideas tested: 1 (requested 100)
+LLM Calls:   21 (0.1/s)
+LLM Success: 21 / 21 (100%)
+Expected Conv (warm): 3.0%-7.0% | Observed: 20.0%
+
+Persona Decisions:
+  Valid: 5 / 5 (100%)
+    Converted: 1 (20.0% of valid)
+    Rejected:  4 (80.0% of valid)
+  Errors: 0 (parse/LLM failures)
+
+Provider Stats:
+  maxclaw: 21 calls (100% success)
+
+Calibration warnings:
+  - Funnel stage warm expected conversion range 3.0%-7.0%.
+  - Observed conversion 20.0% is above expected range for warm traffic.
+  - High uncertainty for rank #1 (CI width 0.59).
+
+Phase times:
+  Persona Generation:       0.0s
+  Simulation:               56.4s
+  Scoring:                  0.0s
+  Analysis:                 315.9s
+  Idea Generation:          0.0s
+  Landing Generation:       15.7s
+
+Top 1 Ideas:
+
+  #1 Score:0.377 Conv:20% [4-62%] | Price:$499 | Stability:0% | 1✓ 4✗ 0⚠ | Ai Productivity → Businesses | Ai Llms
+     Pinned idea for direct validation – Loadify.ai mobile QA automation

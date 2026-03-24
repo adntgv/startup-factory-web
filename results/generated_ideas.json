@@ -1,0 +1,406 @@
+{
+  "generated_count": 16,
+  "min_score": 0.5,
+  "ideas": [
+    {
+      "coordinates": {
+        "category": "finance",
+        "audience": "students",
+        "value_proposition": "increase_productivity",
+        "interaction_model": "ai_assistant",
+        "content_format": "livestream",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "streaks",
+        "network_structure": "one_to_one",
+        "distribution": "browser_extension",
+        "geography": "middle_east",
+        "data_source": "ai_generated"
+      },
+      "fit_score": 0.6649999999999999,
+      "fit_breakdown": {
+        "buildability": 1.0,
+        "market_size": 0.5,
+        "monetization_potential": 0.4,
+        "competition_level": 0.6,
+        "unique_advantage": 0.7
+      },
+      "reasoning": "Highly buildable: ai_llms + browser_extension | Lower competition in finance | Unique advantage: ai_llms + finance"
+    },
+    {
+      "coordinates": {
+        "category": "finance",
+        "audience": "entrepreneurs",
+        "value_proposition": "increase_productivity",
+        "interaction_model": "feed",
+        "content_format": "livestream",
+        "technology": "ai_llms",
+        "monetization": "subscription",
+        "engagement_mechanics": "quests",
+        "network_structure": "many_to_many",
+        "distribution": "browser_extension",
+        "geography": "us",
+        "data_source": "financial_data"
+      },
+      "fit_score": 0.6499999999999999,
+      "fit_breakdown": {
+        "buildability": 0.7,
+        "market_size": 0.8999999999999999,
+        "monetization_potential": 0.5,
+        "competition_level": 0.3,
+        "unique_advantage": 0.7
+      },
+      "reasoning": "Strong market: entrepreneurs in us | Unique advantage: ai_llms + finance"
+    },
+    {
+      "coordinates": {
+        "category": "ecommerce",
+        "audience": "professionals",
+        "value_proposition": "make_money",
+        "interaction_model": "ai_assistant",
+        "content_format": "livestream",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "badges",
+        "network_structure": "creator_fan",
+        "distribution": "browser_extension",
+        "geography": "china",
+        "data_source": "user_generated"
+      },
+      "fit_score": 0.6000000000000001,
+      "fit_breakdown": {
+        "buildability": 1.0,
+        "market_size": 0.3,
+        "monetization_potential": 0.7,
+        "competition_level": 0.3,
+        "unique_advantage": 0.4
+      },
+      "reasoning": "Highly buildable: ai_llms + browser_extension | Good monetization: saas_license"
+    },
+    {
+      "coordinates": {
+        "category": "travel",
+        "audience": "developers",
+        "value_proposition": "increase_productivity",
+        "interaction_model": "ai_assistant",
+        "content_format": "long_video",
+        "technology": "ai_llms",
+        "monetization": "in_app_purchases",
+        "engagement_mechanics": "rewards",
+        "network_structure": "many_to_many",
+        "distribution": "messaging_bot",
+        "geography": "us",
+        "data_source": "gps_location"
+      },
+      "fit_score": 0.555,
+      "fit_breakdown": {
+        "buildability": 0.9000000000000001,
+        "market_size": 0.6,
+        "monetization_potential": 0.3,
+        "competition_level": 0.3,
+        "unique_advantage": 0.3
+      },
+      "reasoning": "Highly buildable: ai_llms + messaging_bot"
+    },
+    {
+      "coordinates": {
+        "category": "education",
+        "audience": "entrepreneurs",
+        "value_proposition": "entertainment",
+        "interaction_model": "creator_platform",
+        "content_format": "text",
+        "technology": "ai_llms",
+        "monetization": "subscription",
+        "engagement_mechanics": "badges",
+        "network_structure": "one_to_one",
+        "distribution": "browser_extension",
+        "geography": "china",
+        "data_source": "ai_generated"
+      },
+      "fit_score": 0.545,
+      "fit_breakdown": {
+        "buildability": 0.7,
+        "market_size": 0.6,
+        "monetization_potential": 0.5,
+        "competition_level": 0.3,
+        "unique_advantage": 0.4
+      },
+      "reasoning": "Balanced fit across factors"
+    },
+    {
+      "coordinates": {
+        "category": "education",
+        "audience": "developers",
+        "value_proposition": "find_relationships",
+        "interaction_model": "ai_assistant",
+        "content_format": "short_video",
+        "technology": "ai_llms",
+        "monetization": "digital_goods",
+        "engagement_mechanics": "social_challenges",
+        "network_structure": "many_to_many",
+        "distribution": "desktop_software",
+        "geography": "middle_east",
+        "data_source": "sensors_wearables"
+      },
+      "fit_score": 0.545,
+      "fit_breakdown": {
+        "buildability": 0.7,
+        "market_size": 0.8,
+        "monetization_potential": 0.0,
+        "competition_level": 0.7,
+        "unique_advantage": 0.3
+      },
+      "reasoning": "Strong market: developers in middle_east | Lower competition in education"
+    },
+    {
+      "coordinates": {
+        "category": "travel",
+        "audience": "creators",
+        "value_proposition": "save_time",
+        "interaction_model": "ai_assistant",
+        "content_format": "long_video",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "streaks",
+        "network_structure": "creator_fan",
+        "distribution": "desktop_software",
+        "geography": "global",
+        "data_source": "voice_input"
+      },
+      "fit_score": 0.54,
+      "fit_breakdown": {
+        "buildability": 0.7,
+        "market_size": 0.7,
+        "monetization_potential": 0.4,
+        "competition_level": 0.3,
+        "unique_advantage": 0.3
+      },
+      "reasoning": "Strong market: creators in global"
+    },
+    {
+      "coordinates": {
+        "category": "lifestyle",
+        "audience": "entrepreneurs",
+        "value_proposition": "express_creativity",
+        "interaction_model": "ai_assistant",
+        "content_format": "images",
+        "technology": "ai_llms",
+        "monetization": "transaction_fees",
+        "engagement_mechanics": "badges",
+        "network_structure": "one_to_many",
+        "distribution": "browser_extension",
+        "geography": "middle_east",
+        "data_source": "external_apis"
+      },
+      "fit_score": 0.5399999999999999,
+      "fit_breakdown": {
+        "buildability": 1.0,
+        "market_size": 0.5,
+        "monetization_potential": 0.0,
+        "competition_level": 0.3,
+        "unique_advantage": 0.7
+      },
+      "reasoning": "Highly buildable: ai_llms + browser_extension | Unique advantage: ai_llms + lifestyle"
+    },
+    {
+      "coordinates": {
+        "category": "education",
+        "audience": "businesses",
+        "value_proposition": "increase_productivity",
+        "interaction_model": "creator_platform",
+        "content_format": "audio",
+        "technology": "ar_vr",
+        "monetization": "subscription",
+        "engagement_mechanics": "quests",
+        "network_structure": "two_sided_marketplace",
+        "distribution": "web_platform",
+        "geography": "global",
+        "data_source": "ai_generated"
+      },
+      "fit_score": 0.53,
+      "fit_breakdown": {
+        "buildability": 0.3,
+        "market_size": 1.0,
+        "monetization_potential": 0.8,
+        "competition_level": 0.0,
+        "unique_advantage": 0.3
+      },
+      "reasoning": "Strong market: businesses in global | Good monetization: subscription"
+    },
+    {
+      "coordinates": {
+        "category": "ai_productivity",
+        "audience": "entrepreneurs",
+        "value_proposition": "learn_skills",
+        "interaction_model": "ai_assistant",
+        "content_format": "text",
+        "technology": "ai_llms",
+        "monetization": "digital_goods",
+        "engagement_mechanics": "levels",
+        "network_structure": "creator_fan",
+        "distribution": "web_platform",
+        "geography": "us",
+        "data_source": "financial_data"
+      },
+      "fit_score": 0.5249999999999999,
+      "fit_breakdown": {
+        "buildability": 1.0,
+        "market_size": 0.8999999999999999,
+        "monetization_potential": 0.0,
+        "competition_level": 0.0,
+        "unique_advantage": 0.0
+      },
+      "reasoning": "Highly buildable: ai_llms + web_platform | Strong market: entrepreneurs in us"
+    },
+    {
+      "coordinates": {
+        "category": "finance",
+        "audience": "developers",
+        "value_proposition": "improve_health",
+        "interaction_model": "ai_assistant",
+        "content_format": "text",
+        "technology": "ai_llms",
+        "monetization": "marketplace_commission",
+        "engagement_mechanics": "streaks",
+        "network_structure": "one_to_many",
+        "distribution": "messaging_bot",
+        "geography": "middle_east",
+        "data_source": "ai_generated"
+      },
+      "fit_score": 0.515,
+      "fit_breakdown": {
+        "buildability": 0.9000000000000001,
+        "market_size": 0.8,
+        "monetization_potential": 0.0,
+        "competition_level": 0.3,
+        "unique_advantage": 0.0
+      },
+      "reasoning": "Highly buildable: ai_llms + messaging_bot | Strong market: developers in middle_east"
+    },
+    {
+      "coordinates": {
+        "category": "entertainment",
+        "audience": "businesses",
+        "value_proposition": "build_community",
+        "interaction_model": "chat",
+        "content_format": "livestream",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "social_challenges",
+        "network_structure": "two_sided_marketplace",
+        "distribution": "mobile_app",
+        "geography": "global",
+        "data_source": "external_apis"
+      },
+      "fit_score": 0.505,
+      "fit_breakdown": {
+        "buildability": 0.4,
+        "market_size": 0.8,
+        "monetization_potential": 0.7,
+        "competition_level": 0.3,
+        "unique_advantage": 0.0
+      },
+      "reasoning": "Strong market: businesses in global | Good monetization: saas_license"
+    },
+    {
+      "coordinates": {
+        "category": "health_fitness",
+        "audience": "developers",
+        "value_proposition": "learn_skills",
+        "interaction_model": "community_forum",
+        "content_format": "interactive_simulation",
+        "technology": "ai_llms",
+        "monetization": "subscription",
+        "engagement_mechanics": "streaks",
+        "network_structure": "two_sided_marketplace",
+        "distribution": "web_platform",
+        "geography": "us",
+        "data_source": "financial_data"
+      },
+      "fit_score": 0.505,
+      "fit_breakdown": {
+        "buildability": 0.7,
+        "market_size": 0.6,
+        "monetization_potential": 0.5,
+        "competition_level": 0.3,
+        "unique_advantage": 0.0
+      },
+      "reasoning": "Balanced fit across factors"
+    },
+    {
+      "coordinates": {
+        "category": "social",
+        "audience": "kids",
+        "value_proposition": "save_time",
+        "interaction_model": "chat",
+        "content_format": "long_video",
+        "technology": "ai_llms",
+        "monetization": "saas_license",
+        "engagement_mechanics": "quests",
+        "network_structure": "two_sided_marketplace",
+        "distribution": "browser_extension",
+        "geography": "global",
+        "data_source": "camera_input"
+      },
+      "fit_score": 0.505,
+      "fit_breakdown": {
+        "buildability": 0.7,
+        "market_size": 0.4,
+        "monetization_potential": 0.4,
+        "competition_level": 0.3,
+        "unique_advantage": 0.7
+      },
+      "reasoning": "Unique advantage: ai_llms + social"
+    },
+    {
+      "coordinates": {
+        "category": "education",
+        "audience": "businesses",
+        "value_proposition": "improve_health",
+        "interaction_model": "chat",
+        "content_format": "long_video",
+        "technology": "ai_llms",
+        "monetization": "subscription",
+        "engagement_mechanics": "quests",
+        "network_structure": "creator_fan",
+        "distribution": "desktop_software",
+        "geography": "africa",
+        "data_source": "sensors_wearables"
+      },
+      "fit_score": 0.5,
+      "fit_breakdown": {
+        "buildability": 0.4,
+        "market_size": 0.7,
+        "monetization_potential": 0.8,
+        "competition_level": 0.3,
+        "unique_advantage": 0.0
+      },
+      "reasoning": "Strong market: businesses in africa | Good monetization: subscription"
+    },
+    {
+      "coordinates": {
+        "category": "food_delivery",
+        "audience": "professionals",
+        "value_proposition": "save_time",
+        "interaction_model": "feed",
+        "content_format": "images",
+        "technology": "ai_llms",
+        "monetization": "creator_revenue_share",
+        "engagement_mechanics": "social_challenges",
+        "network_structure": "many_to_many",
+        "distribution": "browser_extension",
+        "geography": "global",
+        "data_source": "camera_input"
+      },
+      "fit_score": 0.5,
+      "fit_breakdown": {
+        "buildability": 0.7,
+        "market_size": 0.7,
+        "monetization_potential": 0.0,
+        "competition_level": 0.3,
+        "unique_advantage": 0.7
+      },
+      "reasoning": "Strong market: professionals in global | Unique advantage: ai_llms + food_delivery"
+    }
+  ]
+}
