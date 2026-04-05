@@ -15,7 +15,8 @@ func main() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
 
 	// ── Flags ──
-	mode := flag.String("mode", "pipeline", "pipeline|generate|learn|insights")
+	mode := flag.String("mode", "pipeline", "pipeline|generate|learn|insights|server")
+	serverPort := flag.String("port", "8080", "HTTP server port (for -mode server)")
 	numIdeas := flag.Int("ideas", 100, "Ideas per batch")
 	numPersonas := flag.Int("personas", 100, "Personas per idea")
 	minScore := flag.Float64("min-score", 0.5, "Min idea fit score")
@@ -98,6 +99,8 @@ func main() {
 		runInsights(config)
 	case "learn":
 		runLearn(config)
+	case "server":
+		runServer(*serverPort)
 	default:
 		runPipeline(config)
 	}

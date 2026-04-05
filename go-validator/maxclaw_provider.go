@@ -5,9 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"time"
 )
+
+const MaxClawModel = "minimax-m2.7"
 
 // MaxClawProvider handles Anthropic-format API (MiniMax via MaxClaw proxy)
 type MaxClawProvider struct {
@@ -46,9 +49,11 @@ func (p *MaxClawProvider) Call(request LLMRequest) LLMResponse {
 		maxTokens = 16000
 	}
 
+	log.Printf("[maxclaw] model=%s tokens=%d", MaxClawModel, maxTokens)
+
 	// Anthropic format
 	payload := map[string]interface{}{
-		"model": "minimax-m2.5",
+		"model": MaxClawModel,
 		"messages": []map[string]string{
 			{"role": "user", "content": request.Prompt},
 		},

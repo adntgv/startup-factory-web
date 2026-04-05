@@ -1,8 +1,8 @@
-node_modules
-.git
-.github
+web-ui/node_modules
+web-ui/.git
+go-validator/results
+go-validator/*.json
+logs/
+archive/
 *.log
-*.md
-archive
-logs
-.claude
+.git

@@ -370,6 +370,22 @@ type TaskResult struct {
 	Error    error
 }
 
+// LeanCanvas holds the structured lean canvas for a startup idea
+type LeanCanvas struct {
+	Problem              []string `json:"problem"`
+	ExistingAlternatives []string `json:"existing_alternatives"`
+	Solution             []string `json:"solution"`
+	UniqueValueProp      string   `json:"unique_value_prop"`
+	HighLevelConcept     string   `json:"high_level_concept"`
+	UnfairAdvantage      string   `json:"unfair_advantage"`
+	CustomerSegments     []string `json:"customer_segments"`
+	EarlyAdopters        []string `json:"early_adopters"`
+	Channels             []string `json:"channels"`
+	KeyMetrics           []string `json:"key_metrics"`
+	CostStructure        []string `json:"cost_structure"`
+	RevenueStreams        []string `json:"revenue_streams"`
+}
+
 // AdversarialArchetype represents a hardcoded skeptical persona
 type AdversarialArchetype struct {
 	Name         string
