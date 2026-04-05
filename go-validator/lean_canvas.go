@@ -86,7 +86,8 @@ func parseLeanCanvas(content string) (*LeanCanvas, error) {
 	return &c, nil
 }
 
-// renderLandingHTML renders a LandingPage struct to a standalone HTML page
+// renderLandingHTML renders a LandingPage struct to a standalone HTML page.
+// Picks one of 5 visual styles based on the headline to ensure variety.
 func renderLandingHTML(lp LandingPage) string {
 	featuresHTML := ""
 	for _, f := range lp.Features {
@@ -96,6 +97,26 @@ func renderLandingHTML(lp LandingPage) string {
 	if trial == "" {
 		trial = "Free trial available"
 	}
+
+	// Pick style from headline hash for deterministic but varied output
+	styleIdx := 0
+	for _, c := range lp.Headline {
+		styleIdx += int(c)
+	}
+	styleIdx = styleIdx % 5
+
+	type theme struct {
+		heroBg, ctaColor, ctaText, accentColor, featureBg, featureBorder string
+	}
+	themes := []theme{
+		{"linear-gradient(135deg,#667eea,#764ba2)", "#fff", "#764ba2", "#667eea", "#f8f9ff", "#667eea"},
+		{"linear-gradient(135deg,#11998e,#38ef7d)", "#fff", "#0d7a6a", "#11998e", "#f0fff8", "#11998e"},
+		{"linear-gradient(135deg,#f7971e,#ffd200)", "#fff", "#c47a00", "#f7971e", "#fffdf0", "#f7971e"},
+		{"linear-gradient(135deg,#e53935,#e91e63)", "#fff", "#c2185b", "#e91e63", "#fff5f7", "#e91e63"},
+		{"linear-gradient(135deg,#1a1a2e,#16213e)", "#c9a96e", "#1a1a2e", "#c9a96e", "#f9f8f5", "#c9a96e"},
+	}
+	t := themes[styleIdx]
+
 	return fmt.Sprintf(`<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,19 +125,19 @@ func renderLandingHTML(lp LandingPage) string {
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1a1a2e;line-height:1.6}
-.hero{background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;padding:80px 24px;text-align:center}
+.hero{background:%s;color:#fff;padding:80px 24px;text-align:center}
 .hero h1{font-size:clamp(28px,5vw,52px);font-weight:800;margin-bottom:16px;line-height:1.2}
 .hero p{font-size:clamp(16px,2vw,22px);opacity:.9;max-width:700px;margin:0 auto 32px}
 .badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:20px;padding:6px 16px;font-size:14px;margin-bottom:20px}
-.cta-btn{background:#fff;color:#764ba2;padding:16px 40px;border-radius:10px;font-size:18px;font-weight:700;border:none;cursor:pointer;display:inline-block;text-decoration:none;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 20px rgba(0,0,0,.2)}
+.cta-btn{background:%s;color:%s;padding:16px 40px;border-radius:10px;font-size:18px;font-weight:700;border:none;cursor:pointer;display:inline-block;text-decoration:none;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 20px rgba(0,0,0,.2)}
 .cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
 .price-tag{font-size:32px;font-weight:800;margin:20px 0 8px;opacity:.95}
 .trial{font-size:14px;opacity:.7;margin-bottom:28px}
 .features{max-width:900px;margin:60px auto;padding:0 24px}
 .features h2{text-align:center;font-size:28px;margin-bottom:40px;color:#333}
 .features ul{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
-.features li{background:#f8f9ff;border-left:4px solid #667eea;padding:16px 20px;border-radius:8px;font-size:15px;color:#444}
-.features li::before{content:"✓ ";color:#667eea;font-weight:700}
+.features li{background:%s;border-left:4px solid %s;padding:16px 20px;border-radius:8px;font-size:15px;color:#444}
+.features li::before{content:"✓ ";color:%s;font-weight:700}
 footer{text-align:center;padding:30px;color:#888;font-size:13px}
 </style>
 </head>
@@ -135,5 +156,7 @@ footer{text-align:center;padding:30px;color:#888;font-size:13px}
 </div>
 <footer>Simple pricing. Cancel anytime.</footer>
 </body>
-</html>`, lp.Headline, lp.TrialType, lp.Headline, lp.Subheadline, lp.Price, trial, lp.CTA, featuresHTML)
+</html>`, lp.Headline, t.heroBg, t.ctaColor, t.ctaText,
+		t.featureBg, t.featureBorder, t.accentColor,
+		lp.TrialType, lp.Headline, lp.Subheadline, lp.Price, trial, lp.CTA, featuresHTML)
 }

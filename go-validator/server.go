@@ -241,6 +241,72 @@ func handleMe(db *DB) http.HandlerFunc {
 
 // ── Run handlers ──────────────────────────────────────────────────────────────
 
+// generateRunSummary calls the LLM to produce a strategic analysis of all persona reasoning.
+func generateRunSummary(pipe *Pipeline, personas []Persona, results []SimulationResult, metrics SimulationMetrics) string {
+	if len(results) == 0 {
+		return ""
+	}
+
+	// Build compact summary of each persona's verdict
+	type entry struct {
+		Name      string
+		Role      string
+		PainLevel int
+		Converted bool
+		Reasoning string
+	}
+	entries := make([]entry, 0, len(results))
+	for i, r := range results {
+		name, role := fmt.Sprintf("Persona %d", i+1), ""
+		painLevel := 0
+		if i < len(personas) {
+			name = personas[i].Name
+			role = personas[i].Role
+			painLevel = personas[i].PainLevel
+		}
+		entries = append(entries, entry{name, role, painLevel, r.Converted, r.Reasoning})
+	}
+
+	// Summarise in ~1500 chars so the prompt stays small
+	var sb strings.Builder
+	for _, e := range entries {
+		verdict := "REJECTED"
+		if e.Converted {
+			verdict = "CONVERTED"
+		}
+		sb.WriteString(fmt.Sprintf("- %s (%s, pain=%d): %s — %s\n", e.Name, e.Role, e.PainLevel, verdict, truncate(e.Reasoning, 120)))
+	}
+
+	prompt := fmt.Sprintf(`You are a startup advisor. Below are the reactions of %d simulated personas to a product landing page.
+
+Conversion rate: %.1f%% (%d converted, %d rejected)
+
+PERSONA VERDICTS:
+%s
+
+Write a concise strategic analysis (4–6 paragraphs, no bullet lists) covering:
+1. Who converted and why — what pain levels, roles, and mental states drove conversion
+2. Who rejected and their core objections — what stopped them
+3. The single biggest friction theme across all rejections
+4. Specific, actionable changes to the landing page or product positioning that would lift conversion
+5. Honest verdict: is this idea worth pursuing, pivoting, or killing — and why
+
+Be direct and specific. No generic startup advice.`,
+		len(results),
+		metrics.ConversionRate*100,
+		metrics.Conversions,
+		metrics.Rejections,
+		sb.String(),
+	)
+
+	resp := pipe.maxclaw.Call(LLMRequest{Prompt: prompt, MaxTokens: 2000})
+	if resp.Error != nil {
+		log.Printf("[summary] LLM error: %v", resp.Error)
+		return ""
+	}
+	return strings.TrimSpace(resp.Content)
+}
+
 func newWebPipeline() *Pipeline {
 	return &Pipeline{
 		maxclaw: NewMaxClawProvider(),
@@ -658,6 +724,22 @@ func handleSimulate(db *DB) http.HandlerFunc {
 		validationsJSON, _ := json.Marshal(allResults)
 		resultsJSON, _ := json.Marshal(metrics)
 		db.UpdateRunResults(r.Context(), runID, personasJSON, validationsJSON, resultsJSON, "done")
+
+		emit("progress", map[string]interface{}{"percent": 100, "message": "Generating analysis…"})
+
+		// Grand summary: LLM analyzes all persona reasoning
+		summary := generateRunSummary(pipe, personas, allResults, metrics)
+		if summary != "" {
+			emit("summary", map[string]interface{}{"text": summary})
+			// Persist summary into results JSON
+			var resultsMap map[string]interface{}
+			if json.Unmarshal(resultsJSON, &resultsMap) == nil {
+				resultsMap["summary"] = summary
+				if updated, err := json.Marshal(resultsMap); err == nil {
+					db.UpdateRunResults(r.Context(), runID, personasJSON, validationsJSON, updated, "done")
+				}
+			}
+		}
 
 		emit("progress", map[string]interface{}{"percent": 100, "message": "Complete!"})
 		emit("results", map[string]interface{}{

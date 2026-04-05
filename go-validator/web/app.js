@@ -707,8 +707,8 @@ function renderStep2(run) {
         class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 text-sm"/>`;
     } else {
       const lines = Array.isArray(value) ? value.join('\n') : (value || '');
-      input = `<textarea id="canvas-${sec.key}" rows="3" placeholder="${escapeHtml(sec.hint)}"
-        class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 text-sm resize-none">${escapeHtml(lines)}</textarea>`;
+      input = `<textarea id="canvas-${sec.key}" rows="5" placeholder="${escapeHtml(sec.hint)}" oninput="this.style.height='auto';this.style.height=this.scrollHeight+'px'"
+        class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 text-sm resize-y">${escapeHtml(lines)}</textarea>`;
     }
     return `
       <div class="bg-white rounded-xl border border-gray-200 p-4">
@@ -933,6 +933,8 @@ function renderStep4(run) {
 
       <!-- Results Panel (hidden until results event) -->
       <div id="results-panel" class="hidden"></div>
+      <!-- Summary Panel (hidden until summary event) -->
+      <div id="summary-panel" class="hidden"></div>
     </div>`;
 }
 
@@ -945,6 +947,7 @@ function renderCachedSimulation(run) {
   if (run.results) {
     showResultsPanel(run.results);
     updateProgressBar(100, 'Simulation complete');
+    if (run.results.summary) showSummaryPanel(run.results.summary);
   }
 }
 
@@ -991,6 +994,9 @@ async function startSimulation(runId) {
           state.currentRun.results = payload;
           state.currentRun.status  = 'complete';
         }
+        break;
+      case 'summary':
+        showSummaryPanel(payload.text);
         break;
       case 'error':
         showToast(payload.message || 'Simulation error');
@@ -1335,4 +1341,24 @@ function openPersonaModal(personaId) {
 function closePersonaModal() {
   const m = document.getElementById('persona-modal');
   if (m) m.remove();
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Summary Panel
+// ─────────────────────────────────────────────────────────────────────────────
+function showSummaryPanel(text) {
+  const panel = document.getElementById('summary-panel');
+  if (!panel || !text) return;
+  panel.classList.remove('hidden');
+  const paragraphs = text.split(/\n+/).filter(p => p.trim()).map(p =>
+    `<p class="text-gray-700 text-sm leading-relaxed">${escapeHtml(p.trim())}</p>`
+  ).join('');
+  panel.innerHTML = `
+    <div class="bg-white rounded-2xl shadow-md p-6 mt-6 fade-in">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-2xl">🧠</span>
+        <h3 class="text-lg font-bold text-gray-900">Strategic Analysis</h3>
+      </div>
+      <div class="space-y-3">${paragraphs}</div>
+    </div>`;
 }

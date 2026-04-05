@@ -949,7 +949,20 @@ Vary agency size: small ($5k-20k/mo revenue), mid ($20k-80k/mo), larger ($80k+/m
 
 		diversityHint = fmt.Sprintf("Persona slot %d of %d. Generate: %s. Use a realistic name from Russia, Ukraine, Kazakhstan, or Belarus. Vary seniority, company size, geography, and financial health.", idx+1, total, archetype)
 	} else {
-		diversityHint = fmt.Sprintf("Persona slot %d of %d. Use a globally diverse name. Vary demographics, income level, and personality significantly from typical personas.", idx+1, total)
+		// Spread pain levels evenly: 25% low (1-3), 35% medium (4-6), 25% high (7-8), 15% critical (9-10)
+		slot := idx % 20
+		var painInstruction string
+		switch {
+		case slot < 5:
+			painInstruction = "Set pain_level to 1-3 (low pain — they have workarounds and aren't actively looking)."
+		case slot < 12:
+			painInstruction = "Set pain_level to 4-6 (moderate pain — it bothers them but isn't urgent)."
+		case slot < 17:
+			painInstruction = "Set pain_level to 7-8 (high pain — actively looking for a solution)."
+		default:
+			painInstruction = "Set pain_level to 9-10 (critical pain — this is their top problem right now)."
+		}
+		diversityHint = fmt.Sprintf("Persona slot %d of %d. Use a globally diverse name and background. Vary age, region, income, and personality significantly. %s", idx+1, total, painInstruction)
 		financialInstructions = "Populate financial fields as personal finances (after-tax personal income, personal expenses, personal discretionary budget)."
 	}
 
