@@ -346,7 +346,7 @@ func handleGetRun(db *DB) http.HandlerFunc {
 			writeJSON(w, 404, map[string]string{"error": "run not found"})
 			return
 		}
-		writeJSON(w, 200, map[string]interface{}{
+		resp := map[string]interface{}{
 			"id":          run.ID,
 			"idea_text":   run.IdeaText,
 			"canvas":      run.Canvas,
@@ -358,7 +358,15 @@ func handleGetRun(db *DB) http.HandlerFunc {
 			"error_msg":   run.ErrorMsg,
 			"created_at":  run.CreatedAt,
 			"updated_at":  run.UpdatedAt,
-		})
+		}
+		// Render landing HTML server-side so reload shows the preview
+		if run.Landing != nil {
+			var lp LandingPage
+			if json.Unmarshal(run.Landing, &lp) == nil {
+				resp["landing_html"] = renderLandingHTML(lp)
+			}
+		}
+		writeJSON(w, 200, resp)
 	}
 }
 

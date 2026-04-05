@@ -322,6 +322,7 @@ function renderRunCard(run) {
     canvas:     { label: 'Canvas Ready',cls: 'bg-blue-100 text-blue-700' },
     landing:    { label: 'Landing Done',cls: 'bg-indigo-100 text-indigo-700' },
     complete:   { label: 'Complete',    cls: 'bg-green-100 text-green-700' },
+    done:       { label: 'Complete',    cls: 'bg-green-100 text-green-700' },
   };
   const s   = statusConfig[run.status] || { label: run.status, cls: 'bg-gray-100 text-gray-600' };
   const date = new Date(run.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
@@ -480,7 +481,7 @@ function inferStep(run) {
   if (!run) return 1;
   if (run.status === 'draft' || !run.canvas) return 1;
   if (!run.landing) return 2;
-  if (run.status === 'complete' || run.results) return 4;
+  if (run.status === 'done' || run.results) return 4;
   return 3;
 }
 
@@ -510,9 +511,23 @@ function renderWizard(run) {
     startSimulation(run.id);
   } else if (step === 4 && run.results) {
     // Already complete — show cached results
-    state.personas     = run.personas || [];
-    state.validations  = {};
-    (run.validations || []).forEach(v => { state.validations[v.personaId] = v.validation; });
+    state.personas    = run.personas || [];
+    state.validations = {};
+    // DB stores []SimulationResult; map by index (1-based) to match persona ids
+    (run.validations || []).forEach((v, i) => {
+      const id = i + 1;
+      state.validations[id] = {
+        decision:          v.converted ? 'convert' : 'reject',
+        converted:         v.converted,
+        intent_strength:   v.intent_strength,
+        impression_score:  v.impression_score,
+        relevance_score:   v.relevance_score,
+        pricing_reaction:  v.pricing_reaction,
+        friction_points:   v.friction_points,
+        reasoning:         v.reasoning,
+        decision_timeline: v.decision_timeline,
+      };
+    });
     renderCachedSimulation(run);
   }
 }
@@ -570,7 +585,7 @@ function inferMaxStep(run) {
   if (!run) return 1;
   if (run.status === 'draft' || !run.canvas) return 1;
   if (!run.landing) return 2;
-  if (run.status === 'complete' || run.results) return 4;
+  if (run.status === 'done' || run.results) return 4;
   return 3;
 }
 
