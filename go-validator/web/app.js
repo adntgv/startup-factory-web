@@ -989,8 +989,9 @@ function addPersonaCard(persona) {
 
   const card = document.createElement('div');
   card.id = `persona-card-${persona.id}`;
-  card.className = 'persona-card bg-white rounded-xl shadow-sm p-4 fade-in';
+  card.className = 'persona-card bg-white rounded-xl shadow-sm p-4 fade-in cursor-pointer hover:shadow-md transition';
   card.innerHTML = personaCardInnerHTML(persona, null);
+  card.addEventListener('click', () => openPersonaModal(persona.id));
   grid.appendChild(card);
 }
 
@@ -1001,6 +1002,7 @@ function updatePersonaCard(personaId, validation) {
   const persona = state.personas.find(p => p.id === personaId);
   card.classList.add(validation.converted ? 'converted' : 'rejected');
   card.innerHTML = personaCardInnerHTML(persona || { id: personaId, name: `Persona ${personaId}` }, validation);
+  card.onclick = () => openPersonaModal(personaId);
 }
 
 function personaCardInnerHTML(persona, validation) {
@@ -1186,4 +1188,112 @@ function escapeAttr(str) {
   return String(str)
     .replace(/&/g, '&amp;')
     .replace(/"/g, '&quot;');
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Persona Detail Modal
+// ─────────────────────────────────────────────────────────────────────────────
+function openPersonaModal(personaId) {
+  const persona    = state.personas.find(p => p.id === personaId);
+  const validation = state.validations[personaId];
+  if (!persona) return;
+
+  const avatars = ['🧑','👩','👨','🧔','👩‍💼','👨‍💼','🧑‍💻','👩‍💻','👨‍💻','🧑‍🎨'];
+  const avatar  = avatars[(persona.id || 0) % avatars.length];
+
+  const dl = persona.daily_life || {};
+  const struggles = (dl.top_struggles || []).map(s => `<li class="text-gray-600 text-sm">${escapeHtml(s)}</li>`).join('');
+  const priorities = (dl.current_priorities || []).map(s => `<li class="text-gray-600 text-sm">${escapeHtml(s)}</li>`).join('');
+
+  let validationSection = '';
+  if (validation) {
+    const isConvert = validation.converted;
+    const fp = (validation.friction_points || []).map(f => `<li class="text-gray-600 text-sm">${escapeHtml(f)}</li>`).join('');
+    validationSection = `
+      <div class="mt-4 pt-4 border-t border-gray-100">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-lg">${isConvert ? '✅' : '❌'}</span>
+          <span class="font-bold ${isConvert ? 'text-green-700' : 'text-red-700'}">${isConvert ? 'CONVERTED' : 'REJECTED'}</span>
+          ${validation.decision_timeline ? `<span class="text-gray-400 text-xs ml-auto">${escapeHtml(validation.decision_timeline)}</span>` : ''}
+        </div>
+        ${validation.reasoning ? `
+          <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Reasoning</p>
+          <p class="text-gray-700 text-sm mb-3">${escapeHtml(validation.reasoning)}</p>` : ''}
+        ${fp ? `
+          <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Friction Points</p>
+          <ul class="list-disc list-inside space-y-1 mb-3">${fp}</ul>` : ''}
+        <div class="grid grid-cols-3 gap-2 text-center text-xs">
+          ${validation.intent_strength != null ? `<div class="bg-gray-50 rounded-lg p-2"><div class="font-bold text-gray-800">${validation.intent_strength}/10</div><div class="text-gray-500">Intent</div></div>` : ''}
+          ${validation.impression_score != null ? `<div class="bg-gray-50 rounded-lg p-2"><div class="font-bold text-gray-800">${validation.impression_score}/10</div><div class="text-gray-500">Impression</div></div>` : ''}
+          ${validation.relevance_score  != null ? `<div class="bg-gray-50 rounded-lg p-2"><div class="font-bold text-gray-800">${validation.relevance_score}/10</div><div class="text-gray-500">Relevance</div></div>` : ''}
+        </div>
+        ${validation.pricing_reaction ? `<p class="text-xs text-gray-500 mt-2">💰 ${escapeHtml(validation.pricing_reaction)}</p>` : ''}
+      </div>`;
+  }
+
+  const backdrop = document.createElement('div');
+  backdrop.className = 'modal-backdrop fade-in';
+  backdrop.id = 'persona-modal';
+  backdrop.innerHTML = `
+    <div class="modal-box max-w-lg w-full mx-4 overflow-y-auto max-h-[90vh]" onclick="event.stopPropagation()">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <span class="text-4xl">${avatar}</span>
+          <div>
+            <h2 class="text-xl font-bold text-gray-900">${escapeHtml(persona.name || 'Persona')}</h2>
+            <p class="text-gray-500 text-sm">${escapeHtml(persona.role || '')}${persona.age ? `, ${persona.age}` : ''}${persona.company_size ? ` · ${escapeHtml(persona.company_size)}` : ''}</p>
+          </div>
+        </div>
+        <button onclick="closePersonaModal()" class="text-gray-400 hover:text-gray-600 text-2xl leading-none">&times;</button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-3 mb-4 text-sm">
+        ${persona.pain_level != null ? `<div class="bg-gray-50 rounded-lg p-3"><div class="text-xs text-gray-500 mb-1">Pain Level</div><div class="font-semibold text-gray-800">${persona.pain_level}/10</div></div>` : ''}
+        ${persona.skepticism  != null ? `<div class="bg-gray-50 rounded-lg p-3"><div class="text-xs text-gray-500 mb-1">Skepticism</div><div class="font-semibold text-gray-800">${persona.skepticism}/10</div></div>` : ''}
+        ${persona.budget ? `<div class="bg-gray-50 rounded-lg p-3"><div class="text-xs text-gray-500 mb-1">Budget</div><div class="font-semibold text-gray-800">${escapeHtml(persona.budget)}</div></div>` : ''}
+        ${persona.decision_authority ? `<div class="bg-gray-50 rounded-lg p-3"><div class="text-xs text-gray-500 mb-1">Decision Authority</div><div class="font-semibold text-gray-800">${escapeHtml(persona.decision_authority)}</div></div>` : ''}
+      </div>
+
+      ${persona.current_workflow ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Current Workflow</p>
+        <p class="text-gray-700 text-sm mb-3">${escapeHtml(persona.current_workflow)}</p>` : ''}
+
+      ${persona.current_tools ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Tools They Use</p>
+        <p class="text-gray-700 text-sm mb-3">${escapeHtml(persona.current_tools)}</p>` : ''}
+
+      ${dl.daily_routine ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Typical Day</p>
+        <p class="text-gray-700 text-sm mb-3 whitespace-pre-line">${escapeHtml(dl.daily_routine)}</p>` : ''}
+
+      ${struggles ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Top Struggles</p>
+        <ul class="list-disc list-inside space-y-1 mb-3">${struggles}</ul>` : ''}
+
+      ${dl.mental_state ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Mental State</p>
+        <p class="text-gray-700 text-sm mb-3">${escapeHtml(dl.mental_state)}</p>` : ''}
+
+      ${dl.discovery_context ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">How They'd Discover This</p>
+        <p class="text-gray-700 text-sm mb-3">${escapeHtml(dl.discovery_context)}</p>` : ''}
+
+      ${priorities ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Current Priorities</p>
+        <ul class="list-disc list-inside space-y-1 mb-3">${priorities}</ul>` : ''}
+
+      ${persona.personality ? `
+        <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Personality</p>
+        <p class="text-gray-700 text-sm mb-3">${escapeHtml(persona.personality)}</p>` : ''}
+
+      ${validationSection}
+    </div>`;
+
+  backdrop.addEventListener('click', e => { if (e.target === backdrop) closePersonaModal(); });
+  document.body.appendChild(backdrop);
+}
+
+function closePersonaModal() {
+  const m = document.getElementById('persona-modal');
+  if (m) m.remove();
 }
