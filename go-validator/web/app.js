@@ -27,6 +27,25 @@ const canvasSections = [
   { key: 'cost_structure',        label: 'Cost Structure',        type: 'list', hint: 'Main costs' },
   { key: 'revenue_streams',       label: 'Revenue Streams',       type: 'list', hint: 'How you make money' },
 ];
+// ─────────────────────────────────────────────────────────────────────────────
+// Cycling status messages for long LLM operations
+// ─────────────────────────────────────────────────────────────────────────────
+function startCycling(btnId, messages, ms) {
+  ms = ms || 3500;
+  var i = 0;
+  var spinner = '<span class="spinner"></span>';
+  var tick = function() {
+    var el = document.getElementById(btnId);
+    if (!el) { clearInterval(id); return; }
+    el.innerHTML = spinner + '<span>' + messages[i % messages.length] + '</span>';
+    i++;
+  };
+  tick();
+  var id = setInterval(tick, ms);
+  return id;
+}
+function stopCycling(id) { if (id != null) clearInterval(id); }
+
 
 // ─────────────────────────────────────────────────────────────────────────────
 // API helpers
@@ -390,14 +409,19 @@ async function submitNewIdea() {
 
   const btn     = document.getElementById('new-idea-submit');
   btn.disabled  = true;
-  btn.innerHTML = '<span class="spinner"></span><span>Generating…</span>';
+  const _t1 = startCycling('new-idea-submit', [
+    'Analyzing your idea…', 'Building lean canvas…', 'Identifying customer segments…',
+    'Mapping revenue streams…', 'Almost done…'
+  ]);
 
   try {
     const result = await api('POST', '/api/runs', { idea_text: text });
+    stopCycling(_t1);
     closeNewIdeaModal();
-    state.currentStep = 2; // canvas is ready
+    state.currentStep = 2;
     window.location.hash = `#/runs/${result.run_id}`;
   } catch (err) {
+    stopCycling(_t1);
     showToast(err.message || 'Failed to create run');
     btn.disabled = false;
     btn.innerHTML = '<span>Generate Canvas</span><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>';
@@ -642,7 +666,10 @@ async function generateCanvas() {
 
   const btn    = document.getElementById('gen-canvas-btn');
   btn.disabled = true;
-  btn.innerHTML = '<span class="spinner"></span><span>Generating Canvas…</span>';
+  const _t2 = startCycling('gen-canvas-btn', [
+    'Analyzing your idea…', 'Building lean canvas…', 'Identifying customer segments…',
+    'Mapping revenue streams…', 'Almost done…'
+  ]);
 
   try {
     let result;
@@ -654,10 +681,12 @@ async function generateCanvas() {
       result = await api('POST', '/api/runs', { idea_text: text });
     }
     const run = await api('GET', `/api/runs/${result.run_id}`);
+    stopCycling(_t2);
     state.currentRun  = run;
     state.currentStep = 2;
     window.location.hash = `#/runs/${run.id}`;
   } catch (err) {
+    stopCycling(_t2);
     showToast(err.message || 'Failed to generate canvas');
     btn.disabled = false;
     btn.innerHTML = 'Generate Canvas <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>';
@@ -765,15 +794,20 @@ async function generateLanding() {
 
   const btn    = document.getElementById('gen-landing-btn');
   btn.disabled = true;
-  btn.innerHTML = '<span class="spinner"></span><span>Generating Landing Page…</span>';
+  const _t3 = startCycling('gen-landing-btn', [
+    'Writing headline…', 'Crafting value proposition…', 'Designing feature sections…',
+    'Polishing copy…', 'Almost ready…'
+  ]);
 
   try {
     const result = await api('POST', `/api/runs/${state.currentRun.id}/landing`);
+    stopCycling(_t3);
     state.currentRun.landing = result.landing;
     state.currentRun.landing_html = result.html;
     state.currentStep = 3;
     renderWizard(state.currentRun);
   } catch (err) {
+    stopCycling(_t3);
     showToast(err.message || 'Failed to generate landing page');
     btn.disabled = false;
     btn.innerHTML = 'Generate Landing Page <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>';
@@ -828,14 +862,19 @@ function renderStep3(run) {
 async function regenerateLanding() {
   const btn    = document.getElementById('regen-landing-btn');
   btn.disabled = true;
-  btn.innerHTML = '<span class="spinner"></span><span>Regenerating…</span>';
+  const _t4 = startCycling('regen-landing-btn', [
+    'Writing headline…', 'Crafting value proposition…', 'Designing feature sections…',
+    'Polishing copy…', 'Almost ready…'
+  ]);
 
   try {
     const result = await api('POST', `/api/runs/${state.currentRun.id}/landing`);
+    stopCycling(_t4);
     state.currentRun.landing      = result.landing;
     state.currentRun.landing_html = result.html;
     renderWizard(state.currentRun);
   } catch (err) {
+    stopCycling(_t4);
     showToast(err.message || 'Failed to regenerate landing page');
     btn.disabled = false;
     btn.innerHTML = `
