@@ -3,6 +3,7 @@ __pycache__
 *.pyc
 *.pyo
 *.html
+!go-validator/web/*.html
 go-validator/results/*.json
 go-validator/startup-validator
 optimization_monitor_state.txt
