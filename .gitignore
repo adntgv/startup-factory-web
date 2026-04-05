@@ -7,3 +7,4 @@ __pycache__
 go-validator/results/*.json
 go-validator/startup-validator
 optimization_monitor_state.txt
+.claude/
